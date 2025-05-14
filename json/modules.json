@@ -1,12 +1,12 @@
 {
-  "id": "examplcom",
-  "name": "Template Magisk Modules Repository",
-  "website": null,
-  "support": null,
-  "donate": null,
-  "submission": null,
+  "id": "SSR",
+  "name": "SSR-Modules Repo",
+  "website": "https://ssmg4.github.io/SSR/",
+  "support": "https://github.com/SSMG4/SSR/issues",
+  "donate": "https://ssmg4.github.io/donations.html",
+  "submission": "https://github.com/SSMG4/SSR/issues",
   "cover": "https://example.com/assets/cover.webp",
-  "description": null,
+  "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P This Repo is gonna be actively updated and maintained to keep its shine and glow! Any Submissions are greatly appreciated :D",
   "metadata": {
     "version": 1,
     "timestamp": 1747225385.0674

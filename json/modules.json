@@ -1,5 +1,5 @@
 {
-  "id": "SSR",
+  "id": "ssmithSSR",
   "name": "SSR-Modules Repo",
   "website": "https://ssmg4.github.io/SSR/",
   "support": "https://github.com/SSMG4/SSR/issues",
@@ -9,9 +9,166 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1747225385.0674
+    "timestamp": 1747246525.047279
   },
   "modules": [
+    {
+      "id": "PlayIntegrityFix",
+      "name": "Play Integrity Fix",
+      "version": "v19.0",
+      "versionCode": 19000,
+      "author": "chiteroman",
+      "description": "Universal modular fix for Play Integrity (and SafetyNet) on devices running Android 8-15",
+      "categories": [
+        "Font",
+        "Network",
+        "Script",
+        "Theme"
+      ],
+      "support": "https://github.com/chiteroman/PlayIntegrityFix/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/chiteroman/PlayIntegrityFix/main/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1744131518.0,
+      "size": 177686,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ZYGISK",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "zygisk": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/chiteroman/PlayIntegrityFix",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/PlayIntegrityFix/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1743961006.0,
+          "version": "v18.9",
+          "versionCode": 18900,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/PlayIntegrityFix/v18.9_18900.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/PlayIntegrityFix/v18.9_18900.md",
+          "size": 177752
+        },
+        {
+          "timestamp": 1744131518.0,
+          "version": "v19.0",
+          "versionCode": 19000,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/PlayIntegrityFix/v19.0_19000.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/PlayIntegrityFix/v19.0_19000.md",
+          "size": 177686
+        }
+      ]
+    },
+    {
+      "id": "Re-Malwack",
+      "name": "Re-Malwack | Not just a normal ad-blocker module \u2728",
+      "version": "v6.0",
+      "versionCode": 600,
+      "author": "ZG089",
+      "description": "A fully-fledged ad-block module. Contains all your needs \u2728",
+      "categories": [
+        "Adblocking and Hosts Files",
+        "APatch",
+        "KernelSU",
+        "Magisk",
+        "Built Different",
+        "Protection",
+        "WebUI"
+      ],
+      "donate": "http://buymeacoffee.com/ZG089",
+      "support": "https://t.me/Re_Malwack",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/ZG089/Re-Malwack/refs/heads/main/README.md",
+      "verified": true,
+      "icon": "https://raw.githubusercontent.com/ZG089/Re-Malwack/main/assets/logo.png",
+      "cover": "https://raw.githubusercontent.com/ZG089/Re-Malwack/main/assets/banner.png",
+      "added": 0,
+      "timestamp": 1743478933.0,
+      "size": 1759912,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/ZG089/Re-Malwack",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/Re-Malwack/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1734878287.0,
+          "version": "v5.3.0",
+          "versionCode": 530,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/Re-Malwack/v5.3.0_530.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/Re-Malwack/v5.3.0_530.md",
+          "size": 47546
+        },
+        {
+          "timestamp": 1743478933.0,
+          "version": "v6.0",
+          "versionCode": 600,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/Re-Malwack/v6.0_600.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/Re-Malwack/v6.0_600.md",
+          "size": 1759912
+        }
+      ]
+    },
+    {
+      "id": "adb-ndk",
+      "name": "ADB & Fastboot for Android NDK",
+      "version": "1.0.41",
+      "versionCode": 104114,
+      "author": "osm0sis & Surge1223 @ xda-developers",
+      "description": "Static arm/arm64 adb and fastboot binaries for Android built with the NDK",
+      "added": 1445340430.7142262,
+      "categories": [
+        "System"
+      ],
+      "donate": "https://github.com/sponsors/osm0sis",
+      "support": "https://github.com/Magisk-Modules-Repo/adb-ndk/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Repo/adb-ndk/master/README.md",
+      "verified": false,
+      "timestamp": 1698679366.0,
+      "size": 5300707,
+      "track": {
+        "type": "GIT",
+        "added": 1445340430.7142262,
+        "source": "https://github.com/Magisk-Modules-Repo/adb-ndk",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/adb-ndk/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1698679366.0,
+          "version": "1.0.41",
+          "versionCode": 104114,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/adb-ndk/1.0.41_104114.zip",
+          "changelog": "",
+          "size": 5300707
+        }
+      ]
+    },
     {
       "id": "bindhosts",
       "name": "bindhosts",
@@ -54,7 +211,7 @@
         "added": 1733301165,
         "source": "https://github.com/backslashxx/bindhosts",
         "antifeatures": null,
-        "build_metadata": "https://example.com/modules/bindhosts/track.yaml"
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/bindhosts/track.yaml"
       },
       "versions": [
         {
@@ -112,7 +269,7 @@
         "added": 1445340430.7142262,
         "source": "https://github.com/Googlers-Repo/wpd.git",
         "antifeatures": null,
-        "build_metadata": "https://example.com/modules/mmrl_wpd/track.yaml"
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/mmrl_wpd/track.yaml"
       },
       "versions": [
         {

@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1748435058.330695
+    "timestamp": 1748456151.127158
   },
   "modules": [
     {
@@ -246,16 +246,13 @@
         "Miscellaneous"
       ],
       "support": "https://github.com/Googlers-Repo/wpd/issues",
-      "license": "MIT",
       "readme": "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/README.md",
       "verified": true,
-      "icon": "https://raw.githubusercontent.com/Googlers-Repo/wpd/refs/heads/master/assets/icon.webp",
-      "cover": "https://raw.githubusercontent.com/Googlers-Repo/wpd/refs/heads/master/assets/cover.webp",
       "screenshots": [
-        "https://raw.githubusercontent.com/Googlers-Repo/wpd/refs/heads/master/assets/1.webp",
-        "https://raw.githubusercontent.com/Googlers-Repo/wpd/refs/heads/master/assets/2.webp",
-        "https://raw.githubusercontent.com/Googlers-Repo/wpd/refs/heads/master/assets/3.webp",
-        "https://raw.githubusercontent.com/Googlers-Repo/wpd/refs/heads/master/assets/4.webp"
+        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/1.jpg",
+        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/2.jpg",
+        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/3.jpg",
+        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/4.jpg"
       ],
       "timestamp": 1735764644.0,
       "size": 462291,

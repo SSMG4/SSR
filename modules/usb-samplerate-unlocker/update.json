@@ -1,0 +1,37 @@
+{
+  "id": "usb-samplerate-unlocker",
+  "timestamp": 1713443976.0,
+  "versions": [
+    {
+      "timestamp": 1713443976.0,
+      "version": "v1.5.6",
+      "versionCode": 1506,
+      "zipUrl": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/v1.5.6_1506.zip",
+      "changelog": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/v1.5.6_1506.md"
+    },
+    {
+      "timestamp": 1722148008.0,
+      "version": "v1.5.7",
+      "versionCode": 1507,
+      "zipUrl": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/v1.5.7_1507.zip",
+      "changelog": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/v1.5.7_1507.md",
+      "size": 19661
+    },
+    {
+      "timestamp": 1729236859.0,
+      "version": "8.2",
+      "versionCode": 8200,
+      "zipUrl": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/8.2_8200.zip",
+      "changelog": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/8.2_8200.md",
+      "size": 19770
+    },
+    {
+      "timestamp": 1746019808.0,
+      "version": "8.4",
+      "versionCode": 8400,
+      "zipUrl": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/8.4_8400.zip",
+      "changelog": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/8.4_8400.md",
+      "size": 20087
+    }
+  ]
+}

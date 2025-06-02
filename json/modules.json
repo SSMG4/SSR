@@ -9,9 +9,103 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1748884659.091122
+    "timestamp": 1748885775.536484
   },
   "modules": [
+    {
+      "id": "BetterKnownInstalled",
+      "name": "BetterKnownInstalled (BKI)",
+      "version": "v1.3.3",
+      "versionCode": 1337,
+      "author": "@T3SL4",
+      "description": "Patching (installer, installerUid, installInitiator, installOriginator) in packages.xml and cleaning packaga-warnings.xml for defeating DroidGuard: UNKNOWN_INSTALLED",
+      "support": "https://github.com/Pixel-Props/BetterKnownInstalled/issues",
+      "readme": "https://raw.githubusercontent.com/Pixel-Props/BetterKnownInstalled/refs/heads/main/README.md",
+      "note": {
+        "message": "Installation from recovery is not supported. You must install this module from within a running Android environment (Magisk/KernelSU/APatch)",
+        "title": "Important!"
+      },
+      "verified": false,
+      "added": 0,
+      "timestamp": 1738867123.0,
+      "size": 1793757,
+      "permissions": [
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": null,
+        "source": "https://github.com/Pixel-Props/BetterKnownInstalled",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/BetterKnownInstalled/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1738867123.0,
+          "version": "v1.3.3",
+          "versionCode": 1337,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/BetterKnownInstalled/v1.3.3_1337.zip",
+          "changelog": "",
+          "size": 1793757
+        }
+      ]
+    },
+    {
+      "id": "COPG",
+      "name": "\u2728 COPG spoof \u2728",
+      "version": "4.3.1",
+      "versionCode": 431,
+      "author": "AlirezaParsi",
+      "description": "Spoof your device for games to unlock max fps.",
+      "support": "https://github.com/AlirezaParsi/COPG/issues",
+      "readme": "https://raw.githubusercontent.com/AlirezaParsi/COPG/JSON/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1747121683.0,
+      "size": 2587638,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.RESETPROP",
+        "magisk.permission.ZYGISK",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "resetprop": true,
+        "zygisk": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/AlirezaParsi/COPG",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/COPG/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1745871940.0,
+          "version": "4.0.2",
+          "versionCode": 402,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/COPG/4.0.2_402.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/COPG/4.0.2_402.md",
+          "size": 2591930
+        },
+        {
+          "timestamp": 1747121683.0,
+          "version": "4.3.1",
+          "versionCode": 431,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/COPG/4.3.1_431.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/COPG/4.3.1_431.md",
+          "size": 2587638
+        }
+      ]
+    },
     {
       "id": "Malwack",
       "name": "Malwack | Anti-Malware & Ad Blocker",
@@ -269,6 +363,56 @@
       ]
     },
     {
+      "id": "abootloop",
+      "name": "Anti bootloop",
+      "version": "v1.3.4",
+      "versionCode": 8,
+      "author": "nedorazrab0",
+      "description": "Bootloop protection",
+      "added": 1719067581.595615,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/abootloop/issues",
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/abootloop/main/README.md",
+      "verified": true,
+      "timestamp": 1741587011.0,
+      "size": 5011,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719067581.595615,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/abootloop.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/abootloop/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1741546110.0,
+          "version": "v1.3.3",
+          "versionCode": 7,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/abootloop/v1.3.3_7.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/abootloop/v1.3.3_7.md",
+          "size": 5010
+        },
+        {
+          "timestamp": 1741587011.0,
+          "version": "v1.3.4",
+          "versionCode": 8,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/abootloop/v1.3.4_8.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/abootloop/v1.3.4_8.md",
+          "size": 5011
+        }
+      ]
+    },
+    {
       "id": "adb-ndk",
       "name": "ADB & Fastboot for Android NDK",
       "version": "1.0.41",
@@ -367,6 +511,45 @@
       ]
     },
     {
+      "id": "chroot-distro",
+      "name": "chroot-distro",
+      "version": "1.4.0",
+      "versionCode": 15,
+      "author": "@YasserNull",
+      "description": "install linux distributions on android",
+      "added": 1719067736.641686,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/chroot-distro/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/chroot-distro/main/README.md",
+      "verified": false,
+      "timestamp": 1737317382.0,
+      "size": 698309,
+      "track": {
+        "type": "GIT",
+        "added": 1719067736.641686,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/chroot-distro.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/chroot-distro/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1737317382.0,
+          "version": "1.4.0",
+          "versionCode": 15,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/chroot-distro/1.4.0_15.zip",
+          "changelog": "",
+          "size": 698309
+        },
+        {
+          "timestamp": 1737317382.0,
+          "version": "v1.3.3",
+          "versionCode": 1337,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/chroot-distro/v1.3.3_1337.zip",
+          "changelog": "",
+          "size": 698309
+        }
+      ]
+    },
+    {
       "id": "encore",
       "name": "Encore Tweaks",
       "version": "4.4 (972-620057d-release)",
@@ -444,6 +627,49 @@
           "zipUrl": "https://mrepo.rem01gaming.dev/modules/encore/4.4_972-620057d-release.zip",
           "changelog": "https://mrepo.rem01gaming.dev/modules/encore/4.4_972-620057d-release.md",
           "size": 197828
+        }
+      ]
+    },
+    {
+      "id": "flagsecurepatcher",
+      "name": "FlagSecurePatcher",
+      "version": "r15",
+      "versionCode": 15,
+      "author": "j-hc",
+      "description": "Prevent apps from blocking and listening to your screenshots",
+      "added": 1723905223.0,
+      "verified": false,
+      "timestamp": 1743681710.0,
+      "size": 4535597,
+      "permissions": [
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1723905223.0,
+        "source": "https://github.com/j-hc/FlagSecurePatcher",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/flagsecurepatcher/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1725032174.0,
+          "version": "r14",
+          "versionCode": 14,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/flagsecurepatcher/r14_14.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/flagsecurepatcher/r14_14.md",
+          "size": 4534847
+        },
+        {
+          "timestamp": 1743681710.0,
+          "version": "r15",
+          "versionCode": 15,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/flagsecurepatcher/r15_15.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/flagsecurepatcher/r15_15.md",
+          "size": 4535597
         }
       ]
     },

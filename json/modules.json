@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1748885775.536484
+    "timestamp": 1748887325.327419
   },
   "modules": [
     {
@@ -150,6 +150,56 @@
           "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/Malwack/1.0.41_104114.zip",
           "changelog": "https://zguation-projects.github.io/ZG-R/modules/Malwack/1.0.41_104114.md",
           "size": 6804834
+        }
+      ]
+    },
+    {
+      "id": "MemoryOpt",
+      "name": "\u5185\u5b58\u4f18\u5316",
+      "version": "2025.02.28",
+      "versionCode": 2025022800,
+      "author": "\u7115\u6668HChen",
+      "description": "\u5185\u5b58\u53c2\u6570\u8c03\u6574\uff0c\u4ee5\u5b9e\u73b0\u66f4\u4f73\u7684\u5185\u5b58\u4f7f\u7528\u6548\u7387\u3002",
+      "support": "https://github.com/HChenX/MemoryOpt/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/HChenX/MemoryOpt/main/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1740749200.0,
+      "size": 385710,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.RESETPROP",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "service": true,
+        "resetprop": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/HChenX/MemoryOpt",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/MemoryOpt/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1739785507.0,
+          "version": "2025.02.17",
+          "versionCode": 2025021700,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/MemoryOpt/2025.02.17_2025021700.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/MemoryOpt/2025.02.17_2025021700.md",
+          "size": 386095
+        },
+        {
+          "timestamp": 1740749200.0,
+          "version": "2025.02.28",
+          "versionCode": 2025022800,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/MemoryOpt/2025.02.28_2025022800.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/MemoryOpt/2025.02.28_2025022800.md",
+          "size": 385710
         }
       ]
     },
@@ -311,6 +361,91 @@
           "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/SystemlessDebloater/1.5.4_154.zip",
           "changelog": "https://zguation-projects.github.io/ZG-R/modules/SystemlessDebloater/1.5.4_154.md",
           "size": 16274
+        }
+      ]
+    },
+    {
+      "id": "TA_utl",
+      "name": "Tricky Addon - Update Target List",
+      "version": "v3.9",
+      "versionCode": 390,
+      "author": "KOWX712",
+      "description": "A WebUI to conifgure tricky store target.txt ",
+      "categories": [
+        "WebUI"
+      ],
+      "support": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/issues",
+      "readme": "https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/README.md",
+      "license": " GPL-3.0",
+      "note": {
+        "message": "This module is not a part of the Tricky Store module. DO NOT report any issues to Tricky Store if encountered"
+      },
+      "verified": false,
+      "added": 0,
+      "timestamp": 1746893051.0,
+      "size": 1283556,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/TA_utl/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1746893051.0,
+          "version": "v3.9",
+          "versionCode": 390,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/TA_utl/v3.9_390.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/TA_utl/v3.9_390.md",
+          "size": 1283556
+        }
+      ]
+    },
+    {
+      "id": "Unlimited-GooglePhotosBackupMod",
+      "name": "Google Photos Unlimited backup",
+      "version": "1.2-stable",
+      "versionCode": 1,
+      "author": "Kolassrexon J",
+      "description": "Adds Photos features and unlimited Google Photos original backup quality by spoof device info to Pixel XL only on Photos app.",
+      "support": "https://github.com/Kolass2004/Unlimited-GooglePhotosBackupMod/issues",
+      "readme": "https://raw.githubusercontent.com/Kolass2004/Unlimited-GooglePhotosBackupMod/main/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1740073671.0,
+      "size": 114307,
+      "permissions": [
+        "magisk.permission.ZYGISK"
+      ],
+      "features": {
+        "zygisk": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": null,
+        "source": "https://github.com/Kolass2004/Unlimited-GooglePhotosBackupMod",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/Unlimited-GooglePhotosBackupMod/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1740073671.0,
+          "version": "1.2-stable",
+          "versionCode": 1,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/Unlimited-GooglePhotosBackupMod/1.2-stable_1.zip",
+          "changelog": "",
+          "size": 114307
         }
       ]
     },
@@ -674,6 +809,45 @@
       ]
     },
     {
+      "id": "magisk_overlayfs",
+      "name": "Magical Overlayfs",
+      "version": "v3.1.2",
+      "versionCode": 30102,
+      "author": "HuskyDG",
+      "description": "Use OverlayFS to make read-only system partitions become read-write partitions. OverlayFS MUST be supported by kernel!",
+      "added": 1719068027.27877,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/magisk_overlayfs/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk_overlayfs/main/README.md",
+      "verified": false,
+      "timestamp": 1686805349.0,
+      "size": 6964577,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719068027.27877,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/magisk_overlayfs.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/magisk_overlayfs/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1686805349.0,
+          "version": "v3.1.2",
+          "versionCode": 30102,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/magisk_overlayfs/v3.1.2_30102.zip",
+          "changelog": "",
+          "size": 6964577
+        }
+      ]
+    },
+    {
       "id": "mmrl_wpd",
       "name": "WiFi Password Viewer for MMRL",
       "version": "4.7.7",
@@ -724,6 +898,51 @@
       ]
     },
     {
+      "id": "mountify",
+      "name": "mountify",
+      "version": "v1.4.0",
+      "versionCode": 140,
+      "author": "xx",
+      "description": "Globally mounted modules and whiteouts via OverlayFS.",
+      "categories": [
+        "System",
+        "Mounts"
+      ],
+      "support": "https://github.com/backslashxx/mountify/issues",
+      "readme": "https://raw.githubusercontent.com/backslashxx/mountify/master/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1741872659.0,
+      "size": 12257,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/backslashxx/mountify",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/mountify/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1741872659.0,
+          "version": "v1.4.0",
+          "versionCode": 140,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/mountify/v1.4.0_140.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/mountify/v1.4.0_140.md",
+          "size": 12257
+        }
+      ]
+    },
+    {
       "id": "net-switch",
       "name": "Net Switch",
       "version": "1.2 (54-64b5764-release)",
@@ -759,6 +978,191 @@
           "zipUrl": "https://mrepo.rem01gaming.dev/modules/net-switch/1.2_54-64b5764-release.zip",
           "changelog": "https://mrepo.rem01gaming.dev/modules/net-switch/1.2_54-64b5764-release.md",
           "size": 18560
+        }
+      ]
+    },
+    {
+      "id": "sensitive_props",
+      "name": "SafetyNet sensitive props",
+      "version": "v3",
+      "versionCode": 3,
+      "author": "HuskyDG",
+      "description": "Reset sensitive properties to safe state and try to bypass Safetynet / Play Integrity",
+      "added": 1719068202.547405,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/sensitive_props/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/sensitive_props/master/README.md",
+      "verified": false,
+      "timestamp": 1707749983.0,
+      "size": 16172,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719068202.547405,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/sensitive_props.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/sensitive_props/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1707749983.0,
+          "version": "v3",
+          "versionCode": 3,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/sensitive_props/v3_3.zip",
+          "changelog": "",
+          "size": 16172
+        },
+        {
+          "timestamp": 1707749983.0,
+          "version": "1.4.0",
+          "versionCode": 15,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/sensitive_props/1.4.0_15.zip",
+          "changelog": "",
+          "size": 16172
+        }
+      ]
+    },
+    {
+      "id": "systemapp_nuker",
+      "name": "App Nuker",
+      "version": "v1.1.5",
+      "versionCode": 115,
+      "author": "ChiseWaguri & Contributors",
+      "description": "description=WebUI-based debloater and whiteout creator",
+      "support": "https://github.com/ChiseWaguri/systemapp_nuker/issues",
+      "readme": "https://raw.githubusercontent.com/ChiseWaguri/systemapp_nuker/main/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1746679502.0,
+      "size": 1242775,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/ChiseWaguri/systemapp_nuker.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/systemapp_nuker/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1746679502.0,
+          "version": "v1.1.5",
+          "versionCode": 115,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/systemapp_nuker/v1.1.5_115.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/systemapp_nuker/v1.1.5_115.md",
+          "size": 1242775
+        }
+      ]
+    },
+    {
+      "id": "tricky_store",
+      "name": "Tricky Store",
+      "version": "v1.2.1 (158-51390a7-release)",
+      "versionCode": 158,
+      "author": "5ec1cff",
+      "description": "A trick of keystore",
+      "added": 1723905223.0,
+      "categories": [
+        "System"
+      ],
+      "readme": "https://raw.githubusercontent.com/5ec1cff/TrickyStore/refs/heads/release/README.md",
+      "verified": true,
+      "timestamp": 1738906998.0,
+      "size": 2350601,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1723905223.0,
+        "source": "https://github.com/5ec1cff/TrickyStore",
+        "antifeatures": [
+          "NoSourceSince"
+        ],
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/tricky_store/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1738906998.0,
+          "version": "v1.2.1 (158-51390a7-release)",
+          "versionCode": 158,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/tricky_store/v1.2.1_158-51390a7-release.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/tricky_store/v1.2.1_158-51390a7-release.md",
+          "size": 2350601
+        }
+      ]
+    },
+    {
+      "id": "universal-gms-doze",
+      "name": "Universal GMS Doze",
+      "version": "1.9.2",
+      "versionCode": 192,
+      "author": "gloeyisk",
+      "description": "Patches Google Play services app and certain processes/services to be able to use battery optimizations",
+      "categories": [
+        "Debug",
+        "Network",
+        "Script"
+      ],
+      "support": "https://github.com/gloeyisk/universal-gms-doze/issues",
+      "license": "GPL-2.0",
+      "readme": "https://raw.githubusercontent.com/gloeyisk/universal-gms-doze/main/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1732811678.0,
+      "size": 15178,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/gloeyisk/universal-gms-doze",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/universal-gms-doze/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1732811678.0,
+          "version": "1.9.2",
+          "versionCode": 192,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/universal-gms-doze/1.9.2_192.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/universal-gms-doze/1.9.2_192.md",
+          "size": 15178
         }
       ]
     },

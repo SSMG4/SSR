@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1748826135.345505
+    "timestamp": 1748845146.201522
   },
   "modules": [
     {
@@ -229,6 +229,87 @@
           "zipUrl": "https://example.com/modules/bindhosts/v2.0.2_202.zip",
           "changelog": "https://example.com/modules/bindhosts/v2.0.2_202.md",
           "size": 101192
+        }
+      ]
+    },
+    {
+      "id": "encore",
+      "name": "Encore Tweaks",
+      "version": "4.4 (972-620057d-release)",
+      "versionCode": 972,
+      "author": "Rem01Gaming",
+      "description": "Special performance module for your Device.",
+      "categories": [
+        "Performance",
+        "Gaming",
+        "Optimizer",
+        "WebUI"
+      ],
+      "icon": "https://encore.rem01gaming.dev/logo.webp",
+      "homepage": "https://encore.rem01gaming.dev",
+      "donate": "https://t.me/rem01schannel/670",
+      "support": "https://t.me/rem01shideout",
+      "cover": "https://encore.rem01gaming.dev/ogp/default.webp",
+      "screenshots": [
+        "https://mrepo.rem01gaming.dev/assets/modules/encore/Screenshot_20250507-113403_MMRL.png",
+        "https://mrepo.rem01gaming.dev/assets/modules/encore/Screenshot_20250507-113408_MMRL.png",
+        "https://mrepo.rem01gaming.dev/assets/modules/encore/Screenshot_20250507-114133_ColorfulStage.png"
+      ],
+      "license": "Apache-2.0",
+      "readme": "https://raw.githubusercontent.com/Rem01Gaming/encore/main/README.md",
+      "verified": true,
+      "added": 0,
+      "timestamp": 1748751263.0,
+      "size": 197828,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/Rem01Gaming/encore",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/encore/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1746527219.0,
+          "version": "4.1 (862-cc92fbc-release)",
+          "versionCode": 862,
+          "zipUrl": "https://mrepo.rem01gaming.dev/modules/encore/4.1_862-cc92fbc-release.zip",
+          "changelog": "https://mrepo.rem01gaming.dev/modules/encore/4.1_862-cc92fbc-release.md",
+          "size": 854305
+        },
+        {
+          "timestamp": 1747038441.0,
+          "version": "4.2 (899-84bbcb5-release)",
+          "versionCode": 899,
+          "zipUrl": "https://mrepo.rem01gaming.dev/modules/encore/4.2_899-84bbcb5-release.zip",
+          "changelog": "https://mrepo.rem01gaming.dev/modules/encore/4.2_899-84bbcb5-release.md",
+          "size": 855270
+        },
+        {
+          "timestamp": 1747734914.0,
+          "version": "4.3 (933-36f8bbc-release)",
+          "versionCode": 933,
+          "zipUrl": "https://mrepo.rem01gaming.dev/modules/encore/4.3_933-36f8bbc-release.zip",
+          "changelog": "https://mrepo.rem01gaming.dev/modules/encore/4.3_933-36f8bbc-release.md",
+          "size": 856289
+        },
+        {
+          "timestamp": 1748751263.0,
+          "version": "4.4 (972-620057d-release)",
+          "versionCode": 972,
+          "zipUrl": "https://mrepo.rem01gaming.dev/modules/encore/4.4_972-620057d-release.zip",
+          "changelog": "https://mrepo.rem01gaming.dev/modules/encore/4.4_972-620057d-release.md",
+          "size": 197828
         }
       ]
     },

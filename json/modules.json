@@ -9,9 +9,56 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1748867073.085367
+    "timestamp": 1748884428.698008
   },
   "modules": [
+    {
+      "id": "Malwack",
+      "name": "Malwack | Anti-Malware & Ad Blocker",
+      "version": "v5.0.4",
+      "versionCode": 30,
+      "author": "Person0z",
+      "description": "Ever wanted to get rid of those annoying ads that pop every 2 seconds in mobile games you're playing or websites you are visiting? Well, look no further with Malwack, your defense against ads!",
+      "added": 1719068038.972528,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/Malwack/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Malwack/main/README.md",
+      "verified": false,
+      "timestamp": 1742345860.301327,
+      "size": 6804834,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "service": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719068038.972528,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/Malwack.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/Malwack/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1741291978.350895,
+          "version": "v5.0.4",
+          "versionCode": 30,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/Malwack/v5.0.4_30.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/Malwack/v5.0.4_30.md",
+          "size": 6804834
+        },
+        {
+          "timestamp": 1742345860.301327,
+          "version": "1.0.41",
+          "versionCode": 104114,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/Malwack/1.0.41_104114.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/Malwack/1.0.41_104114.md",
+          "size": 6804834
+        }
+      ]
+    },
     {
       "id": "PlayIntegrityFix",
       "name": "Play Integrity Fix",
@@ -131,6 +178,93 @@
           "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/Re-Malwack/v6.0_600.zip",
           "changelog": "https://zguation-projects.github.io/ZG-R/modules/Re-Malwack/v6.0_600.md",
           "size": 1759912
+        }
+      ]
+    },
+    {
+      "id": "SystemlessDebloater",
+      "name": "Systemless Debloater",
+      "version": "1.5.4",
+      "versionCode": 154,
+      "author": "zgfg @ xda",
+      "description": "Select and debloat preinstalled system apps. Successfully tested on up to SAR, Dynamic partitions and A13. Module must be installed through Magisk app, not TWRP - see OP instructions in the XDA thread.",
+      "added": 1719068247.892871,
+      "donate": "https://zgfg.github.io/PayPal.html",
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/SystemlessDebloater/issues",
+      "license": "LGPL-2.1",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/SystemlessDebloater/main/README.md",
+      "verified": false,
+      "timestamp": 1696314908.0,
+      "size": 16274,
+      "permissions": [
+        "magisk.permission.SERVICE"
+      ],
+      "features": {
+        "service": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719068247.892871,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/SystemlessDebloater.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/SystemlessDebloater/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1696314908.0,
+          "version": "1.5.4",
+          "versionCode": 154,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/SystemlessDebloater/1.5.4_154.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/SystemlessDebloater/1.5.4_154.md",
+          "size": 16274
+        }
+      ]
+    },
+    {
+      "id": "Xtreme-Battery-Saver",
+      "name": "Xtreme Battery Saver",
+      "version": "v2.1.3",
+      "versionCode": 213,
+      "author": "DethByte64",
+      "description": "An extreme battery saver for Magisk users who really want to stretch their battery life",
+      "added": 1729804427.076371,
+      "support": "https://github.com/DethByte64/Xtreme-Battery-Saver/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/DethByte64/Xtreme-Battery-Saver/main/README.md",
+      "verified": false,
+      "timestamp": 1746061597.442976,
+      "size": 1053205,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "service": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1729804427.076371,
+        "source": "https://github.com/DethByte64/Xtreme-Battery-Saver.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/Xtreme-Battery-Saver/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1743192831.855086,
+          "version": "v2.1.2",
+          "versionCode": 212,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/Xtreme-Battery-Saver/v2.1.2_212.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/Xtreme-Battery-Saver/v2.1.2_212.md",
+          "size": 1053145
+        },
+        {
+          "timestamp": 1746061597.442976,
+          "version": "v2.1.3",
+          "versionCode": 213,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/Xtreme-Battery-Saver/v2.1.3_213.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/Xtreme-Battery-Saver/v2.1.3_213.md",
+          "size": 1053205
         }
       ]
     },
@@ -360,6 +494,142 @@
           "zipUrl": "https://example.com/modules/mmrl_wpd/4.7.7_459.zip",
           "changelog": "",
           "size": 462291
+        }
+      ]
+    },
+    {
+      "id": "net-switch",
+      "name": "Net Switch",
+      "version": "1.2 (54-64b5764-release)",
+      "versionCode": 54,
+      "author": "Rem01Gaming",
+      "description": "Isolate apps from Internet access.",
+      "verified": true,
+      "added": 0,
+      "timestamp": 1738815792.0,
+      "size": 18560,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/Rem01Gaming/net-switch",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/net-switch/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1738815792.0,
+          "version": "1.2 (54-64b5764-release)",
+          "versionCode": 54,
+          "zipUrl": "https://mrepo.rem01gaming.dev/modules/net-switch/1.2_54-64b5764-release.zip",
+          "changelog": "https://mrepo.rem01gaming.dev/modules/net-switch/1.2_54-64b5764-release.md",
+          "size": 18560
+        }
+      ]
+    },
+    {
+      "id": "video-to-bootanimation",
+      "name": "Video To Bootanimation",
+      "version": "V4",
+      "versionCode": 4,
+      "author": "rhythmcache.t.me",
+      "description": "set Videos as Bootanimation",
+      "added": 1732300967.018943,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/video-to-bootanimation/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/video-to-bootanimation/main/README.md",
+      "verified": false,
+      "timestamp": 1739498293.0,
+      "size": 9538410,
+      "track": {
+        "type": "GIT",
+        "added": 1732300967.018943,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/video-to-bootanimation.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/video-to-bootanimation/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1739498293.0,
+          "version": "V4",
+          "versionCode": 4,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/video-to-bootanimation/V4_4.zip",
+          "changelog": "",
+          "size": 9538410
+        },
+        {
+          "timestamp": 1739498293.0,
+          "version": "v3.1.2",
+          "versionCode": 30102,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/video-to-bootanimation/v3.1.2_30102.zip",
+          "changelog": "",
+          "size": 9538410
+        }
+      ]
+    },
+    {
+      "id": "zygisk-detach",
+      "name": "zygisk-detach",
+      "version": "v1.20.1",
+      "versionCode": 28,
+      "author": "j-hc",
+      "description": "Detaches installed apps from Play Store",
+      "added": 1716564516.209616,
+      "categories": [
+        "Magisk",
+        "KernelSU",
+        "Tools"
+      ],
+      "support": "https://github.com/j-hc/zygisk-detach/issues",
+      "license": "Apache-2.0",
+      "readme": "https://raw.githubusercontent.com/j-hc/zygisk-detach/master/README.md",
+      "require": [
+        "zygisk-assistant"
+      ],
+      "verified": false,
+      "timestamp": 1748779842.0,
+      "size": 178007,
+      "permissions": [
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ZYGISK",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "post_fs_data": true,
+        "zygisk": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1716564516.209616,
+        "source": "https://github.com/j-hc/zygisk-detach",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/zygisk-detach/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1744751428.0,
+          "version": "v1.20.0",
+          "versionCode": 27,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/zygisk-detach/v1.20.0_27.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/zygisk-detach/v1.20.0_27.md",
+          "size": 176813
+        },
+        {
+          "timestamp": 1748779842.0,
+          "version": "v1.20.1",
+          "versionCode": 28,
+          "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/zygisk-detach/v1.20.1_28.zip",
+          "changelog": "https://zguation-projects.github.io/ZG-R/modules/zygisk-detach/v1.20.1_28.md",
+          "size": 178007
         }
       ]
     }

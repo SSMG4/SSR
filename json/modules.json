@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1748888238.50591
+    "timestamp": 1748894330.616544
   },
   "modules": [
     {
@@ -1206,6 +1206,94 @@
       ]
     },
     {
+      "id": "zipsigner",
+      "name": "Zip & ZipSigner for Android NDK",
+      "version": "3.0-13",
+      "versionCode": 301304,
+      "author": "osm0sis & topjohnwu @ xda-developers",
+      "description": "Wrapped dexed zipsigner.jar, and static arm/arm64 zip and zipalign binaries for Android built with the NDK",
+      "added": 1445340430.7142262,
+      "categories": [
+        "System"
+      ],
+      "donate": "https://github.com/sponsors/osm0sis",
+      "support": "https://github.com/Magisk-Modules-Repo/zipsigner/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Repo/zipsigner/master/README.md",
+      "verified": false,
+      "timestamp": 1712163102.0,
+      "size": 5920487,
+      "track": {
+        "type": "GIT",
+        "added": 1445340430.7142262,
+        "source": "https://github.com/Magisk-Modules-Repo/zipsigner",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/zipsigner/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1709523749.0,
+          "version": "3.0-13",
+          "versionCode": 301303,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/zipsigner/3.0-13_301303.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1712163102.0,
+          "version": "3.0-13",
+          "versionCode": 301304,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/zipsigner/3.0-13_301304.zip",
+          "changelog": ""
+        }
+      ]
+    },
+    {
+      "id": "zygisk-assistant",
+      "name": "Zygisk Assistant",
+      "version": "v2.1.4 (1013f8a-release)",
+      "versionCode": 214,
+      "author": "snake-4",
+      "description": "A Zygisk module to hide root.",
+      "added": 1733301165.0,
+      "verified": false,
+      "timestamp": 1740269915.0,
+      "size": 392961,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ZYGISK"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "zygisk": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1733301165.0,
+        "source": "https://github.com/snake-4/Zygisk-Assistant",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/zygisk-assistant/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1723905223.0,
+          "version": "v2.1.3 (7b35d36-release)",
+          "versionCode": 213,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/zygisk-assistant/v2.1.3_7b35d36-release_213.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/zygisk-assistant/v2.1.3_7b35d36-release_213.md",
+          "size": 396665
+        },
+        {
+          "timestamp": 1740269915.0,
+          "version": "v2.1.4 (1013f8a-release)",
+          "versionCode": 214,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/zygisk-assistant/v2.1.4_1013f8a-release_214.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/zygisk-assistant/v2.1.4_1013f8a-release_214.md",
+          "size": 392961
+        }
+      ]
+    },
+    {
       "id": "zygisk-detach",
       "name": "zygisk-detach",
       "version": "v1.20.1",
@@ -1260,6 +1348,124 @@
           "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/zygisk-detach/v1.20.1_28.zip",
           "changelog": "https://zguation-projects.github.io/ZG-R/modules/zygisk-detach/v1.20.1_28.md",
           "size": 178007
+        }
+      ]
+    },
+    {
+      "id": "zygisk_lsposed",
+      "name": "Zygisk - LSPosed",
+      "version": "v1.9.2 (7024)",
+      "versionCode": 7024,
+      "author": "LSPosed Developers",
+      "description": "Another enhanced implementation of Xposed Framework. Supports Android 8.1 ~ 14. Requires Magisk 24.0+ and Zygisk enabled.",
+      "require": [
+        "zygisksu"
+      ],
+      "verified": false,
+      "added": 0,
+      "timestamp": 1697034252.0,
+      "size": 2462055,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.RESETPROP",
+        "magisk.permission.SEPOLICY",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "resetprop": true,
+        "sepolicy": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/LSPosed",
+        "antifeatures": [
+          "ClosedSource"
+        ],
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/zygisk_lsposed/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1697034252.0,
+          "version": "v1.9.2 (7024)",
+          "versionCode": 7024,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/zygisk_lsposed/v1.9.2_7024.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/zygisk_lsposed/v1.9.2_7024.md",
+          "size": 2462055
+        }
+      ]
+    },
+    {
+      "id": "zygisksu",
+      "name": "Zygisk Next",
+      "version": "1.2.8 (512-4b5d6ad-release)",
+      "versionCode": 512,
+      "author": "5ec1cff, Nullptr",
+      "description": "Standalone implementation of Zygisk.",
+      "manager": {
+        "kernelsu": {
+          "min": 10940
+        },
+        "ksunext": {
+          "min": 10940
+        },
+        "magisk": {
+          "min": 26402
+        }
+      },
+      "verified": false,
+      "added": 0,
+      "timestamp": 1743093744.0,
+      "size": 3519779,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/Dr-TSNG/ZygiskNext",
+        "antifeatures": [
+          "ClosedSource"
+        ],
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/zygisksu/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1735825712.0,
+          "version": "1.2.6 (485-ca2c5c0-release)",
+          "versionCode": 485,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/zygisksu/1.2.6_485-ca2c5c0-release.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/zygisksu/1.2.6_485-ca2c5c0-release.md",
+          "size": 3433554
+        },
+        {
+          "timestamp": 1737269205.0,
+          "version": "1.2.7 (497-b7796a7-release)",
+          "versionCode": 497,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/zygisksu/1.2.7_497-b7796a7-release.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/zygisksu/1.2.7_497-b7796a7-release.md",
+          "size": 3455869
+        },
+        {
+          "timestamp": 1743093744.0,
+          "version": "1.2.8 (512-4b5d6ad-release)",
+          "versionCode": 512,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/zygisksu/1.2.8_512-4b5d6ad-release.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/zygisksu/1.2.8_512-4b5d6ad-release.md",
+          "size": 3519779
         }
       ]
     }

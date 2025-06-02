@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1748897862.605398
+    "timestamp": 1748903019.390488
   },
   "modules": [
     {
@@ -1163,6 +1163,114 @@
           "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/universal-gms-doze/1.9.2_192.zip",
           "changelog": "https://zguation-projects.github.io/ZG-R/modules/universal-gms-doze/1.9.2_192.md",
           "size": 15178
+        }
+      ]
+    },
+    {
+      "id": "usb-samplerate-unlocker",
+      "name": "USB Samplerate Unlocker",
+      "version": "v1.5.9",
+      "versionCode": 1509,
+      "author": "zyhk",
+      "description": "USB (HAL) audio class drivers have a limiter of sample rates at 96kHz. This mod unlocks the limiter.",
+      "added": 1717861375.501469,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/usb-samplerate-unlocker/issues",
+      "license": "AGPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/usb-samplerate-unlocker/master/README.md",
+      "verified": false,
+      "timestamp": 1746019808.0,
+      "size": 20087,
+      "permissions": [
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.RESETPROP"
+      ],
+      "features": {
+        "post_fs_data": true,
+        "resetprop": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1717861375.501469,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/usb-samplerate-unlocker.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/usb-samplerate-unlocker/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1713443976.0,
+          "version": "v1.5.6",
+          "versionCode": 1506,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/v1.5.6_1506.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/v1.5.6_1506.md"
+        },
+        {
+          "timestamp": 1722148008.0,
+          "version": "v1.5.7",
+          "versionCode": 1507,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/v1.5.7_1507.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/v1.5.7_1507.md",
+          "size": 19661
+        },
+        {
+          "timestamp": 1729236859.0,
+          "version": "8.2",
+          "versionCode": 8200,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/8.2_8200.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/8.2_8200.md",
+          "size": 19770
+        },
+        {
+          "timestamp": 1746019808.0,
+          "version": "8.4",
+          "versionCode": 8400,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/8.4_8400.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/usb-samplerate-unlocker/8.4_8400.md",
+          "size": 20087
+        }
+      ]
+    },
+    {
+      "id": "vbmeta-fixer",
+      "name": "VBMeta Fixer",
+      "version": "1.1.0",
+      "versionCode": 110,
+      "author": "Reveny",
+      "description": "Reset the VBMeta digest property with the correct boot hash to fix detection",
+      "verified": true,
+      "added": 0,
+      "timestamp": 1745345451.0,
+      "size": 3235345,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "service": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/reveny/Android-VBMeta-Fixer",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/vbmeta-fixer/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1730300984.0,
+          "version": "1.0.5",
+          "versionCode": 105,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/vbmeta-fixer/1.0.5_105.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/vbmeta-fixer/1.0.5_105.md",
+          "size": 3138790
+        },
+        {
+          "timestamp": 1745345451.0,
+          "version": "1.1.0",
+          "versionCode": 110,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/vbmeta-fixer/1.1.0_110.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/vbmeta-fixer/1.1.0_110.md",
+          "size": 3235345
         }
       ]
     },

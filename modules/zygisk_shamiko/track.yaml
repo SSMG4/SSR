@@ -6,11 +6,6 @@ homepage: https://lsposed.org/
 source: https://github.com/LSPosed/LSPosed.github.io/releases
 support: mailto:lsposed@lsposed.org
 donate: https://github.com/sponsors/LSPosed
-categories:
-- Privacy
-- Utility
-- Bypasser
-- Security
 readme: https://raw.githubusercontent.com/SSMG4/SSR/refs/heads/master/modules/zygisk_shamiko/Shamiko-v1.2.4-401-release.md
 require:
 - zygisksu

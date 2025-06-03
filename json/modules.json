@@ -1584,13 +1584,6 @@
       "versionCode": 401,
       "author": "Wang Han & LSPosed Developers",
       "description": "Zygisk module to hide Magisk root, Zygisk itself and Zygisk modules.",
-      "categories": [
-        "Magisk",
-        "KernelSU",
-        "Privacy",
-        "Utility",
-        "Bypasser",
-        "Security",
       "require": [
         "zygisksu",
       "manager": {

@@ -1576,56 +1576,6 @@
           "size": 3519779
         }
       ]
-    },
-    {
-      "id": "zygisk_shamiko",
-      "name": "Zygisk - Shamiko",
-      "version": "1.2.4 (shamiko-401)",
-      "versionCode": 401,
-      "author": "Wang Han & LSPosed Developers",
-      "description": "Zygisk module to hide Magisk root, Zygisk itself and Zygisk modules.",
-      "require": [
-        "zygisksu",
-      "manager": {
-        "kernelsu": {
-          "min": 10940
-        },
-        "ksunext": {
-          "min": 10940
-        },
-        "magisk": {
-          "min": 26402
-        }
-      },
-      "verified": false,
-      "added": 0,
-      "timestamp": 1740843600,
-      "size": 3936940,
-      "permissions": [
-        "magisk.permission.ZYGISK"
-      ],
-      "features": {
-        "zygisk": true
-      },
-      "track": {
-        "type": "ONLINE_JSON",
-        "added": null,
-        "source": "https://github.com/LSPosed/LSPosed.github.io/releases",
-        "antifeatures": [
-          "ClosedSource"
-        ],
-        "build_metadata": "https://ssmg4.github.io/SSR/modules/zygisk_shamiko/track.yaml"
-      },
-      "versions": [
-        {
-          "timestamp": 1740843600,
-          "version": "1.2.4 (shamiko-401)",
-          "versionCode": 401,
-          "zipUrl": "https://github.com/SSMG4/SSR/blob/master/modules/zygisk_shamiko/Shamiko-v1.2.4-401-release.zip",
-          "changelog": "https://github.com/LSPosed/LSPosed.github.io/raw/master/releases/shamiko_changelog.md",
-          "size": 3936940
-        }
-      ]
     }
   ]
 }

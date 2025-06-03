@@ -2136,6 +2136,32 @@
       ]
     },
     {
+      "id": "zygisk_shamiko",
+      "name": "Shamiko",
+      "version": "v1.2.4 (401)",
+      "versionCode": 401,
+      "author": "Wang Han & LSPosed Developers",
+      "description": "Zygisk module to hide Magisk root, Zygisk itself and Zygisk modules.",
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 0,
+        "license": "private",
+        "homepage": "https://lsposed.org/",
+        "source": "https://github.com/LSPosed/LSPosed.github.io/releases",
+        "support": "mailto:lsposed@lsposed.org",
+        "donate": "https://github.com/sponsors/LSPosed"
+      },
+      "versions": [
+        {
+          "timestamp": 1740843600,
+          "version": "v1.2.4 (401)",
+          "versionCode": 401,
+          "zipUrl": "https://ssmg4.github.io/SSR/modules/zygisk_shamiko/Shamiko-v1.2.4-401-release.zip",
+          "changelog": "https://ssmg4.github.io/SSR/modules/zygisk_shamiko/Shamiko-v1.2.4-401-release.md"
+        }
+      ]
+    },
+    {
       "id": "zygisksu",
       "name": "Zygisk Next",
       "version": "1.2.8 (512-4b5d6ad-release)",

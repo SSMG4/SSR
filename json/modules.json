@@ -2142,9 +2142,10 @@
       "versionCode": 401,
       "author": "Wang Han & LSPosed Developers",
       "description": "Zygisk module to hide Magisk root, Zygisk itself and Zygisk modules.",
+      "readme": "https://raw.githubusercontent.com/SSMG4/SSR/refs/heads/master/modules/zygisk_shamiko/Shamiko-v1.2.4-401-release.md",
       "track": {
         "type": "ONLINE_JSON",
-        "added": 0,
+        "added": 1759697760,
         "license": "private",
         "homepage": "https://lsposed.org/",
         "source": "https://github.com/LSPosed/LSPosed.github.io/releases",

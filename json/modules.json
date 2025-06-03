@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1748984275.265938
+    "timestamp": 1748985035.468768
   },
   "modules": [
     {
@@ -548,6 +548,52 @@
       ]
     },
     {
+      "id": "acp",
+      "name": "Audio Compatibility Patch",
+      "version": "v2.5",
+      "versionCode": 39,
+      "author": "zackptg5, ahrion, John Fawkes",
+      "description": "Fixes music and streaming apps (Spotify, Pandora, etc) that aren't processing audio effects for various equalizer applications through the modification of audio policy",
+      "added": 1445340430.7142262,
+      "categories": [
+        "Audio Enhancements",
+        "Advanced Audio Mods",
+        "App Additions and Features"
+      ],
+      "support": "https://github.com/Magisk-Modules-Repo/acp/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Repo/acp/master/README.md",
+      "require": [
+        "aml"
+      ],
+      "verified": false,
+      "timestamp": 1643646579.0,
+      "size": 3796149,
+      "track": {
+        "type": "GIT",
+        "added": 1445340430.7142262,
+        "source": "https://github.com/Magisk-Modules-Repo/acp.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/acp/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1643646579.0,
+          "version": "v2.5",
+          "versionCode": 39,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/acp/v2.5_39.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1643646579.0,
+          "version": "7.4.2",
+          "versionCode": 742,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/acp/7.4.2_742.zip",
+          "changelog": "",
+          "size": 3796149
+        }
+      ]
+    },
+    {
       "id": "adb-ndk",
       "name": "ADB & Fastboot for Android NDK",
       "version": "1.0.41",
@@ -579,6 +625,141 @@
           "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/adb-ndk/1.0.41_104114.zip",
           "changelog": "",
           "size": 5300707
+        }
+      ]
+    },
+    {
+      "id": "aml",
+      "name": "Audio Modification Library",
+      "version": "v5.1",
+      "versionCode": 59,
+      "author": "zackptg5, ahrion",
+      "description": "AudModLib is a framework that allows the seamless integration of multiple audio mods in Magisk.",
+      "added": 1445340430.7142262,
+      "categories": [
+        "Audio Enhancements",
+        "Advanced Audio Mods",
+        "App Additions and Features"
+      ],
+      "support": "https://github.com/Zackptg5/Audio-Modification-Library/issues",
+      "readme": "https://raw.githubusercontent.com/Zackptg5/Audio-Modification-Library/master/README.md",
+      "require": [
+        "acp"
+      ],
+      "verified": false,
+      "timestamp": 1690235714.0,
+      "size": 23941,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1445340430.7142262,
+        "source": "https://github.com/Zackptg5/Audio-Modification-Library.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/aml/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1690235714.0,
+          "version": "v5.1",
+          "versionCode": 59,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/aml/v5.1_59.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1690235714.0,
+          "version": "7.4.2",
+          "versionCode": 742,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/aml/7.4.2_742.zip",
+          "changelog": "",
+          "size": 23941
+        },
+        {
+          "timestamp": 1690235714.0,
+          "version": "v1.5.7",
+          "versionCode": 1507,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/aml/v1.5.7_1507.zip",
+          "changelog": "",
+          "size": 23941
+        },
+        {
+          "timestamp": 1690235714.0,
+          "version": "v1.1.4",
+          "versionCode": 10104,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/aml/v1.1.4_10104.zip",
+          "changelog": "",
+          "size": 23941
+        },
+        {
+          "timestamp": 1690235714.0,
+          "version": "v6.5.0-hexpatch",
+          "versionCode": 60507,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/aml/v6.5.0-hexpatch_60507.zip",
+          "changelog": "",
+          "size": 23941
+        }
+      ]
+    },
+    {
+      "id": "amtsmagisk",
+      "name": "AntiAMTS for Magisk",
+      "version": "1.2.5",
+      "versionCode": 125,
+      "author": "Der_Googler & Sierra Community",
+      "description": "AntiAMTS ist ein kostenloser AdBlocker, der von SierraDevoplers bereitgestellt wird.",
+      "added": 1445340430.7142262,
+      "categories": [
+        "Privacy Enhancements",
+        "Adblocking and Hosts Files"
+      ],
+      "icon": "https://i0.wp.com/sierra-dev.de/wp-content/uploads/2021/03/amtslogo.png?zoom=3&resize=150%2C150&ssl=1",
+      "support": "https://github.com/Googlers-Repo/AntiAMTS-Magisk/issues",
+      "cover": "https://sierra-dev.de/wp-content/uploads/2022/06/AMTS-Blocker-Website-Vorlage-1.svg",
+      "readme": "https://raw.githubusercontent.com/Googlers-Repo/AntiAMTS-Magisk/master/README.md",
+      "verified": false,
+      "timestamp": 1703239411.0,
+      "size": 5180,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.RESETPROP"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "resetprop": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1445340430.7142262,
+        "source": "https://github.com/Googlers-Repo/AntiAMTS-Magisk.git",
+        "antifeatures": [
+          "Tracking",
+          "NoSourceSince"
+        ],
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/amtsmagisk/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1703239411.0,
+          "version": "1.2.5",
+          "versionCode": 125,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/amtsmagisk/1.2.5_125.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1703239411.0,
+          "version": "v2021.11.3",
+          "versionCode": 202111030,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/amtsmagisk/v2021.11.3_202111030.zip",
+          "changelog": "",
+          "size": 5180
         }
       ]
     },
@@ -642,6 +823,41 @@
           "zipUrl": "https://example.com/modules/bindhosts/v2.0.2_202.zip",
           "changelog": "https://example.com/modules/bindhosts/v2.0.2_202.md",
           "size": 101192
+        }
+      ]
+    },
+    {
+      "id": "busybox-ndk",
+      "name": "Busybox for Android NDK",
+      "version": "1.36.1",
+      "versionCode": 13614,
+      "author": "osm0sis @ xda-developers",
+      "description": "Static busybox binary for all Android architectures built with the NDK",
+      "added": 1445340430.7142262,
+      "categories": [
+        "System",
+        "Tools"
+      ],
+      "donate": "https://github.com/sponsors/osm0sis",
+      "support": "https://github.com/Magisk-Modules-Repo/busybox-ndk/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Repo/busybox-ndk/master/README.md",
+      "verified": false,
+      "timestamp": 1699710957.0,
+      "size": 9933908,
+      "track": {
+        "type": "GIT",
+        "added": 1445340430.7142262,
+        "source": "https://github.com/Magisk-Modules-Repo/busybox-ndk",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/busybox-ndk/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1699710957.0,
+          "version": "1.36.1",
+          "versionCode": 13614,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/busybox-ndk/1.36.1_13614.zip",
+          "changelog": ""
         }
       ]
     },

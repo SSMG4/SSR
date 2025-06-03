@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1748982793.136729
+    "timestamp": 1748983240.120852
   },
   "modules": [
     {
@@ -982,6 +982,57 @@
       ]
     },
     {
+      "id": "powershell",
+      "name": "Windows PowerShell",
+      "version": "7.4.2",
+      "versionCode": 742,
+      "author": "Der_Googler",
+      "description": "The Windows PowerShell Module is a tool that integrates PowerShell functionality into Android devices via the Magisk framework, allowing users to run PowerShell scripts and commands directly on their rooted devices.",
+      "added": 1718573490.991985,
+      "categories": [
+        "System"
+      ],
+      "donate": "https://github.com/sponsors/DerGoogler",
+      "support": "https://github.com/DerGoogler/powershell/issues",
+      "cover": "https://raw.githubusercontent.com/DerGoogler/powershell/master/assets/cover.png",
+      "readme": "https://raw.githubusercontent.com/DerGoogler/powershell/main/README.md",
+      "verified": false,
+      "timestamp": 1718574711.0,
+      "size": 535557,
+      "track": {
+        "type": "GIT",
+        "added": 1718573490.991985,
+        "source": "https://github.com/DerGoogler/powershell.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/powershell/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1718573284.0,
+          "version": "7.4.2",
+          "versionCode": 742,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/powershell/7.4.2_742.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1718574711.0,
+          "version": "v1.1.4",
+          "versionCode": 10104,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/powershell/v1.1.4_10104.zip",
+          "changelog": "",
+          "size": 535557
+        },
+        {
+          "timestamp": 1718574711.0,
+          "version": "v6.5.0-hexpatch",
+          "versionCode": 60507,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/powershell/v6.5.0-hexpatch_60507.zip",
+          "changelog": "",
+          "size": 535557
+        }
+      ]
+    },
+    {
       "id": "sensitive_props",
       "name": "SafetyNet sensitive props",
       "version": "v3",
@@ -1032,6 +1083,81 @@
       ]
     },
     {
+      "id": "susfs4ksu",
+      "name": "SUSFS-FOR-KERNELSU",
+      "version": "v1.4.2-R12",
+      "versionCode": 104002012,
+      "author": "sidex15 & simonpunk",
+      "description": "An addon root hiding service for KernelSU compiled with patched kernel source.",
+      "added": 1723905223,
+      "manager": {
+        "apatch": {
+          "min": -1
+        },
+        "magisk": {
+          "min": -1
+        }
+      },
+      "verified": false,
+      "timestamp": 1735545926.0,
+      "size": 892829,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "kernelsu.permission.WEBUI",
+        "kernelsu.permission.POST_MOUNT",
+        "kernelsu.permission.BOOT_COMPLETED"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "webroot": true,
+        "post_mount": true,
+        "boot_completed": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1723905223,
+        "source": "https://github.com/sidex15/ksu_module_susfs",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/susfs4ksu/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1733382594.0,
+          "version": "v1.4.2-R9",
+          "versionCode": 10400209,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R9_10400209.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R9_10400209.md",
+          "size": 890023
+        },
+        {
+          "timestamp": 1733654606.0,
+          "version": "v1.4.2-R10",
+          "versionCode": 104002010,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R10_104002010.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R10_104002010.md",
+          "size": 878077
+        },
+        {
+          "timestamp": 1734082080.0,
+          "version": "v1.4.2-R11",
+          "versionCode": 104002011,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R11_104002011.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R11_104002011.md",
+          "size": 891333
+        },
+        {
+          "timestamp": 1735545926.0,
+          "version": "v1.4.2-R12",
+          "versionCode": 104002012,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R12_104002012.zip",
+          "changelog": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R12_104002012.md",
+          "size": 892829
+        }
+      ]
+    },
+    {
       "id": "systemapp_nuker",
       "name": "App Nuker",
       "version": "v1.1.5",
@@ -1071,6 +1197,64 @@
           "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/systemapp_nuker/v1.1.5_115.zip",
           "changelog": "https://zguation-projects.github.io/ZG-R/modules/systemapp_nuker/v1.1.5_115.md",
           "size": 1242775
+        }
+      ]
+    },
+    {
+      "id": "systemless-hosts-KernelSU-module",
+      "name": "systemless hosts KernelSU module",
+      "version": "v1.2.0",
+      "versionCode": 10200,
+      "author": "symbuzzer (avalibeyaz.com/github)",
+      "description": "Required module to use applications such as AdAway on KernelSU(-Next) and APatch",
+      "added": 1445340430.7142262,
+      "categories": [
+        "Adblocking and Hosts Files",
+        "KernelSU",
+        "APatch"
+      ],
+      "support": "https://github.com/symbuzzer/systemless-hosts-KernelSU-module/issues",
+      "readme": "https://raw.githubusercontent.com/symbuzzer/systemless-hosts-KernelSU-module/main/README.md",
+      "verified": false,
+      "timestamp": 1739631768.0,
+      "size": 24544,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1445340430.7142262,
+        "source": "https://github.com/symbuzzer/systemless-hosts-KernelSU-module",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/systemless-hosts-KernelSU-module/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1707677112.0,
+          "version": "v1.1.3",
+          "versionCode": 113,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/systemless-hosts-KernelSU-module/v1.1.3_113.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1713278013.0,
+          "version": "v1.1.4",
+          "versionCode": 10104,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/systemless-hosts-KernelSU-module/v1.1.4_10104.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1739631768.0,
+          "version": "v1.2.0",
+          "versionCode": 10200,
+          "zipUrl": "https://gr.dergoogler.com/gmr/modules/systemless-hosts-KernelSU-module/v1.2.0_10200.zip",
+          "changelog": "",
+          "size": 24544
         }
       ]
     },

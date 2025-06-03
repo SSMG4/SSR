@@ -1515,18 +1515,8 @@
       "author": "Wang Han & LSPosed Developers",
       "description": "Zygisk module to hide Magisk root, Zygisk itself and Zygisk modules.",
       "require": [
-        "zygisksu",
-      "manager": {
-        "kernelsu": {
-          "min": 10940
-        },
-        "ksunext": {
-          "min": 10940
-        },
-        "magisk": {
-          "min": 26402
-        }
-      },
+        "zygisksu"
+      ],
       "verified": false,
       "added": 0,
       "timestamp": 1740843600,

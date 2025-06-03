@@ -1,0 +1,22 @@
+{
+  "id": "livebootmagisk",
+  "enable": true,
+  "verified": false,
+  "update_to": "https://github.com/symbuzzer/livebootmodule.git",
+  "license": "GPL-3.0",
+  "source": "https://github.com/symbuzzer/livebootmodule",
+  "support": "https://github.com/symbuzzer/livebootmodule/issues",
+  "donate": "https://patreon.com/user?u=88377368",
+  "categories": [
+    "Boot",
+    "Boot Animation",
+    "System"
+  ],
+  "icon": "https://raw.githubusercontent.com/Chainfire/liveboot/master/liveBootAni2/src/main/res/mipmap-xxxhdpi/ic_launcher_new.png",
+  "screenshots": [],
+  "readme": "https://github.com/symbuzzer/livebootmodule/raw/main/README.md",
+  "require": [],
+  "added": 1445340430.7142262,
+  "last_update": 1744281224.0,
+  "versions": 5
+}

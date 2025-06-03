@@ -1,0 +1,30 @@
+{
+  "id": "magisk-wifiadb",
+  "timestamp": 1730019938.0,
+  "versions": [
+    {
+      "timestamp": 1730019938.0,
+      "version": "1.0.2",
+      "versionCode": 3,
+      "zipUrl": "https://gr.dergoogler.com/gmr/modules/magisk-wifiadb/1.0.2_3.zip",
+      "changelog": "",
+      "size": 7860
+    },
+    {
+      "timestamp": 1739639131.0,
+      "version": "1.1.0",
+      "versionCode": 4,
+      "zipUrl": "https://gr.dergoogler.com/gmr/modules/magisk-wifiadb/1.1.0_4.zip",
+      "changelog": "",
+      "size": 3747
+    },
+    {
+      "timestamp": 1739639131.0,
+      "version": "v3.0.3",
+      "versionCode": 30003,
+      "zipUrl": "https://gr.dergoogler.com/gmr/modules/magisk-wifiadb/v3.0.3_30003.zip",
+      "changelog": "",
+      "size": 3747
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "susfs4ksu",
+  "timestamp": 1733382594.0,
+  "versions": [
+    {
+      "timestamp": 1733382594.0,
+      "version": "v1.4.2-R9",
+      "versionCode": 10400209,
+      "zipUrl": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R9_10400209.zip",
+      "changelog": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R9_10400209.md",
+      "size": 890023
+    },
+    {
+      "timestamp": 1733654606.0,
+      "version": "v1.4.2-R10",
+      "versionCode": 104002010,
+      "zipUrl": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R10_104002010.zip",
+      "changelog": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R10_104002010.md",
+      "size": 878077
+    },
+    {
+      "timestamp": 1734082080.0,
+      "version": "v1.4.2-R11",
+      "versionCode": 104002011,
+      "zipUrl": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R11_104002011.zip",
+      "changelog": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R11_104002011.md",
+      "size": 891333
+    },
+    {
+      "timestamp": 1735545926.0,
+      "version": "v1.4.2-R12",
+      "versionCode": 104002012,
+      "zipUrl": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R12_104002012.zip",
+      "changelog": "https://gr.dergoogler.com/gmr/modules/susfs4ksu/v1.4.2-R12_104002012.md",
+      "size": 892829
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "asoulopt",
+  "timestamp": 1735942841.0,
+  "versions": [
+    {
+      "timestamp": 1735942841.0,
+      "version": "Azusa",
+      "versionCode": 272,
+      "zipUrl": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Azusa_272.zip",
+      "changelog": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Azusa_272.md",
+      "size": 13969
+    },
+    {
+      "timestamp": 1739148198.0,
+      "version": "Kanade",
+      "versionCode": 273,
+      "zipUrl": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Kanade_273.zip",
+      "changelog": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Kanade_273.md",
+      "size": 14217
+    },
+    {
+      "timestamp": 1744795995.0,
+      "version": "Kanade",
+      "versionCode": 274,
+      "zipUrl": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Kanade_274.zip",
+      "changelog": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Kanade_274.md",
+      "size": 14421
+    },
+    {
+      "timestamp": 1747729427.0,
+      "version": "Mizuki",
+      "versionCode": 275,
+      "zipUrl": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Mizuki_275.zip",
+      "changelog": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Mizuki_275.md",
+      "size": 14722
+    }
+  ]
+}

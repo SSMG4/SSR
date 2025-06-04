@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749073284.028862
+    "timestamp": 1749074153.701226
   },
   "modules": [
     {
@@ -1913,6 +1913,44 @@
           "zipUrl": "https://mrepo.rem01gaming.dev/modules/net-switch/1.2_54-64b5764-release.zip",
           "changelog": "https://mrepo.rem01gaming.dev/modules/net-switch/1.2_54-64b5764-release.md",
           "size": 18560
+        }
+      ]
+    },
+    {
+      "id": "open_webview",
+      "name": "Open Webview",
+      "version": "v2.5.2",
+      "versionCode": 252,
+      "author": "F3FFO",
+      "description": "Open Webview change your system webview",
+      "donate": "https://www.paypal.me/f3ff0",
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/open_webview/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/open_webview/main/README.md",
+      "verified": false,
+      "added": 0,
+      "size": 22201610,
+      "permissions": [
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/open_webview",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/open_webview/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1734388190.0,
+          "version": "v2.5.2",
+          "versionCode": 252,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/open_webview/v2.5.2_252.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/open_webview/v2.5.2_252.md",
+          "size": 22201610
         }
       ]
     },

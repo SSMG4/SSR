@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749071031.999134
+    "timestamp": 1749072438.662985
   },
   "modules": [
     {
@@ -103,6 +103,80 @@
           "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/COPG/4.3.1_431.zip",
           "changelog": "https://zguation-projects.github.io/ZG-R/modules/COPG/4.3.1_431.md",
           "size": 2587638
+        }
+      ]
+    },
+    {
+      "id": "DynamicSystemTweaks_arm64",
+      "name": "DynamicSystemTweaks-arm64",
+      "version": "v1.4",
+      "versionCode": 5,
+      "author": "Cyberdev",
+      "description": "Improves system performance without battery loss or overheating for arm64-v8a with 8 cpu core devices only, does not work on devices using APatch (Android 10+)",
+      "support": "https://github.com/PS2ClassicsVault/DynamicSystemTweaks-arm64-Magisk-Module/issues",
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/PS2ClassicsVault/DynamicSystemTweaks-arm64-Magisk-Module/main/README.md",
+      "verified": false,
+      "added": 0,
+      "size": 8424,
+      "permissions": [
+        "magisk.permission.RESETPROP"
+      ],
+      "features": {
+        "resetprop": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/PS2ClassicsVault/DynamicSystemTweaks-arm64-Magisk-Module",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/DynamicSystemTweaks_arm64/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1745008292.0,
+          "version": "v1.4",
+          "versionCode": 5,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/DynamicSystemTweaks_arm64/v1.4_5.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/DynamicSystemTweaks_arm64/v1.4_5.md",
+          "size": 8424
+        }
+      ]
+    },
+    {
+      "id": "DynamicSystemTweaks_armv7a",
+      "name": "DynamicSystemTweaks",
+      "version": "v4.4",
+      "versionCode": 24,
+      "author": "Cyberdev",
+      "description": "Improves system performance without battery loss or overheating, module does not support APatch (Android 10+)",
+      "support": "https://github.com/PS2ClassicsVault/Dynamic-System-Tweaks-Magisk-Module/issues",
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/PS2ClassicsVault/Dynamic-System-Tweaks-Magisk-Module/main/README.md",
+      "verified": false,
+      "added": 0,
+      "size": 8250,
+      "permissions": [
+        "magisk.permission.RESETPROP"
+      ],
+      "features": {
+        "resetprop": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/PS2ClassicsVault/Dynamic-System-Tweaks-Magisk-Module",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/DynamicSystemTweaks_armv7a/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1745007366.0,
+          "version": "v4.4",
+          "versionCode": 24,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/DynamicSystemTweaks_armv7a/v4.4_24.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/DynamicSystemTweaks_armv7a/v4.4_24.md",
+          "size": 8250
         }
       ]
     },
@@ -1164,6 +1238,118 @@
           "zipUrl": "https://mrepo.rem01gaming.dev/modules/encore/4.4_972-620057d-release.zip",
           "changelog": "https://mrepo.rem01gaming.dev/modules/encore/4.4_972-620057d-release.md",
           "size": 197828
+        }
+      ]
+    },
+    {
+      "id": "fas-rs",
+      "name": "fas-rs",
+      "version": "v4.9.0",
+      "versionCode": 490,
+      "author": "shadow3",
+      "description": "Frame aware scheduling for android. Requires kernel ebpf support.",
+      "support": "https://github.com/shadow3aaa/fas-rs/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/shadow3aaa/fas-rs/main/README.md",
+      "verified": false,
+      "added": 0,
+      "size": 1931178,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.RESETPROP",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "resetprop": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/shadow3aaa/fas-rs",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/fas-rs/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1737731988.0,
+          "version": "v4.4.0",
+          "versionCode": 440,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/fas-rs/v4.4.0_440.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/fas-rs/v4.4.0_440.md",
+          "size": 1295125
+        },
+        {
+          "timestamp": 1737878739.0,
+          "version": "v4.5.0",
+          "versionCode": 450,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/fas-rs/v4.5.0_450.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/fas-rs/v4.5.0_450.md",
+          "size": 1295180
+        },
+        {
+          "timestamp": 1739802786.0,
+          "version": "v4.6.0",
+          "versionCode": 460,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/fas-rs/v4.6.0_460.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/fas-rs/v4.6.0_460.md",
+          "size": 1294764
+        },
+        {
+          "timestamp": 1740757137.0,
+          "version": "v4.7.0",
+          "versionCode": 470,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/fas-rs/v4.7.0_470.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/fas-rs/v4.7.0_470.md",
+          "size": 1316326
+        },
+        {
+          "timestamp": 1742703753.0,
+          "version": "v4.8.0",
+          "versionCode": 480,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/fas-rs/v4.8.0_480.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/fas-rs/v4.8.0_480.md",
+          "size": 1667972
+        },
+        {
+          "timestamp": 1746340040.0,
+          "version": "v4.8.0",
+          "versionCode": 490,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/fas-rs/v4.8.0_490.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/fas-rs/v4.8.0_490.md",
+          "size": 1931178
+        }
+      ]
+    },
+    {
+      "id": "fingerprintpay",
+      "name": "\u6307\u7eb9\u652f\u4ed8 - \u6279\u91cf\u5b89\u88c5\u5668",
+      "version": "6.0.2-ci",
+      "versionCode": 1,
+      "author": "Jason Eric",
+      "description": "\u6307\u7eb9\u652f\u4ed8\u6279\u91cf\u5b89\u88c5\u5668 Fingerprint pay batch installer.",
+      "support": "https://github.com/eritpchy/FingerprintPay/issues",
+      "license": "GPL-2.0",
+      "readme": "https://raw.githubusercontent.com/eritpchy/FingerprintPay/main/README.md",
+      "verified": false,
+      "added": 0,
+      "size": 8638887,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/eritpchy/FingerprintPay",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/fingerprintpay/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1743243227.0,
+          "version": "6.0.2-ci",
+          "versionCode": 1,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/fingerprintpay/6.0.2-ci_1.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/fingerprintpay/6.0.2-ci_1.md",
+          "size": 8638887
         }
       ]
     },

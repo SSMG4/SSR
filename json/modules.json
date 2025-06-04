@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749061057.019179
+    "timestamp": 1749071031.999134
   },
   "modules": [
     {
@@ -629,6 +629,55 @@
       ]
     },
     {
+      "id": "adguardhome",
+      "name": "AdGuardHome for Root",
+      "version": "20250601",
+      "versionCode": 39,
+      "author": "twoone3",
+      "description": "none",
+      "support": "https://github.com/twoone-3/AdGuardHomeForMagisk/issues",
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/twoone-3/AdGuardHomeForMagisk/main/README.md",
+      "verified": true,
+      "added": 0,
+      "size": 9921407,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/twoone-3/AdGuardHomeForMagisk",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/adguardhome/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1747273785.0,
+          "version": "20250515",
+          "versionCode": 38,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/adguardhome/20250515_38.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/adguardhome/20250515_38.md",
+          "size": 9900868
+        },
+        {
+          "timestamp": 1748787379.0,
+          "version": "20250515",
+          "versionCode": 39,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/adguardhome/20250515_39.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/adguardhome/20250515_39.md",
+          "size": 9921407
+        }
+      ]
+    },
+    {
       "id": "aml",
       "name": "Audio Modification Library",
       "version": "v5.1",
@@ -764,6 +813,66 @@
       ]
     },
     {
+      "id": "asoulopt",
+      "name": "A-SOUL Games Optimization",
+      "version": "Enanan",
+      "versionCode": 275,
+      "author": "nakixii",
+      "description": "Game threads tweaker for Android.",
+      "support": "https://github.com/nakixii/Magisk_AsoulOpt/issues",
+      "readme": "https://raw.githubusercontent.com/nakixii/Magisk_AsoulOpt/main/README.md",
+      "verified": false,
+      "added": 0,
+      "size": 14722,
+      "permissions": [
+        "magisk.permission.SERVICE"
+      ],
+      "features": {
+        "service": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/nakixii/Magisk_AsoulOpt",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/asoulopt/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1735942841.0,
+          "version": "Azusa",
+          "versionCode": 272,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Azusa_272.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Azusa_272.md",
+          "size": 13969
+        },
+        {
+          "timestamp": 1739148198.0,
+          "version": "Kanade",
+          "versionCode": 273,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Kanade_273.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Kanade_273.md",
+          "size": 14217
+        },
+        {
+          "timestamp": 1744795995.0,
+          "version": "Kanade",
+          "versionCode": 274,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Kanade_274.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Kanade_274.md",
+          "size": 14421
+        },
+        {
+          "timestamp": 1747729427.0,
+          "version": "Mizuki",
+          "versionCode": 275,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Mizuki_275.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Mizuki_275.md",
+          "size": 14722
+        }
+      ]
+    },
+    {
       "id": "bindhosts",
       "name": "bindhosts",
       "version": "v2.0.2",
@@ -823,6 +932,49 @@
           "zipUrl": "https://example.com/modules/bindhosts/v2.0.2_202.zip",
           "changelog": "https://example.com/modules/bindhosts/v2.0.2_202.md",
           "size": 101192
+        }
+      ]
+    },
+    {
+      "id": "box_for_magisk",
+      "name": "Box for Magisk/KernelSU",
+      "version": "v1.8",
+      "versionCode": 20241222,
+      "author": "taamarin.t.me",
+      "description": "use sing-box, clash, v2ray, hysteria and xray for tunnel proxy on android device",
+      "categories": [
+        "Script",
+        "Utility"
+      ],
+      "support": "https://github.com/taamarin/box_for_magisk/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/taamarin/box_for_magisk/main/README.md",
+      "verified": true,
+      "added": 0,
+      "size": 60144,
+      "permissions": [
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/taamarin/box_for_magisk",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/box_for_magisk/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1734865952.0,
+          "version": "v1.8",
+          "versionCode": 20241222,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/box_for_magisk/v1.8_20241222.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/box_for_magisk/v1.8_20241222.md",
+          "size": 60144
         }
       ]
     },

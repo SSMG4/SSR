@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749074595.083243
+    "timestamp": 1749075483.493079
   },
   "modules": [
     {
@@ -2026,6 +2026,122 @@
       ]
     },
     {
+      "id": "playcurllnext",
+      "name": "playcurlNEXT",
+      "version": "v1.16",
+      "versionCode": 116,
+      "author": "daboynb",
+      "description": "Automatic fingerprint downloader for play integrity fix.",
+      "support": "https://github.com/daboynb/playcurlNEXT/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/daboynb/playcurlNEXT/main/README.md",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1749066569.0,
+      "size": 17803,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/daboynb/playcurlNEXT",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/playcurllnext/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1744211989.0,
+          "version": "v1.5",
+          "versionCode": 115,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/playcurllnext/v1.5_115.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/playcurllnext/v1.5_115.md",
+          "size": 17306
+        },
+        {
+          "timestamp": 1749066569.0,
+          "version": "v1.5",
+          "versionCode": 116,
+          "zipUrl": "https://ssmg4.github.io/SSR/modules/playcurllnext/v1.5_116.zip",
+          "changelog": "https://ssmg4.github.io/SSR/modules/playcurllnext/v1.5_116.md",
+          "size": 17803
+        }
+      ]
+    },
+    {
+      "id": "playintegrityfork",
+      "name": "Play Integrity Fork",
+      "version": "v13",
+      "versionCode": 130000,
+      "author": "osm0sis & chiteroman @ xda-developers",
+      "description": "Fix <A13 DEVICE (Play Integrity) verdict",
+      "categories": [
+        "Zygisk",
+        "Security"
+      ],
+      "donate": "https://www.paypal.me/osm0sis",
+      "support": "https://github.com/osm0sis/PlayIntegrityFork/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/osm0sis/PlayIntegrityFork/main/README.md",
+      "require": [
+        "zygisksu"
+      ],
+      "verified": false,
+      "added": 0,
+      "timestamp": 1747424340,
+      "size": 268323,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/osm0sis/PlayIntegrityFork",
+        "antifeatures": [
+          "ClosedSource"
+        ],
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/playintegrityfork/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1728252519.0,
+          "version": "v11",
+          "versionCode": 110000,
+          "zipUrl": "https://leloubil.github.io/magisk-repo/modules/playintegrityfork/v11_110000.zip",
+          "changelog": "https://leloubil.github.io/magisk-repo/modules/playintegrityfork/v11_110000.md",
+          "size": 265123
+        },
+        {
+          "timestamp": 1731903266.0,
+          "version": "v12",
+          "versionCode": 120000,
+          "zipUrl": "https://leloubil.github.io/magisk-repo/modules/playintegrityfork/v12_120000.zip",
+          "changelog": "https://leloubil.github.io/magisk-repo/modules/playintegrityfork/v12_120000.md",
+          "size": 265326
+        },
+        {
+          "timestamp": 1747424340.0,
+          "version": "v13",
+          "versionCode": 130000,
+          "zipUrl": "https://ssmg4.github.io/SSR/modules/playintegrityfork/v13_130000.zip",
+          "changelog": "https://leloubil.github.io/magisk-repo/modules/playintegrityfork/v13_130000.md",
+          "size": 268323
+        }
+      ]
+    },
+    {
       "id": "powershell",
       "name": "Windows PowerShell",
       "version": "7.4.2",
@@ -2073,6 +2189,47 @@
           "zipUrl": "https://gr.dergoogler.com/gmr/modules/powershell/v6.5.0-hexpatch_60507.zip",
           "changelog": "",
           "size": 535557
+        }
+      ]
+    },
+    {
+      "id": "rezygisk",
+      "name": "ReZygisk",
+      "version": "v1.0.0-rc.2",
+      "versionCode": 342,
+      "author": "The PerformanC Organization",
+      "description": "Standalone implementation of Zygisk.",
+      "support": "https://github.com/PerformanC/ReZygisk/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/PerformanC/ReZygisk/main/README.md",
+      "verified": false,
+      "added": 0,
+      "size": 254591,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/PerformanC/ReZygisk",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/rezygisk/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1745731850.0,
+          "version": "v1.0.0-rc.2",
+          "versionCode": 342,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/rezygisk/v1.0.0-rc.2_342.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/rezygisk/v1.0.0-rc.2_342.md",
+          "size": 254591
         }
       ]
     },

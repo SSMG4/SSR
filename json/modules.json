@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1748985035.468768
+    "timestamp": 1748998850.929753
   },
   "modules": [
     {
@@ -2132,33 +2132,6 @@
           "zipUrl": "https://gr.dergoogler.com/gmr/modules/zygisk_lsposed/v1.9.2_7024.zip",
           "changelog": "https://gr.dergoogler.com/gmr/modules/zygisk_lsposed/v1.9.2_7024.md",
           "size": 2462055
-        }
-      ]
-    },
-    {
-      "id": "zygisk_shamiko",
-      "name": "Shamiko",
-      "version": "v1.2.4 (401)",
-      "versionCode": 401,
-      "author": "Wang Han & LSPosed Developers",
-      "description": "Zygisk module to hide Magisk root, Zygisk itself and Zygisk modules.",
-      "readme": "https://raw.githubusercontent.com/SSMG4/SSR/refs/heads/master/modules/zygisk_shamiko/Shamiko-v1.2.4-401-release.md",
-      "track": {
-        "type": "ONLINE_JSON",
-        "added": 1759697760,
-        "license": "private",
-        "homepage": "https://lsposed.org/",
-        "source": "https://github.com/LSPosed/LSPosed.github.io/releases",
-        "support": "mailto:lsposed@lsposed.org",
-        "donate": "https://github.com/sponsors/LSPosed"
-      },
-      "versions": [
-        {
-          "timestamp": 1740843600,
-          "version": "v1.2.4 (401)",
-          "versionCode": 401,
-          "zipUrl": "https://ssmg4.github.io/SSR/modules/zygisk_shamiko/Shamiko-v1.2.4-401-release.zip",
-          "changelog": "https://ssmg4.github.io/SSR/modules/zygisk_shamiko/Shamiko-v1.2.4-401-release.md"
         }
       ]
     },

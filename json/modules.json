@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749075483.493079
+    "timestamp": 1749076122.237345
   },
   "modules": [
     {
@@ -560,6 +560,71 @@
           "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/Unlimited-GooglePhotosBackupMod/1.2-stable_1.zip",
           "changelog": "",
           "size": 114307
+        }
+      ]
+    },
+    {
+      "id": "Uperf-Game-Turbo",
+      "name": "Uperf Game Turbo",
+      "version": "1.43 based on uperf 904",
+      "versionCode": 250410,
+      "author": "Matt Yang\uff08\u541f\u60cb\u516e\u6539\uff09",
+      "description": "\u2764\ufe0f\u6b22\u8fce\u4f7f\u7528Uperf Game Turbo\uff01\u4f7f\u7528\u65f6\u6709\u95ee\u9898\u53ef\u53cd\u9988\u81f3yinwanxi0107@gmail.com\u2764\ufe0f///\u2764\ufe0fStep into Enhanced Gaming with Uperf Game Turbo\uff01If you have any questions, please send feedback to yinwanxi0107@gmail.com\u2764\ufe0f",
+      "support": "https://github.com/yinwanxi/Uperf-Game-Turbo/issues",
+      "license": "Apache-2.0",
+      "readme": "https://raw.githubusercontent.com/yinwanxi/Uperf-Game-Turbo/main/README.md",
+      "verified": false,
+      "added": 0,
+      "size": 1912987,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.RESETPROP"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "resetprop": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/yinwanxi/Uperf-Game-Turbo",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/Uperf-Game-Turbo/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1737046180.0,
+          "version": "\ufe0f1.40 based on uperf 904",
+          "versionCode": 241212,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/Uperf-Game-Turbo/1.40_based_on_uperf_904_241212.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/Uperf-Game-Turbo/1.40_based_on_uperf_904_241212.md",
+          "size": 1870230
+        },
+        {
+          "timestamp": 1739987452.0,
+          "version": "\ufe0f1.41 based on uperf 904",
+          "versionCode": 250117,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/Uperf-Game-Turbo/1.41_based_on_uperf_904_250117.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/Uperf-Game-Turbo/1.41_based_on_uperf_904_250117.md",
+          "size": 1883634
+        },
+        {
+          "timestamp": 1743662687.0,
+          "version": "1.41 based on uperf 904",
+          "versionCode": 250223,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/Uperf-Game-Turbo/1.41_based_on_uperf_904_250223.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/Uperf-Game-Turbo/1.41_based_on_uperf_904_250223.md",
+          "size": 1892061
+        },
+        {
+          "timestamp": 1747495521.0,
+          "version": "1.42 based on uperf 904",
+          "versionCode": 250410,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/Uperf-Game-Turbo/1.42_based_on_uperf_904_250410.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/Uperf-Game-Turbo/1.42_based_on_uperf_904_250410.md",
+          "size": 1912987
         }
       ]
     },
@@ -2402,6 +2467,41 @@
       ]
     },
     {
+      "id": "systemless-hosts",
+      "name": "Systemless Hosts - Unified",
+      "version": "17.2",
+      "versionCode": 172,
+      "author": "gloeyisk",
+      "description": "An efficient ad blocker, with no user interface",
+      "categories": [
+        "Network",
+        "Debug",
+        "Script"
+      ],
+      "support": "https://github.com/gloeyisk/systemless-hosts/issues",
+      "readme": "https://raw.githubusercontent.com/gloeyisk/systemless-hosts/main/README.md",
+      "verified": false,
+      "added": 0,
+      "size": 1730042,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/gloeyisk/systemless-hosts",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/systemless-hosts/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1725569243.0,
+          "version": "17.2",
+          "versionCode": 172,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/systemless-hosts/17.2_172.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/systemless-hosts/17.2_172.md",
+          "size": 1730042
+        }
+      ]
+    },
+    {
       "id": "systemless-hosts-KernelSU-module",
       "name": "systemless hosts KernelSU module",
       "version": "v1.2.0",
@@ -2699,6 +2799,44 @@
       ]
     },
     {
+      "id": "viperfx_re",
+      "name": "ViPER4Android RE Fork",
+      "version": "v0.6.3",
+      "versionCode": 20250107,
+      "author": "pittvandewitt, MrWhite214, Zackptg5, Martmists, Iscle, WSTxda",
+      "description": "ViPER4Android Reverse Engineered Fork is an audio enhancing software to provide everyone with a better audio experience",
+      "support": "https://github.com/WSTxda/ViPERFX_RE/issues",
+      "readme": "https://raw.githubusercontent.com/WSTxda/ViPERFX_RE/main/README.md",
+      "verified": false,
+      "added": 0,
+      "size": 1843875,
+      "permissions": [
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "post_fs_data": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/WSTxda/ViPERFX_RE",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/viperfx_re/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1736286935.0,
+          "version": "v0.6.3",
+          "versionCode": 20250107,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/viperfx_re/v0.6.3_20250107.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/viperfx_re/v0.6.3_20250107.md",
+          "size": 1843875
+        }
+      ]
+    },
+    {
       "id": "zipsigner",
       "name": "Zip & ZipSigner for Android NDK",
       "version": "3.0-13",
@@ -2959,6 +3097,54 @@
           "zipUrl": "https://gr.dergoogler.com/gmr/modules/zygisksu/1.2.8_512-4b5d6ad-release.zip",
           "changelog": "https://gr.dergoogler.com/gmr/modules/zygisksu/1.2.8_512-4b5d6ad-release.md",
           "size": 3519779
+        }
+      ]
+    },
+    {
+      "id": "zygisksui",
+      "name": "Zygisk - Sui",
+      "version": "v13.5.1",
+      "versionCode": 319,
+      "author": "Rikka",
+      "description": "Modern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+      "categories": [
+        "Utility",
+        "Network",
+        "Debug",
+        "Script",
+        "Theme"
+      ],
+      "support": "https://github.com/RikkaApps/Sui/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/RikkaApps/Sui/main/README.md",
+      "verified": false,
+      "added": 0,
+      "size": 1070639,
+      "permissions": [
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "post_fs_data": true,
+        "sepolicy": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/RikkaApps/Sui",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/zygisksui/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1695131134.0,
+          "version": "v13.5.1",
+          "versionCode": 319,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/zygisksui/v13.5.1_319.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/zygisksui/v13.5.1_319.md",
+          "size": 1070639
         }
       ]
     }

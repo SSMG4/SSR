@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749072438.662985
+    "timestamp": 1749073284.028862
   },
   "modules": [
     {
@@ -177,6 +177,46 @@
           "zipUrl": "https://misak10.github.io/mmrl-repo/modules/DynamicSystemTweaks_armv7a/v4.4_24.zip",
           "changelog": "https://misak10.github.io/mmrl-repo/modules/DynamicSystemTweaks_armv7a/v4.4_24.md",
           "size": 8250
+        }
+      ]
+    },
+    {
+      "id": "Infamick_script",
+      "name": "Infamick Script",
+      "version": "v3.2",
+      "versionCode": 202504281,
+      "author": "@Infamousmick",
+      "description": "A powerful system utility script for rooted Android devices",
+      "support": "https://github.com/Infamousmick/",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Infamousmick/Infamick-script/main/README.md",
+      "homepage": "https://github.com/Infamousmick/Infamick-script",
+      "verified": false,
+      "added": 0,
+      "size": 23330,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/Infamousmick/Infamick-script",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/infamick-script/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1745851980.0,
+          "version": "v3.2",
+          "versionCode": 202504281,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/infamick-script/v3.2_202504281.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/infamick-script/v3.2_202504281.md",
+          "size": 23330
         }
       ]
     },
@@ -1393,6 +1433,119 @@
           "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/flagsecurepatcher/r15_15.zip",
           "changelog": "https://zguation-projects.github.io/ZG-R/modules/flagsecurepatcher/r15_15.md",
           "size": 4535597
+        }
+      ]
+    },
+    {
+      "id": "hydro-br-leur",
+      "name": "Hydrostellaire \u6ca8\u83b9",
+      "version": "Essonne",
+      "versionCode": 1000,
+      "author": "AB & Ray",
+      "support": "https://github.com/AestasBritannia/Hydro-Br-leur/issues",
+      "readme": "https://raw.githubusercontent.com/AestasBritannia/Hydro-Br-leur/main/README.md",
+      "verified": false,
+      "added": 0,
+      "size": 5667600,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/AestasBritannia/Hydro-Br-leur",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/hydro-br-leur/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1746373998.0,
+          "version": "Essonne",
+          "versionCode": 1000,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/hydro-br-leur/Essonne_1000.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/hydro-br-leur/Essonne_1000.md",
+          "size": 5667600
+        }
+      ]
+    },
+    {
+      "id": "lingeringsound_ads",
+      "name": "\u53bb\u5e7f\u544a",
+      "version": "\u6a74\u70abv269",
+      "versionCode": 270,
+      "author": "@coolapk 10007",
+      "description": "host+chattr+pm+iptables\u53bb\u5e7f\u544a\uff0chost\u89c4\u5219\u6765\u81ea\u7f51\u7edc+\u672c\u4eba\u624b\u52a8\u6293\u53d6\u3002\u5f53\u524d\u5df2\u7ecf\u7d2f\u79ef [ 20866 ] \u6761host\u89c4\u5219\uff0c\u5f53\u524d\u72b6\u6001[ \u7f51\u7edc\u57fa\u672c\u65e0\u5f71\u54cd ](\u8d85\u8fc75\u4e07\u6761\u4f1a\u8f7b\u5fae\u5f71\u54cd\u7f51\u7edc\uff0c\u8d85\u8fc750\u4e07\u6761\u7f51\u901f\u5219\u4f1a\u6709\u4e00\u5b9a\u5ef6\u8fdf\u3002)",
+      "support": "https://github.com/lingeringsound/10007/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/lingeringsound/10007/main/README.md",
+      "verified": false,
+      "added": 0,
+      "size": 444632,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.ACTION",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "service": true,
+        "action": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://lingeringsound.github.io/10007",
+        "antifeatures": [
+          "ads",
+          "tracking"
+        ],
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/lingeringsound_ads/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1744339306.0,
+          "version": "\u6a74\u70abv262",
+          "versionCode": 264,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/lingeringsound_ads/v262_264.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/lingeringsound_ads/v262_264.md",
+          "size": 442939
+        },
+        {
+          "timestamp": 1744790453.0,
+          "version": "\u6a74\u70abv263",
+          "versionCode": 266,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/lingeringsound_ads/v263_266.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/lingeringsound_ads/v263_266.md",
+          "size": 440785
+        },
+        {
+          "timestamp": 1745205686.0,
+          "version": "\u6a74\u70abv265",
+          "versionCode": 267,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/lingeringsound_ads/v265_267.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/lingeringsound_ads/v265_267.md",
+          "size": 441936
+        },
+        {
+          "timestamp": 1745384222.0,
+          "version": "\u6a74\u70abv266",
+          "versionCode": 268,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/lingeringsound_ads/v266_268.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/lingeringsound_ads/v266_268.md",
+          "size": 442515
+        },
+        {
+          "timestamp": 1746772487.0,
+          "version": "\u6a74\u70abv267",
+          "versionCode": 269,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/lingeringsound_ads/v267_269.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/lingeringsound_ads/v267_269.md",
+          "size": 443331
+        },
+        {
+          "timestamp": 1747548786.0,
+          "version": "\u6a74\u70abv269",
+          "versionCode": 270,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/lingeringsound_ads/v269_270.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/lingeringsound_ads/v269_270.md",
+          "size": 444632
         }
       ]
     },

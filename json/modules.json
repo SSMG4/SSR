@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749074153.701226
+    "timestamp": 1749074595.083243
   },
   "modules": [
     {
@@ -1951,6 +1951,77 @@
           "zipUrl": "https://misak10.github.io/mmrl-repo/modules/open_webview/v2.5.2_252.zip",
           "changelog": "https://misak10.github.io/mmrl-repo/modules/open_webview/v2.5.2_252.md",
           "size": 22201610
+        }
+      ]
+    },
+    {
+      "id": "pixelxpert",
+      "name": "Pixel Xpert",
+      "version": "canary-451",
+      "versionCode": 451,
+      "author": "Pixel Xpert Team",
+      "description": "Xposed based module for customizations on Pixel roms. Android 13+",
+      "support": "https://github.com/siavash79/PixelXpert/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/siavash79/PixelXpert/main/README.md",
+      "verified": false,
+      "added": 0,
+      "size": 4235172,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "service": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/siavash79/PixelXpert",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/pixelxpert/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1748440300.0,
+          "version": "canary-447",
+          "versionCode": 447,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/pixelxpert/canary-447_447.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/pixelxpert/canary-447_447.md",
+          "size": 4226430
+        },
+        {
+          "timestamp": 1748779577.0,
+          "version": "canary-448",
+          "versionCode": 448,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/pixelxpert/canary-448_448.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/pixelxpert/canary-448_448.md",
+          "size": 4235139
+        },
+        {
+          "timestamp": 1748849017.0,
+          "version": "canary-449",
+          "versionCode": 449,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/pixelxpert/canary-449_449.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/pixelxpert/canary-449_449.md",
+          "size": 4235146
+        },
+        {
+          "timestamp": 1748872646.0,
+          "version": "canary-450",
+          "versionCode": 450,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/pixelxpert/canary-450_450.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/pixelxpert/canary-450_450.md",
+          "size": 4235235
+        },
+        {
+          "timestamp": 1748944071.0,
+          "version": "canary-451",
+          "versionCode": 451,
+          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/pixelxpert/canary-451_451.zip",
+          "changelog": "https://misak10.github.io/mmrl-repo/modules/pixelxpert/canary-451_451.md",
+          "size": 4235172
         }
       ]
     },

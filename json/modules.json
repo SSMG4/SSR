@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749017909.89222
+    "timestamp": 1749037558.960679
   },
   "modules": [
     {
@@ -62,7 +62,7 @@
       "description": "Spoof your device for games to unlock max fps.",
       "support": "https://github.com/AlirezaParsi/COPG/issues",
       "readme": "https://raw.githubusercontent.com/AlirezaParsi/COPG/JSON/README.md",
-      "verified": false,
+      "verified": true,
       "added": 0,
       "timestamp": 1747121683.0,
       "size": 2587638,

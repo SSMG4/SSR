@@ -1,0 +1,16 @@
+id: GPU-Turbo-Boost
+enable: true
+verified: false
+update_to: https://github.com/Nixsuki/GPU-Turbo-Boost/releases
+source: https://github.com/Nixsuki/GPU-Turbo-Boost/
+support: https://github.com/Nixsuki/GPU-Turbo-Boost/issues
+donate: https://www.paypal.me/EmperorEye1993
+categories:
+- Performance
+- Gaming
+- Optimizer
+readme: https://raw.githubusercontent.com/Nixsuki/GPU-Turbo-Boost/refs/heads/master/README.md
+antifeatures:
+- ClosedSource
+last_update: 1629105060
+versions: 8

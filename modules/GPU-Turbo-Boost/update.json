@@ -1,0 +1,70 @@
+{
+  "id": "GPU-Turbo-Boost",
+  "timestamp": 1530174360.0,
+  "versions": [
+    {
+      "timestamp": 1530174360.0,
+      "version": "1.0 (2018/06/28)",
+      "versionCode": 100,
+      "zipUrl": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v1.0.zip",
+      "changelog": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v1.0.md",
+      "size": 7815
+    },
+    {
+      "timestamp": 1530174360.0,
+      "version": "2.0 (2018/06/28)",
+      "versionCode": 200,
+      "zipUrl": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v2.0.zip",
+      "changelog": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v2.0.md",
+      "size": 6814
+    },
+    {
+      "timestamp": 1561320240.0,
+      "version": "3.0 (2019/06/24)",
+      "versionCode": 300,
+      "zipUrl": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v3.0.zip",
+      "changelog": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v3.0.md",
+      "size": 6214
+    },
+    {
+      "timestamp": 1581296880.0,
+      "version": "4.0 (2020/02/10)",
+      "versionCode": 400,
+      "zipUrl": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v4.0.zip",
+      "changelog": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v4.0.md",
+      "size": 6160
+    },
+    {
+      "timestamp": 1587881940.0,
+      "version": "5.0 (2020/04/26)",
+      "versionCode": 500,
+      "zipUrl": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v5.0.zip",
+      "changelog": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v5.0.md",
+      "size": 6059
+    },
+    {
+      "timestamp": 1616341380.0,
+      "version": "6.0 (2021/03/30)",
+      "versionCode": 600,
+      "zipUrl": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v6.0.zip",
+      "changelog": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v6.0.md",
+      "size": 6221
+    },
+    {
+      "timestamp": 1618725540.0,
+      "version": "6.1 (2021/04/18)",
+      "versionCode": 610,
+      "zipUrl": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v6.1-Magisk.zip",
+      "changelog": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v6.1-Magisk.md",
+      "size": 6249
+    },
+    {
+      "timestamp": 1629148260.0,
+      "version": "6.2 (2021/08/17)",
+      "versionCode": 620,
+      "zipUrl": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v6.2-Magisk.zip",
+      "changelog": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v6.2-Magisk.md",
+      "size": 6197
+    }
+  ]
+}

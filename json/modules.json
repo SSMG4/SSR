@@ -9,9 +9,48 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749212639.566713
+    "timestamp": 1749229396.275523
   },
   "modules": [
+    {
+      "id": "AFWall-Boot-AntiLeak",
+      "name": "AFWall Boot AntiLeak",
+      "version": "v1.3",
+      "versionCode": 4,
+      "author": "GrayJackFixxxer",
+      "description": "A module to prevent internet access on boot BEFORE AfWall started and applied",
+      "added": 1719067604.03648,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/AFWall-Boot-AntiLeak/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/AFWall-Boot-AntiLeak/main/README.md",
+      "verified": false,
+      "timestamp": 1640525162.0,
+      "size": 16532,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067604.03648,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/AFWall-Boot-AntiLeak.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/AFWall-Boot-AntiLeak/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1640525162.0,
+          "version": "v1.3",
+          "versionCode": 4,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/AFWall-Boot-AntiLeak/v1.3_4.zip",
+          "changelog": ""
+        }
+      ]
+    },
     {
       "id": "BetterKnownInstalled",
       "name": "BetterKnownInstalled (BKI)",
@@ -832,6 +871,38 @@
       ]
     },
     {
+      "id": "acc",
+      "name": "Advanced Charging Controller (ACC)",
+      "version": "v2023.10.16",
+      "versionCode": 202310160,
+      "author": "VR25",
+      "description": "Extend your battery's service life by controlling charging current, temperature, and voltage. Any root solution is supported. The installation is always \"systemless\". Works on Android and KaiOS.",
+      "added": 1719067587.391638,
+      "homepage": "https://github.com/VR-25/acc",
+      "donate": "https://patreon.com/VR25",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/acc/master/README.md",
+      "verified": false,
+      "timestamp": 1697485290.0,
+      "size": 202516,
+      "track": {
+        "type": "GIT",
+        "added": 1719067587.391638,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/acc.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/acc/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1697485290.0,
+          "version": "v2023.10.16",
+          "versionCode": 202310160,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/acc/v2023.10.16_202310160.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/acc/v2023.10.16_202310160.md"
+        }
+      ]
+    },
+    {
       "id": "acp",
       "name": "Audio Compatibility Patch",
       "version": "v2.5",
@@ -1153,6 +1224,110 @@
           "zipUrl": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Mizuki_275.zip",
           "changelog": "https://misak10.github.io/mmrl-repo/modules/asoulopt/Mizuki_275.md",
           "size": 14722
+        }
+      ]
+    },
+    {
+      "id": "audio-jitter-silencer",
+      "name": "Audio jitter silencer",
+      "version": "v1.0.8",
+      "versionCode": 1008,
+      "author": "zyhk",
+      "description": "Disabling very large audio jitter generators (w.r.t. battery draining & optimizations, and wireless connectivity) for reducing audio jitter distortion on all digital audio outputs.",
+      "added": 1719067609.744737,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/audio-jitter-silencer/issues",
+      "license": "AGPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/audio-jitter-silencer/main/README.md",
+      "verified": false,
+      "timestamp": 1719564654.0,
+      "size": 20160,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067609.744737,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/audio-jitter-silencer.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/audio-jitter-silencer/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1713162378.0,
+          "version": "v1.0.8",
+          "versionCode": 1008,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-jitter-silencer/v1.0.8_1008.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-jitter-silencer/v1.0.8_1008.md"
+        },
+        {
+          "timestamp": 1719564654.0,
+          "version": "v1.3.9",
+          "versionCode": 1309,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-jitter-silencer/v1.3.9_1309.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-jitter-silencer/v1.3.9_1309.md",
+          "size": 20160
+        }
+      ]
+    },
+    {
+      "id": "audio-misc-settings",
+      "name": "Audio misc. settings",
+      "version": "v1.3.8",
+      "versionCode": 1308,
+      "author": "zyhk",
+      "description": "Setting audio misc. configuration values (e.g. 100 volume steps, raising the resampling quality, disabling the effects framework, etc.)",
+      "added": 1719067615.478443,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/audio-misc-settings/issues",
+      "license": "AGPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/audio-misc-settings/master/README.md",
+      "verified": false,
+      "timestamp": 1729225085.0,
+      "size": 26321,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.RESETPROP"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "resetprop": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067615.478443,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/audio-misc-settings.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/audio-misc-settings/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1718274057.0,
+          "version": "v1.3.7",
+          "versionCode": 1307,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-misc-settings/v1.3.7_1307.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-misc-settings/v1.3.7_1307.md"
+        },
+        {
+          "timestamp": 1722148270.0,
+          "version": "v1.3.8",
+          "versionCode": 1308,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-misc-settings/v1.3.8_1308.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-misc-settings/v1.3.8_1308.md",
+          "size": 26205
+        },
+        {
+          "timestamp": 1729225085.0,
+          "version": "v2023.10.16",
+          "versionCode": 202310160,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-misc-settings/v2023.10.16_202310160.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-misc-settings/v2023.10.16_202310160.md",
+          "size": 26321
         }
       ]
     },

@@ -1,155 +1,180 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>SSR-Modules</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <style>
-        :root {
-            --vp-font-family-base: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-            --vp-font-family-mono: ui-monospace, "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
-        }
+  <title>SSR-Modules</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    :root {
+      --vp-font-family-base: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --vp-font-family-mono: ui-monospace, "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
+    }
 
-        body {
-            margin: 0;
-            font-family: var(--vp-font-family-base);
-            background-color: #000000;
-            color: #ffffff;
-        }
+    body {
+      margin: 0;
+      font-family: var(--vp-font-family-base);
+      background-color: #000000;
+      color: #ffffff;
+    }
 
-        code,
-        pre {
-            font-family: var(--vp-font-family-mono);
-        }
+    code,
+    pre {
+      font-family: var(--vp-font-family-mono);
+    }
 
-        .container {
-            padding: 20px;
-        }
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
 
-        .footer {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            margin-top: 16px;
-        }
+    .footer {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: 16px;
+    }
 
-        .footer a {
-            color: #321c94;
-            font-weight: bold;
-            text-decoration: none;
-            font-size: 14px;
-            margin-right: 8px;
-        }
+    .footer a {
+      color: #321c94;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 14px;
+      margin-right: 8px;
+    }
 
-        .footer i {
-            color: #321c94;
-            font-size: 16px;
-        }
+    .footer i {
+      color: #321c94;
+      font-size: 16px;
+    }
 
-        .header {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
+    .header {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
 
     .search-container {
-      margin: 20px auto;
       text-align: center;
+      margin: 20px 0;
     }
 
     .search-container input {
       padding: 10px;
-      width: 80%;
-      max-width: 500px;
+      width: 100%;
+      max-width: 600px;
       font-size: 1em;
       border: none;
       border-radius: 8px;
     }
 
-        .button {
-            font-size: 14px;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 10px;
-            border: 1px solid #321c94;
-            border-radius: 8px;
-            color: #321c94;
-            text-decoration: none;
-            margin-bottom: 20px;
-        }
+    .button {
+      font-size: 14px;
+      font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      border: 1px solid #321c94;
+      border-radius: 8px;
+      color: #321c94;
+      text-decoration: none;
+      margin-bottom: 20px;
+    }
 
-        .module {
-            background-color: #0f0726;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
+    .module {
+      background-color: #0f0726;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
 
-        .name {
-            font-size: 18px;
-            font-weight: bold;
-        }
+    .name {
+      font-size: 18px;
+      font-weight: bold;
+    }
 
-        .version {
-            font-size: 14px;
-            color: #aaaaaa;
-            margin-bottom: 10px;
-        }
+    .version {
+      font-size: 14px;
+      color: #aaaaaa;
+      margin-bottom: 10px;
+    }
 
-        .description {
-            font-size: 14px;
-            color: #cccccc;
-            margin-bottom: 16px;
-        }
+    .description {
+      font-size: 14px;
+      color: #cccccc;
+      margin-bottom: 16px;
+    }
 
-        .thin-line {
-            border: none;
-            height: 1px;
-            background-color: #2e2e2e
-        }
-    </style>
+    .thin-line {
+      border: none;
+      height: 1px;
+      background-color: #2e2e2e
+    }
+  </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="header"><a href="https://github.com/SSMG4/SSR"
-                style="color: white; text-decoration: none;">SSR-Modules</a><div class="search-container">
-    <input type="text" id="search" placeholder="Search Modules (e.g. Zygisk, Re-Malwack)...">
-  </div></div>
-        <a href="https://www.youtube.com/@SSMG4PSVita" class="button">Follow Me on YouTube!</a>
+  <div class="container">
+    <div class="header">
+      <a href="https://github.com/SSMG4/SSR" style="color: white; text-decoration: none;">SSR-Modules</a>
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            fetch('https://ssmg4.github.io/SSR/json/modules.json')
-                .then(response => response.json())
-                .then(data => {
-                    const container = document.querySelector('.container');
 
-                    data.modules.forEach(module => {
-                        const latestVersion = module.versions[module.versions.length - 1];
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Search Modules (e.g. Zygisk, Re-Malwack)...">
+    </div>
 
-                        const moduleDiv = document.createElement('div');
-                        moduleDiv.className = 'module';
+    <a href="https://www.youtube.com/@SSMG4PSVita" class="button">Follow Me on YouTube!</a>
 
-                        moduleDiv.innerHTML = `
-                        <div class="name">${module.name}</div>
-                        <div class="version">${module.version} by ${module.author}</div>
-                        <div class="description">${module.description}</div>
-                        <hr class="thin-line">
-                        <div class="footer">
-                            <a href="${latestVersion.zipUrl}">Download</a>
-                            <i class="fas fa-download"></i>
-                        </div>
-                    `;
+    <div id="modules-container"></div>
+  </div>
 
-                        container.appendChild(moduleDiv);
-                    });
-                })
-                .catch(error => console.error('Error loading modules:', error));
-        });
-    </script>
+  <script>
+    let allModules = [];
+
+    function renderModules(modules) {
+      const container = document.getElementById('modules-container');
+      container.innerHTML = ''; // Clear previous results
+
+      modules.forEach(module => {
+        const latestVersion = module.versions[module.versions.length - 1];
+        const moduleDiv = document.createElement('div');
+        moduleDiv.className = 'module';
+        moduleDiv.innerHTML = `
+          <div class="name">${module.name}</div>
+          <div class="version">${module.version} by ${module.author}</div>
+          <div class="description">${module.description}</div>
+          <hr class="thin-line">
+          <div class="footer">
+              <a href="${latestVersion.zipUrl}">Download</a>
+              <i class="fas fa-download"></i>
+          </div>
+        `;
+        container.appendChild(moduleDiv);
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      fetch('https://ssmg4.github.io/SSR/json/modules.json')
+        .then(response => response.json())
+        .then(data => {
+          allModules = data.modules;
+          renderModules(allModules);
+        })
+        .catch(error => console.error('Error loading modules:', error));
+
+      document.getElementById('search').addEventListener('input', function (e) {
+        const query = e.target.value.toLowerCase();
+        const filtered = allModules.filter(module =>
+          module.name.toLowerCase().includes(query) ||
+          module.description.toLowerCase().includes(query) ||
+          module.author.toLowerCase().includes(query)
+        );
+        renderModules(filtered);
+      });
+    });
+  </script>
 </body>
 
 </html>

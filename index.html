@@ -52,6 +52,20 @@
             margin-bottom: 20px;
         }
 
+    .search-container {
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .search-container input {
+      padding: 10px;
+      width: 80%;
+      max-width: 500px;
+      font-size: 1em;
+      border: none;
+      border-radius: 8px;
+    }
+
         .button {
             font-size: 14px;
             font-weight: bold;
@@ -101,8 +115,10 @@
 <body>
     <div class="container">
         <div class="header"><a href="https://github.com/SSMG4/SSR"
-                style="color: white; text-decoration: none;">SSR-Modules</a></div>
-        <a href="https://t.me/rem01schannel" class="button">Follow Telegram Channel</a>
+                style="color: white; text-decoration: none;">SSR-Modules</a><div class="search-container">
+    <input type="text" id="search" placeholder="Search Modules (e.g. Zygisk, Re-Malwack)...">
+  </div></div>
+        <a href="https://www.youtube.com/@SSMG4PSVita" class="button">Follow Me on YouTube!</a>
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', function () {

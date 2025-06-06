@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749229396.275523
+    "timestamp": 1749230550.593766
   },
   "modules": [
     {
@@ -89,6 +89,151 @@
           "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/BetterKnownInstalled/v1.3.3_1337.zip",
           "changelog": "",
           "size": 1793757
+        }
+      ]
+    },
+    {
+      "id": "BraviaEngine",
+      "name": "Sony Bravia Engine",
+      "version": "v4.0.4",
+      "versionCode": 4,
+      "author": "Enggar Sulistyo",
+      "description": "The Sony Mobile Bravia Engine X-Reality Super Vivid.",
+      "added": 1719067632.419611,
+      "donate": "https://enggarsulistyo.github.io",
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/BraviaEngine/issues",
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/BraviaEngine/4.0.6/README.md",
+      "verified": false,
+      "timestamp": 1697807984.0,
+      "size": 4513297,
+      "permissions": [
+        "magisk.permission.RESETPROP",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "resetprop": true,
+        "apks": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067632.419611,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/BraviaEngine.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/BraviaEngine/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1697807984.0,
+          "version": "v4.0.4",
+          "versionCode": 4,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/BraviaEngine/v4.0.4_4.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1697807984.0,
+          "version": "v5.3",
+          "versionCode": 530,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/BraviaEngine/v5.3_530.zip",
+          "changelog": "",
+          "size": 4513297
+        },
+        {
+          "timestamp": 1697807984.0,
+          "version": "231201",
+          "versionCode": 231201,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/BraviaEngine/231201_231201.zip",
+          "changelog": "",
+          "size": 4513297
+        }
+      ]
+    },
+    {
+      "id": "BuiltIn-BusyBox",
+      "name": "Magisk built-in BusyBox",
+      "version": "1.0.7",
+      "versionCode": 107,
+      "author": "zgfg @ xda",
+      "description": "Systemless BusyBox symlinked to the Magisk built-in busybox binary",
+      "added": 1719067637.469871,
+      "donate": "https://zgfg.github.io/PayPal.html",
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/BuiltIn-BusyBox/issues",
+      "license": "GPL-2.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/BuiltIn-BusyBox/main/README.md",
+      "verified": false,
+      "timestamp": 1691527282.0,
+      "size": 10031,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719067637.469871,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/BuiltIn-BusyBox.git",
+        "antifeatures": [
+          "NonFreeNet"
+        ],
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/BuiltIn-BusyBox/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1691527282.0,
+          "version": "1.0.7",
+          "versionCode": 107,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/BuiltIn-BusyBox/1.0.7_107.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/BuiltIn-BusyBox/1.0.7_107.md"
+        }
+      ]
+    },
+    {
+      "id": "Bye-Blur",
+      "name": "Bye Blur",
+      "version": "v3",
+      "versionCode": 3,
+      "author": "@LeanHijosdesusMadres \u00d7 @nonosvaimos",
+      "description": "Disable the blur effect, this improves performance by discarding this complex visual effect.",
+      "added": 1719067708.052639,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/Bye-Blur/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Bye-Blur/main/README.md",
+      "note": {
+        "message": "This module might conflicts with Magisk-Modules-Alt-Repo/enable-blurs.\nThis note was set by an moderator of the Magisk Modules Alt Repo"
+      },
+      "verified": false,
+      "timestamp": 1705505468.0,
+      "size": 3679,
+      "permissions": [
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067708.052639,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/Bye-Blur.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/Bye-Blur/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1705505468.0,
+          "version": "v3",
+          "versionCode": 3,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Bye-Blur/v3_3.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1705505468.0,
+          "version": "v1.3",
+          "versionCode": 4,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Bye-Blur/v1.3_4.zip",
+          "changelog": "",
+          "size": 3679
         }
       ]
     },
@@ -1328,6 +1473,86 @@
           "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-misc-settings/v2023.10.16_202310160.zip",
           "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-misc-settings/v2023.10.16_202310160.md",
           "size": 26321
+        }
+      ]
+    },
+    {
+      "id": "audio-samplerate-changer",
+      "name": "Audio samplerate changer",
+      "version": "v1.1.5",
+      "versionCode": 1105,
+      "author": "zyhk",
+      "description": "A Magisk module changing audio samplerates at the system-wide mixer for the best Hi-Fi experience.",
+      "added": 1732300316.852201,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/audio-samplerate-changer/issues",
+      "license": "AGPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/audio-samplerate-changer/main/README.md",
+      "verified": false,
+      "timestamp": 1746272289.0,
+      "size": 41425,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.RESETPROP"
+      ],
+      "features": {
+        "service": true,
+        "resetprop": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1732300316.852201,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/audio-samplerate-changer.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/audio-samplerate-changer/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1731825740.0,
+          "version": "v1.0.3",
+          "versionCode": 1003,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-samplerate-changer/v1.0.3_1003.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-samplerate-changer/v1.0.3_1003.md",
+          "size": 39133
+        },
+        {
+          "timestamp": 1732349244.0,
+          "version": "v1.1.0",
+          "versionCode": 1100,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-samplerate-changer/v1.1.0_1100.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-samplerate-changer/v1.1.0_1100.md",
+          "size": 39200
+        },
+        {
+          "timestamp": 1732962230.0,
+          "version": "v1.1.1",
+          "versionCode": 1101,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-samplerate-changer/v1.1.1_1101.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-samplerate-changer/v1.1.1_1101.md",
+          "size": 39409
+        },
+        {
+          "timestamp": 1733926808.0,
+          "version": "v1.1.2",
+          "versionCode": 1102,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-samplerate-changer/v1.1.2_1102.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-samplerate-changer/v1.1.2_1102.md",
+          "size": 39526
+        },
+        {
+          "timestamp": 1734025040.0,
+          "version": "v1.3.9",
+          "versionCode": 1309,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-samplerate-changer/v1.3.9_1309.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-samplerate-changer/v1.3.9_1309.md",
+          "size": 39541
+        },
+        {
+          "timestamp": 1746272289.0,
+          "version": "v1.3.10",
+          "versionCode": 1310,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-samplerate-changer/v1.3.10_1310.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/audio-samplerate-changer/v1.3.10_1310.md",
+          "size": 41425
         }
       ]
     },

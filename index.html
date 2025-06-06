@@ -131,50 +131,60 @@
   </div>
 
   <script>
-    let allModules = [];
-
-    function renderModules(modules) {
-      const container = document.getElementById('modules-container');
-      container.innerHTML = ''; // Clear previous results
-
-      modules.forEach(module => {
-        const latestVersion = module.versions[module.versions.length - 1];
-        const moduleDiv = document.createElement('div');
-        moduleDiv.className = 'module';
-        moduleDiv.innerHTML = `
-          <div class="name">${module.name}</div>
-          <div class="version">${module.version} by ${module.author}</div>
-          <div class="description">${module.description}</div>
-          <hr class="thin-line">
-          <div class="footer">
-              <a href="${latestVersion.zipUrl}">Download</a>
-              <i class="fas fa-download"></i>
-          </div>
-        `;
-        container.appendChild(moduleDiv);
-      });
-    }
-
     document.addEventListener('DOMContentLoaded', function () {
-      fetch('https://ssmg4.github.io/SSR/json/modules.json')
-        .then(response => response.json())
-        .then(data => {
-          allModules = data.modules;
-          renderModules(allModules);
-        })
-        .catch(error => console.error('Error loading modules:', error));
+        const container = document.querySelector('.container');
+        const searchInput = document.getElementById('search');
+        let allModules = [];
 
-      document.getElementById('search').addEventListener('input', function (e) {
-        const query = e.target.value.toLowerCase();
-        const filtered = allModules.filter(module =>
-          module.name.toLowerCase().includes(query) ||
-          module.description.toLowerCase().includes(query) ||
-          module.author.toLowerCase().includes(query)
-        );
-        renderModules(filtered);
-      });
+        function displayModules(modules) {
+            // Remove previous displayed modules
+            document.querySelectorAll('.module').forEach(mod => mod.remove());
+
+            // Display filtered modules
+            modules.forEach(module => {
+                const latestVersion = module.versions[module.versions.length - 1];
+
+                const moduleDiv = document.createElement('div');
+                moduleDiv.className = 'module';
+
+                moduleDiv.innerHTML = `
+                    <div class="name">${module.name}</div>
+                    <div class="version">${module.version} by ${module.author}</div>
+                    <div class="description">${module.description}</div>
+                    <hr class="thin-line">
+                    <div class="footer">
+                        <a href="${latestVersion.zipUrl}">Download</a>
+                        <i class="fas fa-download"></i>
+                    </div>
+                `;
+
+                container.appendChild(moduleDiv);
+            });
+        }
+
+        // Fetch and store all modules once
+        fetch('https://ssmg4.github.io/SSR/json/modules.json')
+            .then(response => response.json())
+            .then(data => {
+                allModules = data.modules;
+                displayModules(allModules); // Show all initially
+            })
+            .catch(error => console.error('Error loading modules:', error));
+
+        // Add search filter
+        searchInput.addEventListener('input', function () {
+            const query = searchInput.value.toLowerCase();
+
+            const filtered = allModules.filter(module =>
+                module.name.toLowerCase().includes(query) ||
+                module.description.toLowerCase().includes(query) ||
+                module.author.toLowerCase().includes(query)
+            );
+
+            displayModules(filtered);
+        });
     });
-  </script>
+</script>
 </body>
 
 </html>

@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <title>SSR-Modules</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        :root {
+            --vp-font-family-base: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            --vp-font-family-mono: ui-monospace, "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
+        }
+
+        body {
+            margin: 0;
+            font-family: var(--vp-font-family-base);
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        code,
+        pre {
+            font-family: var(--vp-font-family-mono);
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-top: 16px;
+        }
+
+        .footer a {
+            color: #321c94;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 14px;
+            margin-right: 8px;
+        }
+
+        .footer i {
+            color: #321c94;
+            font-size: 16px;
+        }
+
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            font-size: 14px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            border: 1px solid #321c94;
+            border-radius: 8px;
+            color: #321c94;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+
+        .module {
+            background-color: #0f0726;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .version {
+            font-size: 14px;
+            color: #aaaaaa;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            font-size: 14px;
+            color: #cccccc;
+            margin-bottom: 16px;
+        }
+
+        .thin-line {
+            border: none;
+            height: 1px;
+            background-color: #2e2e2e
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header"><a href="https://github.com/SSMG4/SSR"
+                style="color: white; text-decoration: none;">SSR-Modules</a></div>
+        <a href="https://t.me/rem01schannel" class="button">Follow Telegram Channel</a>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            fetch('https://ssmg4.github.io/SSR/json/modules.json')
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.querySelector('.container');
+
+                    data.modules.forEach(module => {
+                        const latestVersion = module.versions[module.versions.length - 1];
+
+                        const moduleDiv = document.createElement('div');
+                        moduleDiv.className = 'module';
+
+                        moduleDiv.innerHTML = `
+                        <div class="name">${module.name}</div>
+                        <div class="version">${module.version} by ${module.author}</div>
+                        <div class="description">${module.description}</div>
+                        <hr class="thin-line">
+                        <div class="footer">
+                            <a href="${latestVersion.zipUrl}">Download</a>
+                            <i class="fas fa-download"></i>
+                        </div>
+                    `;
+
+                        container.appendChild(moduleDiv);
+                    });
+                })
+                .catch(error => console.error('Error loading modules:', error));
+        });
+    </script>
+</body>
+
+</html>

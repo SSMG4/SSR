@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749298897.202911
+    "timestamp": 1749320134.392083
   },
   "modules": [
     {
@@ -2933,16 +2933,16 @@
     {
       "id": "systemapp_nuker",
       "name": "App Nuker",
-      "version": "v1.1.5",
-      "versionCode": 115,
+      "version": "v1.1.6",
+      "versionCode": 116,
       "author": "ChiseWaguri & Contributors",
       "description": "description=WebUI-based debloater and whiteout creator",
       "support": "https://github.com/ChiseWaguri/systemapp_nuker/issues",
       "readme": "https://raw.githubusercontent.com/ChiseWaguri/systemapp_nuker/main/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1746679502.0,
-      "size": 1242775,
+      "timestamp": 1749311876.0,
+      "size": 1241724,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -2970,6 +2970,14 @@
           "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/systemapp_nuker/v1.1.5_115.zip",
           "changelog": "https://zguation-projects.github.io/ZG-R/modules/systemapp_nuker/v1.1.5_115.md",
           "size": 1242775
+        },
+        {
+          "timestamp": 1749311876.0,
+          "version": "v1.1.6",
+          "versionCode": 116,
+          "zipUrl": "https://ssmg4.github.io/SSR/modules/systemapp_nuker/v1.1.6_116.zip",
+          "changelog": "https://ssmg4.github.io/SSR/modules/systemapp_nuker/v1.1.6_116.md",
+          "size": 1241724
         }
       ]
     },

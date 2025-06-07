@@ -1,176 +1,102 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>SSR-Modules</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <style>
-    :root {
-      --vp-font-family-base: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-      --vp-font-family-mono: ui-monospace, "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
-    }
+    <title>SSR-Modules</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        :root {
+            --vp-font-family-base: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            --vp-font-family-mono: ui-monospace, "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
+        }
 
-    body {
-      margin: 0;
-      font-family: var(--vp-font-family-base);
-      background-color: #000000;
-      color: #ffffff;
-    }
+        body {
+            margin: 0;
+            font-family: var(--vp-font-family-base);
+            background-color: #000000;
+            color: #ffffff;
+        }
 
-    code,
-    pre {
-      font-family: var(--vp-font-family-mono);
-    }
+        code, pre {
+            font-family: var(--vp-font-family-mono);
+        }
 
-    .container {
-      padding: 20px;
-      max-width: 900px;
-      margin: 0 auto;
-    }
+        .container {
+            padding: 20px;
+        }
 
-    .footer {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      margin-top: 16px;
-    }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
 
-    .footer a {
-      color: #321c94;
-      font-weight: bold;
-      text-decoration: none;
-      font-size: 14px;
-      margin-right: 8px;
-    }
+        .search-container {
+            margin: 20px auto;
+            text-align: center;
+        }
 
-    .footer i {
-      color: #321c94;
-      font-size: 16px;
-    }
+        .search-container input {
+            padding: 10px;
+            width: 80%;
+            max-width: 500px;
+            font-size: 1em;
+            border: none;
+            border-radius: 8px;
+        }
 
-    .header {
-      font-size: 24px;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
+        .button {
+            font-size: 14px;
+            font-weight: bold;
+            background: #321c94;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 6px;
+            text-decoration: none;
+            margin: 5px 0;
+            display: inline-block;
+        }
 
-    .button {
-      font-size: 14px;
-      font-weight: bold;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 10px;
-      border: 1px solid #321c94;
-      border-radius: 8px;
-      color: #321c94;
-      text-decoration: none;
-      margin-bottom: 20px;
-    }
+        .footer {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-top: 16px;
+        }
 
-    .module {
-      background-color: #0f0726;
-      padding: 15px;
-      border-radius: 8px;
-      margin-bottom: 20px;
-    }
+        .footer a {
+            color: #321c94;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 14px;
+            margin-right: 8px;
+        }
 
-    .name {
-      font-size: 18px;
-      font-weight: bold;
-    }
-
-    .version {
-      font-size: 14px;
-      color: #aaaaaa;
-      margin-bottom: 10px;
-    }
-
-    .description {
-      font-size: 14px;
-      color: #cccccc;
-      margin-bottom: 16px;
-    }
-
-    .thin-line {
-      border: none;
-      height: 1px;
-      background-color: #2e2e2e
-    }
-  </style>
+        .footer i {
+            color: #321c94;
+            font-size: 16px;
+        }
+    </style>
 </head>
-
 <body>
-  <div class="container">
-    <div class="header">
-      <a href="https://github.com/SSMG4/SSR" style="color: white; text-decoration: none;">SSR-Modules</a>
+    <div class="container">
+        <div class="header">
+            <a href="https://github.com/SSMG4/SSR" style="color: white; text-decoration: none;">SSR-Modules</a>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search Modules (e.g. Zygisk, Re-Malwack)...">
+        </div>
+
+        <a href="https://t.me/rem01schannel" class="button">Follow Telegram Channel</a>
+        <a href="https://www.youtube.com/@SSMG4PSVita" class="button">Follow Me on YouTube!</a>
     </div>
 
-    <a href="https://www.youtube.com/@SSMG4PSVita" class="button">Follow Me on YouTube!</a>
-
-    <div id="modules-container"></div>
-  </div>
-
-  <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const searchInput = document.getElementById('search');
-    const modulesContainer = document.getElementById('modules-container');
-    let allModules = [];
-
-    function displayModules(modules) {
-      modulesContainer.innerHTML = ''; // Clear previous modules
-
-      if (modules.length === 0) {
-        modulesContainer.innerHTML = '<p style="text-align:center; color:#888;">No matching modules found.</p>';
-        return;
-      }
-
-      modules.forEach(module => {
-        const latestVersion = module.versions[module.versions.length - 1];
-
-        const moduleDiv = document.createElement('div');
-        moduleDiv.className = 'module';
-
-        moduleDiv.innerHTML = `
-          <div class="name">${module.name}</div>
-          <div class="version">${latestVersion.version} by ${module.author}</div>
-          <div class="description">${module.description}</div>
-          <hr class="thin-line">
-          <div class="footer">
-            <a href="${latestVersion.zipUrl}">Download</a>
-            <i class="fas fa-download"></i>
-          </div>
-        `;
-
-        modulesContainer.appendChild(moduleDiv);
-      });
-    }
-
-    fetch('https://ssmg4.github.io/SSR/json/modules.json')
-      .then(response => response.json())
-      .then(data => {
-        allModules = data.modules;
-        displayModules(allModules);
-      })
-      .catch(error => {
-        console.error('Error loading modules:', error);
-        modulesContainer.innerHTML = '<p style="color: red;">Failed to load modules.</p>';
-      });
-
-    searchInput.addEventListener('input', function () {
-      const query = searchInput.value.toLowerCase();
-
-      const filtered = allModules.filter(module =>
-        module.name.toLowerCase().includes(query) ||
-        module.description.toLowerCase().includes(query) ||
-        module.author.toLowerCase().includes(query)
-      );
-
-      displayModules(filtered);
-    });
-  });
-</script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // You can add your search logic here later
+        });
+    </script>
 </body>
-
 </html>

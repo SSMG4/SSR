@@ -17,45 +17,13 @@
             color: #ffffff;
         }
 
-        code, pre {
+        code,
+        pre {
             font-family: var(--vp-font-family-mono);
         }
 
         .container {
             padding: 20px;
-        }
-
-        .header {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        .search-container {
-            margin: 20px auto;
-            text-align: center;
-        }
-
-        .search-container input {
-            padding: 10px;
-            width: 80%;
-            max-width: 500px;
-            font-size: 1em;
-            border: none;
-            border-radius: 8px;
-        }
-
-        .button {
-            font-size: 14px;
-            font-weight: bold;
-            background: #321c94;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 6px;
-            text-decoration: none;
-            margin: 5px 0;
-            display: inline-block;
         }
 
         .footer {
@@ -77,25 +45,95 @@
             color: #321c94;
             font-size: 16px;
         }
+
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            font-size: 14px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            border: 1px solid #321c94;
+            border-radius: 8px;
+            color: #321c94;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+
+        .module {
+            background-color: #0f0726;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .version {
+            font-size: 14px;
+            color: #aaaaaa;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            font-size: 14px;
+            color: #cccccc;
+            margin-bottom: 16px;
+        }
+
+        .thin-line {
+            border: none;
+            height: 1px;
+            background-color: #2e2e2e;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
             <a href="https://github.com/SSMG4/SSR" style="color: white; text-decoration: none;">SSR-Modules</a>
         </div>
-
-        <div class="search-container">
-            <input type="text" id="search" placeholder="Search Modules (e.g. Zygisk, Re-Malwack)...">
-        </div>
-
-        <a href="https://t.me/rem01schannel" class="button">Follow Telegram Channel</a>
-        <a href="https://www.youtube.com/@SSMG4PSVita" class="button">Follow Me on YouTube!</a>
+        <a href="https://ssmg4.github.io" class="button">Come On My Website!</a>
     </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            // You can add your search logic here later
+            fetch('https://ssmg4.github.io/SSR/json/modules.json')
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.querySelector('.container');
+
+                    data.modules.forEach(module => {
+                        const latestVersion = module.versions[module.versions.length - 1];
+
+                        const moduleDiv = document.createElement('div');
+                        moduleDiv.className = 'module';
+
+                        moduleDiv.innerHTML = `
+                            <div class="name">${module.name}</div>
+                            <div class="version">${module.version} by ${module.author}</div>
+                            <div class="description">${module.description}</div>
+                            <hr class="thin-line">
+                            <div class="footer">
+                                <a href="${latestVersion.zipUrl}">Download</a>
+                                <i class="fas fa-download"></i>
+                            </div>
+                        `;
+
+                        container.appendChild(moduleDiv);
+                    });
+                })
+                .catch(error => console.error('Error loading modules:', error));
         });
     </script>
 </body>

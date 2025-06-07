@@ -131,59 +131,63 @@
   </div>
 
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const container = document.querySelector('.container');
-        const searchInput = document.getElementById('search');
-        let allModules = [];
+  document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('search');
+    const modulesContainer = document.getElementById('modules-container');
+    let allModules = [];
 
-        function displayModules(modules) {
-            // Remove previous displayed modules
-            document.querySelectorAll('.module').forEach(mod => mod.remove());
+    function displayModules(modules) {
+      modulesContainer.innerHTML = ''; // Clear previous modules
 
-            // Display filtered modules
-            modules.forEach(module => {
-                const latestVersion = module.versions[module.versions.length - 1];
+      if (modules.length === 0) {
+        modulesContainer.innerHTML = '<p style="text-align:center; color:#888;">No matching modules found.</p>';
+        return;
+      }
 
-                const moduleDiv = document.createElement('div');
-                moduleDiv.className = 'module';
+      modules.forEach(module => {
+        const latestVersion = module.versions[module.versions.length - 1];
 
-                moduleDiv.innerHTML = `
-                    <div class="name">${module.name}</div>
-                    <div class="version">${module.version} by ${module.author}</div>
-                    <div class="description">${module.description}</div>
-                    <hr class="thin-line">
-                    <div class="footer">
-                        <a href="${latestVersion.zipUrl}">Download</a>
-                        <i class="fas fa-download"></i>
-                    </div>
-                `;
+        const moduleDiv = document.createElement('div');
+        moduleDiv.className = 'module';
 
-                container.appendChild(moduleDiv);
-            });
-        }
+        moduleDiv.innerHTML = `
+          <div class="name">${module.name}</div>
+          <div class="version">${latestVersion.version} by ${module.author}</div>
+          <div class="description">${module.description}</div>
+          <hr class="thin-line">
+          <div class="footer">
+            <a href="${latestVersion.zipUrl}">Download</a>
+            <i class="fas fa-download"></i>
+          </div>
+        `;
 
-        // Fetch and store all modules once
-        fetch('https://ssmg4.github.io/SSR/json/modules.json')
-            .then(response => response.json())
-            .then(data => {
-                allModules = data.modules;
-                displayModules(allModules); // Show all initially
-            })
-            .catch(error => console.error('Error loading modules:', error));
+        modulesContainer.appendChild(moduleDiv);
+      });
+    }
 
-        // Add search filter
-        searchInput.addEventListener('input', function () {
-            const query = searchInput.value.toLowerCase();
+    fetch('https://ssmg4.github.io/SSR/json/modules.json')
+      .then(response => response.json())
+      .then(data => {
+        allModules = data.modules;
+        displayModules(allModules);
+      })
+      .catch(error => {
+        console.error('Error loading modules:', error);
+        modulesContainer.innerHTML = '<p style="color: red;">Failed to load modules.</p>';
+      });
 
-            const filtered = allModules.filter(module =>
-                module.name.toLowerCase().includes(query) ||
-                module.description.toLowerCase().includes(query) ||
-                module.author.toLowerCase().includes(query)
-            );
+    searchInput.addEventListener('input', function () {
+      const query = searchInput.value.toLowerCase();
 
-            displayModules(filtered);
-        });
+      const filtered = allModules.filter(module =>
+        module.name.toLowerCase().includes(query) ||
+        module.description.toLowerCase().includes(query) ||
+        module.author.toLowerCase().includes(query)
+      );
+
+      displayModules(filtered);
     });
+  });
 </script>
 </body>
 

@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749363455.639047
+    "timestamp": 1749381797.897842
   },
   "modules": [
     {
@@ -1695,6 +1695,202 @@
           "versionCode": 13614,
           "zipUrl": "https://gr.dergoogler.com/gmr/modules/busybox-ndk/1.36.1_13614.zip",
           "changelog": ""
+        }
+      ]
+    },
+    {
+      "id": "charch",
+      "name": "ChArch",
+      "version": "v1.0",
+      "versionCode": 1,
+      "author": "tytydraco",
+      "description": "An Android-patched Magisk Module implementation of ChArch.",
+      "added": 1719067713.891191,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/charch/issues",
+      "verified": false,
+      "timestamp": 1638831717.0,
+      "size": 4295,
+      "track": {
+        "type": "GIT",
+        "added": 1719067713.891191,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/charch.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/charch/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1638831717.0,
+          "version": "v1.0",
+          "versionCode": 1,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/charch/v1.0_1.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1638831717.0,
+          "version": "v1.1",
+          "versionCode": 2,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/charch/v1.1_2.zip",
+          "changelog": "",
+          "size": 4295
+        },
+        {
+          "timestamp": 1638831717.0,
+          "version": "v1.1.0",
+          "versionCode": 1100,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/charch/v1.1.0_1100.zip",
+          "changelog": "",
+          "size": 4295
+        },
+        {
+          "timestamp": 1638831717.0,
+          "version": "v1.1.3",
+          "versionCode": 1103,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/charch/v1.1.3_1103.zip",
+          "changelog": "",
+          "size": 4295
+        },
+        {
+          "timestamp": 1638831717.0,
+          "version": "v2023.10.16",
+          "versionCode": 202310160,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/charch/v2023.10.16_202310160.zip",
+          "changelog": "",
+          "size": 4295
+        }
+      ]
+    },
+    {
+      "id": "charch_dinit",
+      "name": "ChArch Dinit",
+      "version": "v1.1",
+      "versionCode": 2,
+      "author": "supangat",
+      "description": "Initialize Dinit init for the default ChArch rootfs instance.",
+      "added": 1719067719.637902,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/charch_dinit/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/charch_dinit/master/README.md",
+      "verified": false,
+      "timestamp": 1648456059.0,
+      "size": 137315,
+      "permissions": [
+        "magisk.permission.SERVICE"
+      ],
+      "features": {
+        "service": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067719.637902,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/charch_dinit.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/charch_dinit/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1648456059.0,
+          "version": "v1.1",
+          "versionCode": 2,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/charch_dinit/v1.1_2.zip",
+          "changelog": ""
+        }
+      ]
+    },
+    {
+      "id": "charch_openrc",
+      "name": "ChArch OpenRC",
+      "version": "v1.1",
+      "versionCode": 2,
+      "author": "tytydraco",
+      "description": "Initialize OpenRC for the default ChArch rootfs instance.",
+      "added": 1719067725.355963,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/charch_openrc/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/charch_openrc/master/README.md",
+      "verified": false,
+      "timestamp": 1600642258.0,
+      "size": 15195,
+      "permissions": [
+        "magisk.permission.SERVICE"
+      ],
+      "features": {
+        "service": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067725.355963,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/charch_openrc.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/charch_openrc/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1600642258.0,
+          "version": "v1.1",
+          "versionCode": 2,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/charch_openrc/v1.1_2.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1600642258.0,
+          "version": "v27.3",
+          "versionCode": 67,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/charch_openrc/v27.3_67.zip",
+          "changelog": "",
+          "size": 15195
+        }
+      ]
+    },
+    {
+      "id": "charch_sshd",
+      "name": "ChArch SSHD",
+      "version": "v1.0",
+      "versionCode": 1,
+      "author": "tytydraco",
+      "description": "Initialize SSHD for the default ChArch rootfs instance.",
+      "added": 1719067731.031798,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/charch_sshd/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/charch_sshd/master/README.md",
+      "verified": false,
+      "timestamp": 1600642223.0,
+      "size": 15151,
+      "permissions": [
+        "magisk.permission.SERVICE"
+      ],
+      "features": {
+        "service": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067731.031798,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/charch_sshd.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/charch_sshd/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1600642223.0,
+          "version": "v1.0",
+          "versionCode": 1,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/charch_sshd/v1.0_1.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1600642223.0,
+          "version": "v1.1",
+          "versionCode": 2,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/charch_sshd/v1.1_2.zip",
+          "changelog": "",
+          "size": 15151
+        },
+        {
+          "timestamp": 1600642223.0,
+          "version": "v27.3",
+          "versionCode": 67,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/charch_sshd/v27.3_67.zip",
+          "changelog": "",
+          "size": 15151
         }
       ]
     },

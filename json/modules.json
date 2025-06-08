@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749385622.996367
+    "timestamp": 1749386153.174351
   },
   "modules": [
     {
@@ -572,6 +572,44 @@
           "zipUrl": "https://misak10.github.io/mmrl-repo/modules/DynamicSystemTweaks_armv7a/v4.4_24.zip",
           "changelog": "https://misak10.github.io/mmrl-repo/modules/DynamicSystemTweaks_armv7a/v4.4_24.md",
           "size": 8250
+        }
+      ]
+    },
+    {
+      "id": "Evolve-Evo",
+      "name": "Evolve-Evo-Sans",
+      "version": "v0.0.1",
+      "versionCode": 13,
+      "author": "Psk.It",
+      "description": "font: Evolve Evo Sans",
+      "added": 1719067837.604001,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/Evolve-Evo/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Evolve-Evo/master/README.md",
+      "verified": false,
+      "timestamp": 1685699521.0,
+      "size": 494914,
+      "track": {
+        "type": "GIT",
+        "added": 1719067837.604001,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/Evolve-Evo.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/Evolve-Evo/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1685699521.0,
+          "version": "v0.0.1",
+          "versionCode": 13,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Evolve-Evo/v0.0.1_13.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1685699521.0,
+          "version": "v5.3",
+          "versionCode": 530,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Evolve-Evo/v5.3_530.zip",
+          "changelog": "",
+          "size": 494914
         }
       ]
     },
@@ -2369,6 +2407,43 @@
       ]
     },
     {
+      "id": "disable-low-ram",
+      "name": "Disable Low Ram Flag",
+      "version": "v1",
+      "versionCode": 1,
+      "author": "sekedus",
+      "description": "This module disable ro.config.low_ram flag on Android Go edition",
+      "added": 1719067815.614728,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/disable-low-ram/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/disable-low-ram/main/README.md",
+      "verified": false,
+      "timestamp": 1716766415.0,
+      "size": 2144,
+      "permissions": [
+        "magisk.permission.RESETPROP"
+      ],
+      "features": {
+        "resetprop": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719067815.614728,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/disable-low-ram.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/disable-low-ram/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1716766415.0,
+          "version": "v1",
+          "versionCode": 1,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/disable-low-ram/v1_1.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/disable-low-ram/v1_1.md"
+        }
+      ]
+    },
+    {
       "id": "djs",
       "name": "Daily Job Scheduler (DJS)",
       "version": "v2021.11.3",
@@ -2399,6 +2474,104 @@
           "versionCode": 202111030,
           "zipUrl": "https://gr.dergoogler.com/gmr/modules/djs/v2021.11.3_202111030.zip",
           "changelog": ""
+        }
+      ]
+    },
+    {
+      "id": "drc-remover",
+      "name": "DRC remover",
+      "version": "v1.2.5",
+      "versionCode": 1205,
+      "author": "zyhk",
+      "description": "A remover of DRC (Dynamic Range Control, i.e., compression) sticking to all audio outputs on some major devices.",
+      "added": 1719067831.995745,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/drc-remover/issues",
+      "license": "AGPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/drc-remover/master/README.md",
+      "verified": false,
+      "timestamp": 1749308179.0,
+      "size": 19056,
+      "permissions": [
+        "magisk.permission.SERVICE"
+      ],
+      "features": {
+        "service": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067831.995745,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/drc-remover.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/drc-remover/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1719401720.0,
+          "version": "v1.2.4",
+          "versionCode": 1204,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/drc-remover/v1.2.4_1204.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/drc-remover/v1.2.4_1204.md"
+        },
+        {
+          "timestamp": 1749308179.0,
+          "version": "v1.2.5",
+          "versionCode": 1205,
+          "zipUrl": "https://ssmg4.github.io/SSR/modules/drc-remover/v1.2.5_1205.zip",
+          "changelog": "https://ssmg4.github.io/SSR/modules/drc-remover/v1.2.5_1205.md",
+          "size": 19056
+        }
+      ]
+    },
+    {
+      "id": "enable-blurs",
+      "name": "Enable Blurs",
+      "version": "3",
+      "versionCode": 3,
+      "author": "HeyItsJono",
+      "description": "More extensive blur enabler for Magisk, built specifically with the Pixel 5 in mind.",
+      "added": 1729430919.897128,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/enable-blurs/issues",
+      "license": "AGPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/enable-blurs/main/README.md",
+      "note": {
+        "message": "This module might conflicts with Magisk-Modules-Alt-Repo/Bye-Blur.\nThis note was set by an moderator of the Magisk Modules Alt Repo"
+      },
+      "verified": false,
+      "timestamp": 1729109800.0,
+      "size": 15220,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.RESETPROP",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "service": true,
+        "resetprop": true,
+        "action": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1729430919.897128,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/enable-blurs.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/enable-blurs/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1729109800.0,
+          "version": "3",
+          "versionCode": 3,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/enable-blurs/3_3.zip",
+          "changelog": "",
+          "size": 15220
+        },
+        {
+          "timestamp": 1729109800.0,
+          "version": "v2021.11.3",
+          "versionCode": 202111030,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/enable-blurs/v2021.11.3_202111030.zip",
+          "changelog": "",
+          "size": 15220
         }
       ]
     },
@@ -2480,6 +2653,43 @@
           "zipUrl": "https://mrepo.rem01gaming.dev/modules/encore/4.4_972-620057d-release.zip",
           "changelog": "https://mrepo.rem01gaming.dev/modules/encore/4.4_972-620057d-release.md",
           "size": 197828
+        }
+      ]
+    },
+    {
+      "id": "ezme-dex-space",
+      "name": "Space saving Ahead-of-Time",
+      "version": "v1",
+      "versionCode": 1000,
+      "author": "ez-me",
+      "description": "Changes how Android's dex2oat compiles packages to save space, rather than focus on speed. ",
+      "added": 1719067843.180594,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/ezme-dex-space/issues",
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ezme-dex-space/main/README.md",
+      "verified": false,
+      "timestamp": 1662814335.0,
+      "size": 2851,
+      "permissions": [
+        "magisk.permission.RESETPROP"
+      ],
+      "features": {
+        "resetprop": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067843.180594,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/ezme-dex-space.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/ezme-dex-space/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1662814335.0,
+          "version": "v1",
+          "versionCode": 1000,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/ezme-dex-space/v1_1000.zip",
+          "changelog": ""
         }
       ]
     },

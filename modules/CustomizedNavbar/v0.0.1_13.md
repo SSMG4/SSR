@@ -1,1 +1,0 @@
-- Removed customization category from AndroidManifest.xml for better compatibility

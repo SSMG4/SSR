@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749385306.676262
+    "timestamp": 1749385622.996367
   },
   "modules": [
     {
@@ -447,6 +447,57 @@
           "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/DalvikHyperthreading/v2.7_27.zip",
           "changelog": "",
           "size": 3962
+        }
+      ]
+    },
+    {
+      "id": "Detach",
+      "name": "Detach",
+      "version": "v5.3",
+      "versionCode": 530,
+      "author": "hinxnz, Rom, Sobuj53",
+      "description": "Detach Market Links for Theme Ready Apps, originaly created by hinxnz, ported by Rom to works with Magisk.",
+      "added": 1719067810.428558,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/Detach/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Detach/master/README.md",
+      "verified": false,
+      "timestamp": 1645534294.0,
+      "size": 1757608,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.RESETPROP",
+        "magisk.permission.SEPOLICY"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "resetprop": true,
+        "sepolicy": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067810.428558,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/Detach.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/Detach/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1645534294.0,
+          "version": "v5.3",
+          "versionCode": 530,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Detach/v5.3_530.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1645534294.0,
+          "version": "231201",
+          "versionCode": 231201,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Detach/231201_231201.zip",
+          "changelog": "",
+          "size": 1757608
         }
       ]
     },
@@ -2206,6 +2257,114 @@
           "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/custom-certificate-authorities/v1.1.3_1103.zip",
           "changelog": "",
           "size": 18191
+        }
+      ]
+    },
+    {
+      "id": "data_backup",
+      "name": "Data backup creator",
+      "version": "v2.14",
+      "versionCode": 7,
+      "author": "ziand",
+      "description": "Data backup creator for restoring by data_restore.zip from or Magisk module installer or TWRP",
+      "added": 1719067792.7473,
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/data_backup/main/README.md",
+      "verified": false,
+      "timestamp": 1686425610.0,
+      "size": 3238593,
+      "track": {
+        "type": "GIT",
+        "added": 1719067792.7473,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/data_backup.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/data_backup/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1686425610.0,
+          "version": "v2.14",
+          "versionCode": 7,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/data_backup/v2.14_7.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/data_backup/v2.14_7.md"
+        }
+      ]
+    },
+    {
+      "id": "data_isolation_support",
+      "name": "AppDataIsolation Legacy Support",
+      "version": "1.2",
+      "versionCode": 3,
+      "author": "HuskyDG",
+      "description": "Enable /data/data isolation for old Android version (Android 10 and lower). Require Magisk process monitor tool v1.1+",
+      "added": 1719067798.379322,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/data_isolation_support/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/data_isolation_support/main/README.md",
+      "verified": false,
+      "timestamp": 1670983400.0,
+      "size": 15011,
+      "track": {
+        "type": "GIT",
+        "added": 1719067798.379322,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/data_isolation_support.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/data_isolation_support/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1670983400.0,
+          "version": "1.2",
+          "versionCode": 3,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/data_isolation_support/1.2_3.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1670983400.0,
+          "version": "v1.1.3",
+          "versionCode": 1103,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/data_isolation_support/v1.1.3_1103.zip",
+          "changelog": "",
+          "size": 15011
+        }
+      ]
+    },
+    {
+      "id": "data_restore_Courier",
+      "name": "Courier of data_restore script for MAGISK-TWRP",
+      "version": "v2.14",
+      "versionCode": 8,
+      "author": "ziand",
+      "description": "Courier of latest version data_restore script to folder /sdcard.",
+      "added": 1719067804.121463,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/data_restore_Courier/issues",
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/data_restore_Courier/main/README.md",
+      "verified": false,
+      "timestamp": 1686221785.0,
+      "size": 2839164,
+      "track": {
+        "type": "GIT",
+        "added": 1719067804.121463,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/data_restore_Courier.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/data_restore_Courier/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1686221785.0,
+          "version": "v2.14",
+          "versionCode": 8,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/data_restore_Courier/v2.14_8.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/data_restore_Courier/v2.14_8.md"
+        },
+        {
+          "timestamp": 1686221785.0,
+          "version": "v1",
+          "versionCode": 1000,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/data_restore_Courier/v1_1000.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/data_restore_Courier/v1_1000.md",
+          "size": 2839164
         }
       ]
     },

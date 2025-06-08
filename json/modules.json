@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749344782.523798
+    "timestamp": 1749363455.639047
   },
   "modules": [
     {
@@ -2039,8 +2039,8 @@
     {
       "id": "lingeringsound_ads",
       "name": "\u53bb\u5e7f\u544a",
-      "version": "\u6a74\u70abv270",
-      "versionCode": 271,
+      "version": "\u6a74\u70abv271",
+      "versionCode": 272,
       "author": "@coolapk 10007",
       "description": "host+chattr+pm+iptables\u53bb\u5e7f\u544a\uff0chost\u89c4\u5219\u6765\u81ea\u7f51\u7edc+\u672c\u4eba\u624b\u52a8\u6293\u53d6\u3002\u5f53\u524d\u5df2\u7ecf\u7d2f\u79ef [ 21109 ] \u6761host\u89c4\u5219\uff0c\u5f53\u524d\u72b6\u6001[ \u7f51\u7edc\u57fa\u672c\u65e0\u5f71\u54cd ](\u8d85\u8fc75\u4e07\u6761\u4f1a\u8f7b\u5fae\u5f71\u54cd\u7f51\u7edc\uff0c\u8d85\u8fc750\u4e07\u6761\u7f51\u901f\u5219\u4f1a\u6709\u4e00\u5b9a\u5ef6\u8fdf\u3002)",
       "support": "https://github.com/lingeringsound/10007/issues",
@@ -2048,8 +2048,8 @@
       "readme": "https://raw.githubusercontent.com/lingeringsound/10007/main/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1749344512.0,
-      "size": 446448,
+      "timestamp": 1749352699.0,
+      "size": 445909,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -2071,14 +2071,6 @@
         "build_metadata": "https://ssmg4.github.io/SSR/modules/lingeringsound_ads/track.json"
       },
       "versions": [
-        {
-          "timestamp": 1744790453.0,
-          "version": "\u6a74\u70abv263",
-          "versionCode": 266,
-          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/lingeringsound_ads/v263_266.zip",
-          "changelog": "https://misak10.github.io/mmrl-repo/modules/lingeringsound_ads/v263_266.md",
-          "size": 440785
-        },
         {
           "timestamp": 1745205686.0,
           "version": "\u6a74\u70abv265",
@@ -2118,6 +2110,14 @@
           "zipUrl": "https://ssmg4.github.io/SSR/modules/lingeringsound_ads/v269_271.zip",
           "changelog": "https://ssmg4.github.io/SSR/modules/lingeringsound_ads/v269_271.md",
           "size": 446448
+        },
+        {
+          "timestamp": 1749352699.0,
+          "version": "\u6a74\u70abv271",
+          "versionCode": 272,
+          "zipUrl": "https://ssmg4.github.io/SSR/modules/lingeringsound_ads/v271_272.zip",
+          "changelog": "https://ssmg4.github.io/SSR/modules/lingeringsound_ads/v271_272.md",
+          "size": 445909
         }
       ]
     },

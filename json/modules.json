@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749388274.808346
+    "timestamp": 1749388732.757897
   },
   "modules": [
     {
@@ -687,6 +687,45 @@
           "versionCode": 20230317,
           "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/FluentEmojiMagisk/v2023.03.17_20230317.zip",
           "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/FluentEmojiMagisk/v2023.03.17_20230317.md"
+        }
+      ]
+    },
+    {
+      "id": "GMSDoze",
+      "name": "GMS Doze",
+      "version": "v1.4A",
+      "versionCode": 140,
+      "author": "CrazybytesVE",
+      "description": "Aplica Doze a los Google Play Services (GMS), maximizando bater\u00eda. INSTALAR LUEGO DE CONFIGURAR CUENTA GOOGLE.",
+      "added": 1719067910.536928,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/GMSDoze/issues",
+      "license": "GPL-2.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/GMSDoze/main/README.md",
+      "verified": false,
+      "timestamp": 1683468066.0,
+      "size": 13394,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719067910.536928,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/GMSDoze.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/GMSDoze/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1683468066.0,
+          "version": "v1.4A",
+          "versionCode": 140,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/GMSDoze/v1.4A_140.zip",
+          "changelog": ""
         }
       ]
     },
@@ -3043,6 +3082,114 @@
           "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/flagsecurepatcher/r15_15.zip",
           "changelog": "https://zguation-projects.github.io/ZG-R/modules/flagsecurepatcher/r15_15.md",
           "size": 4535597
+        }
+      ]
+    },
+    {
+      "id": "frozen_magisk_app",
+      "name": "Frozen Magisk app",
+      "version": "1.2",
+      "versionCode": 3,
+      "author": "HuskyDG",
+      "description": "Dynamic freezing Magisk app. Process Monitor Tool v2.1+ is required for this module to work.",
+      "added": 1719067881.946281,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/frozen_magisk_app/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/frozen_magisk_app/main/README.md",
+      "verified": false,
+      "timestamp": 1673245267.0,
+      "size": 3549,
+      "track": {
+        "type": "GIT",
+        "added": 1719067881.946281,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/frozen_magisk_app.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/frozen_magisk_app/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1673245267.0,
+          "version": "1.2",
+          "versionCode": 3,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/frozen_magisk_app/1.2_3.zip",
+          "changelog": ""
+        }
+      ]
+    },
+    {
+      "id": "gaming",
+      "name": "GAMING\u4e5bMode",
+      "version": "vFINAL",
+      "versionCode": 5,
+      "author": "AkiraSuper",
+      "description": "null",
+      "added": 1719067888.293288,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/gaming/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/gaming/master/README.md",
+      "verified": false,
+      "timestamp": 1603068712.0,
+      "size": 248018,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.RESETPROP"
+      ],
+      "features": {
+        "service": true,
+        "resetprop": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067888.293288,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/gaming.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/gaming/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1603068712.0,
+          "version": "vFINAL",
+          "versionCode": 5,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/gaming/vFINAL_5.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1603068712.0,
+          "version": "v2021.12.6",
+          "versionCode": 202112060,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/gaming/v2021.12.6_202112060.zip",
+          "changelog": "",
+          "size": 248018
+        }
+      ]
+    },
+    {
+      "id": "gboard-dict-3",
+      "name": "Gboard user_dict_3_3 \u8bcd\u5e93",
+      "version": "v2.1.1",
+      "versionCode": 20220513,
+      "author": "entr0pia@GitHub",
+      "description": "\u7528\u6237\u8bcd\u5178 (user_dict_3_3), \u652f\u6301\u7b80\u62fc\u548c\u53cc\u62fc. \u517158053\u4e2a\u8bcd\u6761. \u6839\u636e\u624b\u673a\u6027\u80fd\u4e0d\u540c, \u65b0\u8bcd\u5e93\u9700\u89811\u5206\u949f\u5de6\u53f3\u751f\u6548. \u6d4b\u8bd5\u65b9\u6cd5: \u201c\u5149\u00b7\u9047\u201d. \u82e5\u8bcd\u5e93\u5931\u6548, \u8bf7\u91cd\u65b0\u5237\u5165\u5e76\u9009\u62e9\u6062\u590d; \u518d\u4e0d\u884c\u9009\u62e9\u5168\u65b0\u5b89\u88c5",
+      "added": 1719067893.603234,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/gboard-dict-3/issues",
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/gboard-dict-3/master/README.md",
+      "verified": false,
+      "timestamp": 1652409636.0,
+      "size": 5134381,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719067893.603234,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/gboard-dict-3.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/gboard-dict-3/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1652409636.0,
+          "version": "v2.1.1",
+          "versionCode": 20220513,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/gboard-dict-3/v2.1.1_20220513.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/gboard-dict-3/v2.1.1_20220513.md"
         }
       ]
     },

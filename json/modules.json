@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749388934.260389
+    "timestamp": 1749389459.221778
   },
   "modules": [
     {
@@ -691,6 +691,45 @@
       ]
     },
     {
+      "id": "GMS-Doze_Block_FindMyDevice",
+      "name": "GMS Doze (Bloquea \"Find My Device\")",
+      "version": "v1.4B",
+      "versionCode": 141,
+      "author": "CrazybytesVE",
+      "description": "Aplica Doze a los Servicios de Google Play (GMS), maximizando bater\u00eda. INSTALAR LUEGO DE CONFIGURAR CUENTA GOOGLE. Esta versi\u00f3n bloquea 'Find My Device' de Google.",
+      "added": 1719067904.85273,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/GMS-Doze_Block_FindMyDevice/issues",
+      "license": "GPL-2.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/GMS-Doze_Block_FindMyDevice/main/README.md",
+      "verified": false,
+      "timestamp": 1683468277.0,
+      "size": 13744,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719067904.85273,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/GMS-Doze_Block_FindMyDevice.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/GMS-Doze_Block_FindMyDevice/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1683468277.0,
+          "version": "v1.4B",
+          "versionCode": 141,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/GMS-Doze_Block_FindMyDevice/v1.4B_141.zip",
+          "changelog": ""
+        }
+      ]
+    },
+    {
       "id": "GMSDoze",
       "name": "GMS Doze",
       "version": "v1.4A",
@@ -831,6 +870,137 @@
           "zipUrl": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v6.2-Magisk.zip",
           "changelog": "https://ssmg4.github.io/modules/GPU-Turbo-Boost/GPUTurboBoost_v6.2-Magisk.md",
           "size": 6197
+        }
+      ]
+    },
+    {
+      "id": "Google-Sans",
+      "name": "Google Sans",
+      "version": "v1.0",
+      "versionCode": 1,
+      "author": "SourajitK",
+      "description": "Apply Google Sans everywhere, systemlessly.",
+      "added": 1719067916.317884,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/Google-Sans/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Google-Sans/master/README.md",
+      "verified": false,
+      "timestamp": 1598228686.0,
+      "size": 5031554,
+      "track": {
+        "type": "GIT",
+        "added": 1719067916.317884,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/Google-Sans.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/Google-Sans/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1598228686.0,
+          "version": "v1.0",
+          "versionCode": 1,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Google-Sans/v1.0_1.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1598228686.0,
+          "version": "v1.3.1",
+          "versionCode": 131,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Google-Sans/v1.3.1_131.zip",
+          "changelog": "",
+          "size": 5031554
+        },
+        {
+          "timestamp": 1598228686.0,
+          "version": "v1.5.2",
+          "versionCode": 152,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Google-Sans/v1.5.2_152.zip",
+          "changelog": "",
+          "size": 5031554
+        }
+      ]
+    },
+    {
+      "id": "GoogleDNS4Magisk",
+      "name": "AdGuardDNS4Magisk",
+      "version": "v2.7f",
+      "versionCode": 27,
+      "author": "Rom, TukangM",
+      "description": "Using the \"Google DNS\" DNS system-lessly! As simple as that and block ads and trackers.",
+      "added": 1719067927.690385,
+      "donate": "https://www.paypal.com/paypalme/romfr",
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/GoogleDNS4Magisk/issues",
+      "license": "LGPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/GoogleDNS4Magisk/main/README.md",
+      "verified": false,
+      "timestamp": 1700979143.0,
+      "size": 22907,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.RESETPROP"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "resetprop": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719067927.690385,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/GoogleDNS4Magisk.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/GoogleDNS4Magisk/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1700979143.0,
+          "version": "v2.7f",
+          "versionCode": 27,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/GoogleDNS4Magisk/v2.7f_27.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/GoogleDNS4Magisk/v2.7f_27.md"
+        }
+      ]
+    },
+    {
+      "id": "GoogleDNS4Magisk-IPv6",
+      "name": "AdGuardDNS4Magisk-IPv6",
+      "version": "v2.7f",
+      "versionCode": 27,
+      "author": "Rom, TukangM",
+      "description": "Using the \"AdGuard DNS\" DNS system-lessly! As simple as that and block ads and trackers.",
+      "added": 1719067933.340494,
+      "donate": "https://www.paypal.com/paypalme/romfr",
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/GoogleDNS4Magisk-IPv6/issues",
+      "license": "LGPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/GoogleDNS4Magisk-IPv6/main/README.md",
+      "verified": false,
+      "timestamp": 1700978584.0,
+      "size": 23301,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.RESETPROP"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "resetprop": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719067933.340494,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/GoogleDNS4Magisk-IPv6.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/GoogleDNS4Magisk-IPv6/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1700978584.0,
+          "version": "v2.7f",
+          "versionCode": 27,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/GoogleDNS4Magisk-IPv6/v2.7f_27.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/GoogleDNS4Magisk-IPv6/v2.7f_27.md"
         }
       ]
     },

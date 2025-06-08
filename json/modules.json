@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749389664.522294
+    "timestamp": 1749390817.813884
   },
   "modules": [
     {
@@ -1041,6 +1041,51 @@
           "zipUrl": "https://misak10.github.io/mmrl-repo/modules/infamick-script/v3.2_202504281.zip",
           "changelog": "https://misak10.github.io/mmrl-repo/modules/infamick-script/v3.2_202504281.md",
           "size": 23330
+        }
+      ]
+    },
+    {
+      "id": "Luz-Nocturna_Modded",
+      "name": "Luz Nocturna Modded",
+      "version": "v1.0",
+      "versionCode": 1,
+      "author": "@CrazybytesVE",
+      "description": "Este m\u00f3dulo modifica los valores m\u00ednimos de \"Luz Nocturna\" para que sean menos c\u00e1lidos (menos amarillentos). .",
+      "added": 1719067975.260472,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/Luz-Nocturna_Modded/issues",
+      "license": "GPL-2.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Luz-Nocturna_Modded/main/README.md",
+      "verified": false,
+      "timestamp": 1661027636.0,
+      "size": 18854,
+      "permissions": [
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719067975.260472,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/Luz-Nocturna_Modded.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/Luz-Nocturna_Modded/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1661027636.0,
+          "version": "v1.0",
+          "versionCode": 1,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Luz-Nocturna_Modded/v1.0_1.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1661027636.0,
+          "version": "231201",
+          "versionCode": 231201,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Luz-Nocturna_Modded/231201_231201.zip",
+          "changelog": "",
+          "size": 18854
         }
       ]
     },
@@ -3372,6 +3417,44 @@
       ]
     },
     {
+      "id": "heimdall-ndk",
+      "name": "Heimdall For Android NDK",
+      "version": "v2.0.2",
+      "versionCode": 202,
+      "author": "JonesqPacMan\u2122",
+      "description": " Heimdall is a tool for flashing firmware (aka ROMs) onto Samsung Galaxy series devices over a USB connection. It accomplishes this using the same protocol as Odin . This static binary support multi architectures built with the NDK",
+      "added": 1719067945.708869,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/heimdall-ndk/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/heimdall-ndk/heimdall-v2.x/README.md",
+      "verified": false,
+      "timestamp": 1659743807.0,
+      "size": 2464348,
+      "track": {
+        "type": "GIT",
+        "added": 1719067945.708869,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/heimdall-ndk.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/heimdall-ndk/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1659743807.0,
+          "version": "v2.0.2",
+          "versionCode": 202,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/heimdall-ndk/v2.0.2_202.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1659743807.0,
+          "version": "v1.6",
+          "versionCode": 10006,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/heimdall-ndk/v1.6_10006.zip",
+          "changelog": "",
+          "size": 2464348
+        }
+      ]
+    },
+    {
       "id": "hydro-br-leur",
       "name": "Hydrostellaire \u6ca8\u83b9",
       "version": "Essonne",
@@ -3397,6 +3480,106 @@
           "zipUrl": "https://misak10.github.io/mmrl-repo/modules/hydro-br-leur/Essonne_1000.zip",
           "changelog": "https://misak10.github.io/mmrl-repo/modules/hydro-br-leur/Essonne_1000.md",
           "size": 5667600
+        }
+      ]
+    },
+    {
+      "id": "isodrive",
+      "name": "Isodrive",
+      "version": "2.1",
+      "versionCode": 21,
+      "author": "Marcel Alexandru Nitan",
+      "description": "Use your mobile device to boot Linux distributions/ISO files on your PC",
+      "added": 1719067957.555546,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/isodrive/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/isodrive/main/README.md",
+      "verified": false,
+      "timestamp": 1693645620.0,
+      "size": 500165,
+      "track": {
+        "type": "GIT",
+        "added": 1719067957.555546,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/isodrive.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/isodrive/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1693645620.0,
+          "version": "2.1",
+          "versionCode": 21,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/isodrive/2.1_21.zip",
+          "changelog": ""
+        }
+      ]
+    },
+    {
+      "id": "kaina",
+      "name": "Writable MicroSD",
+      "version": "0.1",
+      "versionCode": 1,
+      "author": "Kartatz",
+      "description": "Allow Android apps holding the WRITE_EXTERNAL_STORAGE permission to read and write on the MicroSD card.",
+      "added": 1719067963.34456,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/kaina/issues",
+      "license": "LGPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/kaina/master/README.md",
+      "verified": false,
+      "timestamp": 1710968944.0,
+      "size": 5483,
+      "track": {
+        "type": "GIT",
+        "added": 1719067963.34456,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/kaina.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/kaina/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1710968944.0,
+          "version": "0.1",
+          "versionCode": 1,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/kaina/0.1_1.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1710968944.0,
+          "version": "v2021.12.6",
+          "versionCode": 202112060,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/kaina/v2021.12.6_202112060.zip",
+          "changelog": "",
+          "size": 5483
+        }
+      ]
+    },
+    {
+      "id": "lhroot",
+      "name": "Linux Chroot Installer",
+      "version": "v2.2.0",
+      "versionCode": 1,
+      "author": "FerryAr",
+      "description": "Systemless linux chroot installer and chroot boot script",
+      "added": 1719067970.037327,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/lhroot/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/lhroot/master/README.md",
+      "verified": false,
+      "timestamp": 1703514265.0,
+      "size": 27887,
+      "track": {
+        "type": "GIT",
+        "added": 1719067970.037327,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/lhroot.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/lhroot/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1703514265.0,
+          "version": "v2.2.0",
+          "versionCode": 1,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/lhroot/v2.2.0_1.zip",
+          "changelog": ""
         }
       ]
     },

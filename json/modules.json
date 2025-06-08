@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749383512.031385
+    "timestamp": 1749383878.170547
   },
   "modules": [
     {
@@ -403,6 +403,50 @@
           "versionCode": 27,
           "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/CloudflareDNS4Magisk-IPv6/v2.7_27.zip",
           "changelog": ""
+        }
+      ]
+    },
+    {
+      "id": "DalvikHyperthreading",
+      "name": "DalvikHyperthreading",
+      "version": "v2",
+      "versionCode": 2,
+      "author": "@LeanHijosdesusMadres [telegram]",
+      "description": "This does is helps the multithread line to tell the cpu to easily do more faster proccessing without overheating.",
+      "added": 1719067787.166582,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/DalvikHyperthreading/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/DalvikHyperthreading/main/README.md",
+      "verified": false,
+      "timestamp": 1673728563.0,
+      "size": 3962,
+      "permissions": [
+        "magisk.permission.RESETPROP"
+      ],
+      "features": {
+        "resetprop": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067787.166582,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/DalvikHyperthreading.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/DalvikHyperthreading/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1673728563.0,
+          "version": "v2",
+          "versionCode": 2,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/DalvikHyperthreading/v2_2.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1673728563.0,
+          "version": "v2.7",
+          "versionCode": 27,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/DalvikHyperthreading/v2.7_27.zip",
+          "changelog": "",
+          "size": 3962
         }
       ]
     },
@@ -2085,6 +2129,83 @@
           "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/cmdpatch/v1.2.4_1204.zip",
           "changelog": "",
           "size": 16024
+        }
+      ]
+    },
+    {
+      "id": "compatible-magisk-mirroring",
+      "name": "Compatible Magisk-mirroring",
+      "version": "v1.1.3",
+      "versionCode": 1103,
+      "author": "zyhk",
+      "description": "A Magisk module providing the compatible Magisk-mirroring for installing pure Magisk modules on incompatible Magisk variants and KernelSU (incl. APatch).",
+      "added": 1719067769.982062,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/compatible-magisk-mirroring/issues",
+      "license": "AGPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/compatible-magisk-mirroring/main/README.md",
+      "verified": false,
+      "timestamp": 1713163766.0,
+      "size": 17267,
+      "track": {
+        "type": "GIT",
+        "added": 1719067769.982062,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/compatible-magisk-mirroring.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/compatible-magisk-mirroring/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1713163766.0,
+          "version": "v1.1.3",
+          "versionCode": 1103,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/compatible-magisk-mirroring/v1.1.3_1103.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/compatible-magisk-mirroring/v1.1.3_1103.md"
+        }
+      ]
+    },
+    {
+      "id": "custom-certificate-authorities",
+      "name": "Custom Certificate Authorities",
+      "version": "v1.0.1",
+      "versionCode": 101,
+      "author": "whalehub (admin@datahoarder.dev)",
+      "description": "This module adds custom certificate authorities from a pre-defined path on the Android file system to the system trust store.",
+      "added": 1719067775.985821,
+      "homepage": "https://github.com/whalehub/custom-certificate-authorities",
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/custom-certificate-authorities/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/custom-certificate-authorities/master/README.md",
+      "verified": false,
+      "timestamp": 1644751003.0,
+      "size": 18191,
+      "permissions": [
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067775.985821,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/custom-certificate-authorities.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/custom-certificate-authorities/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1644751003.0,
+          "version": "v1.0.1",
+          "versionCode": 101,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/custom-certificate-authorities/v1.0.1_101.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1644751003.0,
+          "version": "v1.1.3",
+          "versionCode": 1103,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/custom-certificate-authorities/v1.1.3_1103.zip",
+          "changelog": "",
+          "size": 18191
         }
       ]
     },

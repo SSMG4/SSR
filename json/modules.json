@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749386153.174351
+    "timestamp": 1749388274.808346
   },
   "modules": [
     {
@@ -610,6 +610,83 @@
           "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Evolve-Evo/v5.3_530.zip",
           "changelog": "",
           "size": 494914
+        }
+      ]
+    },
+    {
+      "id": "Fdroid-Priv",
+      "name": "F-Droid Privileged Extension",
+      "version": "Version 0.2.13",
+      "versionCode": 20220314,
+      "author": "entr0pia@GitHub",
+      "description": "Installs F-Droid Privileged Extension systemlessly",
+      "added": 1719067865.432444,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/Fdroid-Priv/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Fdroid-Priv/main/README.md",
+      "verified": false,
+      "timestamp": 1647226419.0,
+      "size": 37632,
+      "permissions": [
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719067865.432444,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/Fdroid-Priv.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/Fdroid-Priv/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1647226419.0,
+          "version": "Version 0.2.13",
+          "versionCode": 20220314,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Fdroid-Priv/Version_0.2.13_20220314.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Fdroid-Priv/Version_0.2.13_20220314.md"
+        }
+      ]
+    },
+    {
+      "id": "FluentEmojiMagisk",
+      "name": "Fluent Emoji (Microsoft)",
+      "version": "v2023.03.17",
+      "versionCode": 20230317,
+      "author": "k3rnelpanik",
+      "description": "Replaces system emojis with Fluent Emojis from Microsoft with the magic of Magisk.",
+      "added": 1719067870.505344,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/FluentEmojiMagisk/issues",
+      "license": "UNKNOWN",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/FluentEmojiMagisk/main/README.md",
+      "verified": false,
+      "timestamp": 1691803198.0,
+      "size": 24700925,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.RESETPROP"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "resetprop": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719067870.505344,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/FluentEmojiMagisk.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/FluentEmojiMagisk/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1691803198.0,
+          "version": "v2023.03.17",
+          "versionCode": 20230317,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/FluentEmojiMagisk/v2023.03.17_20230317.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/FluentEmojiMagisk/v2023.03.17_20230317.md"
         }
       ]
     },
@@ -2694,6 +2771,88 @@
       ]
     },
     {
+      "id": "ezme-nodebug",
+      "name": "Hide UserDebug, Test-Keys and LineageOS",
+      "version": "v1",
+      "versionCode": 1000,
+      "author": "ez-me",
+      "description": "Change some props and \"remove\" LineageOS ones",
+      "added": 1719067848.736399,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/ezme-nodebug/issues",
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/ezme-nodebug/main/README.md",
+      "verified": false,
+      "timestamp": 1663012287.0,
+      "size": 3402,
+      "permissions": [
+        "magisk.permission.SERVICE"
+      ],
+      "features": {
+        "service": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067848.736399,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/ezme-nodebug.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/ezme-nodebug/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1663012287.0,
+          "version": "v1",
+          "versionCode": 1000,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/ezme-nodebug/v1_1000.zip",
+          "changelog": ""
+        }
+      ]
+    },
+    {
+      "id": "faina",
+      "name": "\"pm Install\" from anywhere",
+      "version": "0.1",
+      "versionCode": 1,
+      "author": "Kartatz",
+      "description": "Allow the 'pm' CLI utility to install APKs from anywhere.",
+      "added": 1719067854.226316,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/faina/issues",
+      "license": "LGPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/faina/master/README.md",
+      "verified": false,
+      "timestamp": 1711371168.0,
+      "size": 5146,
+      "permissions": [
+        "magisk.permission.SEPOLICY"
+      ],
+      "features": {
+        "sepolicy": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067854.226316,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/faina.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/faina/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1711371168.0,
+          "version": "0.1",
+          "versionCode": 1,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/faina/0.1_1.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1711371168.0,
+          "version": "v1",
+          "versionCode": 1000,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/faina/v1_1000.zip",
+          "changelog": "",
+          "size": 5146
+        }
+      ]
+    },
+    {
       "id": "fas-rs",
       "name": "fas-rs",
       "version": "v4.9.0",
@@ -2771,6 +2930,45 @@
           "zipUrl": "https://misak10.github.io/mmrl-repo/modules/fas-rs/v4.8.0_490.zip",
           "changelog": "https://misak10.github.io/mmrl-repo/modules/fas-rs/v4.8.0_490.md",
           "size": 1931178
+        }
+      ]
+    },
+    {
+      "id": "fbind",
+      "name": "fbind",
+      "version": "v2021.12.6",
+      "versionCode": 202112060,
+      "author": "VR25 @ xda-developers",
+      "description": "fbind is a versatile mounting utility for folders, disk images, LUKS/LUKS2 encrypted volumes, regular partitions and more.",
+      "added": 1719067859.948236,
+      "homepage": "https://github.com/VR-25/fbind",
+      "donate": "https://patreon.com/VR25",
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/fbind/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/fbind/master/README.md",
+      "verified": false,
+      "timestamp": 1638809703.0,
+      "size": 415160,
+      "permissions": [
+        "magisk.permission.SERVICE"
+      ],
+      "features": {
+        "service": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067859.948236,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/fbind.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/fbind/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1638809703.0,
+          "version": "v2021.12.6",
+          "versionCode": 202112060,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/fbind/v2021.12.6_202112060.zip",
+          "changelog": ""
         }
       ]
     },

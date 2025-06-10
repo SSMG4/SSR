@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749579466.532197
+    "timestamp": 1749582132.141161
   },
   "modules": [
     {
@@ -1086,6 +1086,104 @@
           "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Luz-Nocturna_Modded/231201_231201.zip",
           "changelog": "",
           "size": 18854
+        }
+      ]
+    },
+    {
+      "id": "MacRandomizationEnabler",
+      "name": "MacRandomizationEnabler",
+      "version": "v1",
+      "versionCode": 1,
+      "author": "63c",
+      "description": "Enable Mac Randomization on device's it's been left disabled.",
+      "added": 1719067981.340433,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/MacRandomizationEnabler/issues",
+      "license": "GPL-2.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/MacRandomizationEnabler/master/README.md",
+      "verified": false,
+      "timestamp": 1598109398.0,
+      "size": 20786,
+      "permissions": [
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "apks": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067981.340433,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/MacRandomizationEnabler.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/MacRandomizationEnabler/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1598109398.0,
+          "version": "v1",
+          "versionCode": 1,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/MacRandomizationEnabler/v1_1.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1598109398.0,
+          "version": "v1.0.0",
+          "versionCode": 100,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/MacRandomizationEnabler/v1.0.0_100.zip",
+          "changelog": "",
+          "size": 20786
+        },
+        {
+          "timestamp": 1598109398.0,
+          "version": "231201",
+          "versionCode": 231201,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/MacRandomizationEnabler/231201_231201.zip",
+          "changelog": "",
+          "size": 20786
+        }
+      ]
+    },
+    {
+      "id": "Magisk-Captive-Control",
+      "name": "Magisk Captive Control (MCC)",
+      "version": "v1.0.0",
+      "versionCode": 100,
+      "author": "Atrate",
+      "description": "A Magisk Module aiming to control (change/disable) Android Captive Portal Detection.",
+      "added": 1719067998.954266,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/Magisk-Captive-Control/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Magisk-Captive-Control/master/README.md",
+      "verified": false,
+      "timestamp": 1604596410.0,
+      "size": 19808,
+      "permissions": [
+        "magisk.permission.SERVICE"
+      ],
+      "features": {
+        "service": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719067998.954266,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/Magisk-Captive-Control.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/Magisk-Captive-Control/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1604596410.0,
+          "version": "v1.0.0",
+          "versionCode": 100,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Magisk-Captive-Control/v1.0.0_100.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1604596410.0,
+          "version": "231201",
+          "versionCode": 231201,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Magisk-Captive-Control/231201_231201.zip",
+          "changelog": "",
+          "size": 19808
         }
       ]
     },
@@ -3746,6 +3844,67 @@
       ]
     },
     {
+      "id": "magic-flash",
+      "name": "Magic FlashTool (Terminal Emulator)",
+      "version": "v1.6",
+      "versionCode": 10006,
+      "author": "HuskyDG",
+      "description": "An android CLI flash tool without custom recoveries. Usage: flash [ZIP...]",
+      "added": 1719067987.514888,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/magic-flash/issues",
+      "license": "GPL-3.0",
+      "verified": false,
+      "timestamp": 1652933875.0,
+      "size": 4150924,
+      "track": {
+        "type": "GIT",
+        "added": 1719067987.514888,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/magic-flash.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/magic-flash/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1652933875.0,
+          "version": "v1.6",
+          "versionCode": 10006,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magic-flash/v1.6_10006.zip",
+          "changelog": ""
+        }
+      ]
+    },
+    {
+      "id": "magisk-autoboot",
+      "name": "magisk-autoboot",
+      "version": "v1.0.1",
+      "versionCode": 10001,
+      "author": "anasfanani",
+      "description": "Enables the device to automatically booting after a USB/Charger connection is detected.",
+      "added": 1719067992.960715,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/magisk-autoboot/issues",
+      "license": "UNKNOWN",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk-autoboot/main/README.md",
+      "verified": false,
+      "timestamp": 1703143514.0,
+      "size": 327772,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719067992.960715,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/magisk-autoboot.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/magisk-autoboot/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1703143514.0,
+          "version": "v1.0.1",
+          "versionCode": 10001,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-autoboot/v1.0.1_10001.zip",
+          "changelog": ""
+        }
+      ]
+    },
+    {
       "id": "magisk-wifiadb",
       "name": "MagiskWiFiADB",
       "version": "1.1.0",
@@ -3832,6 +3991,51 @@
           "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/magisk_overlayfs/v3.1.2_30102.zip",
           "changelog": "",
           "size": 6964577
+        }
+      ]
+    },
+    {
+      "id": "magisk_proc_monitor",
+      "name": "Process Monitor Tool",
+      "version": "2.3",
+      "versionCode": 10,
+      "author": "HuskyDG",
+      "description": "Provide the way for modules to run script whenever app process start. More information, please visit http://github.com/huskydg/magisk_proc_monitor",
+      "added": 1719068033.281516,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/magisk_proc_monitor/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk_proc_monitor/main/README.md",
+      "verified": false,
+      "timestamp": 1694360679.0,
+      "size": 4196261,
+      "permissions": [
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719068033.281516,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/magisk_proc_monitor.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/magisk_proc_monitor/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1694360679.0,
+          "version": "2.3",
+          "versionCode": 10,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk_proc_monitor/2.3_10.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1694360679.0,
+          "version": "v1.5.8",
+          "versionCode": 59,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk_proc_monitor/v1.5.8_59.zip",
+          "changelog": "",
+          "size": 4196261
         }
       ]
     },

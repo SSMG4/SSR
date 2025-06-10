@@ -1,0 +1,10 @@
+{
+  "id": "magisk-swapspace",
+  "enable": true,
+  "verified": false,
+  "update_to": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk-swapspace/master/update.json",
+  "source": "https://github.com/Magisk-Modules-Alt-Repo/magisk-swapspace.git",
+  "added": 1725291379.467831,
+  "last_update": 1746475435.0,
+  "versions": 3
+}

@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749582132.141161
+    "timestamp": 1749583608.815877
   },
   "modules": [
     {
@@ -3901,6 +3901,90 @@
           "versionCode": 10001,
           "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-autoboot/v1.0.1_10001.zip",
           "changelog": ""
+        }
+      ]
+    },
+    {
+      "id": "magisk-module-koruri-font",
+      "name": "Koruri Font",
+      "version": "v29",
+      "versionCode": 29,
+      "author": "lindwurm,AndroPlus",
+      "description": "Koruri font patch for Japanese users. Koruri is open source Japanese font.",
+      "added": 1719068010.423123,
+      "donate": "https://github.com/sponsors/AndroPlus-org",
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/magisk-module-koruri-font/issues",
+      "license": "WTFPL",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk-module-koruri-font/master/README.md",
+      "verified": false,
+      "timestamp": 1734613350.0,
+      "size": 7681857,
+      "permissions": [
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719068010.423123,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/magisk-module-koruri-font.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/magisk-module-koruri-font/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1711254247.0,
+          "version": "v28",
+          "versionCode": 28,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-module-koruri-font/v28_28.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-module-koruri-font/v28_28.md"
+        },
+        {
+          "timestamp": 1734613350.0,
+          "version": "v29",
+          "versionCode": 29,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-module-koruri-font/v29_29.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-module-koruri-font/v29_29.md",
+          "size": 7681857
+        }
+      ]
+    },
+    {
+      "id": "magisk-module-mejiro-font",
+      "name": "Mejiro Font",
+      "version": "v22",
+      "versionCode": 22,
+      "author": "AndroPlus",
+      "description": "Mejiro font patch for Japanese users.",
+      "added": 1719068015.808164,
+      "donate": "https://github.com/sponsors/AndroPlus-org",
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/magisk-module-mejiro-font/issues",
+      "license": "WTFPL",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk-module-mejiro-font/master/README.md",
+      "verified": false,
+      "timestamp": 1711254365.0,
+      "size": 11018099,
+      "permissions": [
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719068015.808164,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/magisk-module-mejiro-font.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/magisk-module-mejiro-font/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1711254365.0,
+          "version": "v22",
+          "versionCode": 22,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-module-mejiro-font/v22_22.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-module-mejiro-font/v22_22.md"
         }
       ]
     },

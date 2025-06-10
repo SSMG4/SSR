@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749583608.815877
+    "timestamp": 1749589141.462251
   },
   "modules": [
     {
@@ -1188,6 +1188,52 @@
       ]
     },
     {
+      "id": "Magisk-DRM-Disabler",
+      "name": "Magisk DRM Disabler (MDD)",
+      "version": "v1.3.1",
+      "versionCode": 131,
+      "author": "Atrate",
+      "description": "A Magisk Module aiming to eliminate DRM from Android systemlessly.",
+      "added": 1719068004.747433,
+      "homepage": "https://gitlab.com/atrate/magisk-drm-disabler",
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/Magisk-DRM-Disabler/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/Magisk-DRM-Disabler/master/README.md",
+      "verified": false,
+      "timestamp": 1612778235.0,
+      "size": 33489,
+      "permissions": [
+        "magisk.permission.SERVICE"
+      ],
+      "features": {
+        "service": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719068004.747433,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/Magisk-DRM-Disabler.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/Magisk-DRM-Disabler/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1612778235.0,
+          "version": "v1.3.1",
+          "versionCode": 131,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Magisk-DRM-Disabler/v1.3.1_131.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1612778235.0,
+          "version": "231201",
+          "versionCode": 231201,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/Magisk-DRM-Disabler/231201_231201.zip",
+          "changelog": "",
+          "size": 33489
+        }
+      ]
+    },
+    {
       "id": "Malwack",
       "name": "Malwack | Anti-Malware & Ad Blocker",
       "version": "v5.0.4",
@@ -1281,6 +1327,138 @@
           "zipUrl": "https://zguation-projects.github.io/ZG-R/modules/MemoryOpt/2025.02.28_2025022800.zip",
           "changelog": "https://zguation-projects.github.io/ZG-R/modules/MemoryOpt/2025.02.28_2025022800.md",
           "size": 385710
+        }
+      ]
+    },
+    {
+      "id": "NavBar_Resize_AOSP",
+      "name": "40DPI NavBar AOSP",
+      "version": "v1.2",
+      "versionCode": 12,
+      "author": "CrazyBytesVE",
+      "description": "Barra de Navegaci\u00f3n reducida a 40DPI, compatible con Android 8 y superiores. Probado en ROMs AOSP.",
+      "added": 1719068067.809637,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/NavBar_Resize_AOSP/issues",
+      "license": "GPL-2.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NavBar_Resize_AOSP/main/README.md",
+      "verified": false,
+      "timestamp": 1725221931.0,
+      "size": 19572,
+      "permissions": [
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719068067.809637,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/NavBar_Resize_AOSP.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/NavBar_Resize_AOSP/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1661028155.0,
+          "version": "v1.1",
+          "versionCode": 11,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/NavBar_Resize_AOSP/v1.1_11.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1725221931.0,
+          "version": "v1.2",
+          "versionCode": 12,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/NavBar_Resize_AOSP/v1.2_12.zip",
+          "changelog": "",
+          "size": 19572
+        }
+      ]
+    },
+    {
+      "id": "NavBar_Resize_MIUI",
+      "name": "36DPI NavBar para Miui",
+      "version": "v2.0",
+      "versionCode": 2,
+      "author": "CrazyBytesVE",
+      "description": "Barra de Navegaci\u00f3n reducida a 36DPI, compatible con Android 8 y superiores (12.1 compatible). Probado en ROMs Miui 10 o superior (Miui 13 compatible).",
+      "added": 1719068073.737558,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/NavBar_Resize_MIUI/issues",
+      "license": "GPL-2.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NavBar_Resize_MIUI/main/README.md",
+      "verified": false,
+      "timestamp": 1665058819.0,
+      "size": 13369,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719068073.737558,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/NavBar_Resize_MIUI.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/NavBar_Resize_MIUI/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1665058819.0,
+          "version": "v2.0",
+          "versionCode": 2,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/NavBar_Resize_MIUI/v2.0_2.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1665058819.0,
+          "version": "v5",
+          "versionCode": 6,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/NavBar_Resize_MIUI/v5_6.zip",
+          "changelog": "",
+          "size": 13369
+        }
+      ]
+    },
+    {
+      "id": "NoProcStatRestriction",
+      "name": "Remove /proc/stat restriction",
+      "version": "v0.0.2",
+      "versionCode": 2,
+      "author": "LY",
+      "description": "Remove /proc/stat restriction on Android O and above",
+      "added": 1719068085.494562,
+      "homepage": "https://github.com/Young-Lord/NoProcStatRestriction",
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/NoProcStatRestriction/issues",
+      "license": "WTFPL",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NoProcStatRestriction/master/README.md",
+      "verified": false,
+      "timestamp": 1673519027.0,
+      "size": 2262,
+      "permissions": [
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY"
+      ],
+      "features": {
+        "post_fs_data": true,
+        "sepolicy": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719068085.494562,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/NoProcStatRestriction.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/NoProcStatRestriction/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1673519027.0,
+          "version": "v0.0.2",
+          "versionCode": 2,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/NoProcStatRestriction/v0.0.2_2.zip",
+          "changelog": ""
         }
       ]
     },
@@ -3985,6 +4163,65 @@
           "versionCode": 22,
           "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-module-mejiro-font/v22_22.zip",
           "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-module-mejiro-font/v22_22.md"
+        }
+      ]
+    },
+    {
+      "id": "magisk-swapspace",
+      "name": "Magisk SwapSpace",
+      "version": "v2.3",
+      "versionCode": 23,
+      "author": "chickendrop89",
+      "description": "Create a persistent swap space on android (magiskswap in terminal)",
+      "added": 1725291379.467831,
+      "categories": [
+        "Configurable",
+        "Tweaks and Hacks",
+        "System"
+      ],
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/magisk-swapspace/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/magisk-swapspace/master/README.md",
+      "verified": false,
+      "timestamp": 1746475435.0,
+      "size": 27416,
+      "permissions": [
+        "magisk.permission.SERVICE"
+      ],
+      "features": {
+        "service": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1725291379.467831,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/magisk-swapspace.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/magisk-swapspace/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1724720362.0,
+          "version": "v2.1",
+          "versionCode": 21,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-swapspace/v2.1_21.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-swapspace/v2.1_21.md",
+          "size": 27216
+        },
+        {
+          "timestamp": 1733164388.0,
+          "version": "v2.2",
+          "versionCode": 22,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-swapspace/v2.2_22.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-swapspace/v2.2_22.md",
+          "size": 27888
+        },
+        {
+          "timestamp": 1746475435.0,
+          "version": "v2.3",
+          "versionCode": 23,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-swapspace/v2.3_23.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/magisk-swapspace/v2.3_23.md",
+          "size": 27416
         }
       ]
     },

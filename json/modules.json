@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749536330.612252
+    "timestamp": 1749558335.001701
   },
   "modules": [
     {
@@ -4076,8 +4076,8 @@
     {
       "id": "pixelxpert",
       "name": "Pixel Xpert",
-      "version": "canary-454",
-      "versionCode": 454,
+      "version": "canary-455",
+      "versionCode": 455,
       "author": "Pixel Xpert Team",
       "description": "Xposed based module for customizations on Pixel roms. Android 13+",
       "support": "https://github.com/siavash79/PixelXpert/issues",
@@ -4085,8 +4085,8 @@
       "readme": "https://raw.githubusercontent.com/siavash79/PixelXpert/main/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1749465288.0,
-      "size": 4179343,
+      "timestamp": 1749537406.0,
+      "size": 4182504,
       "permissions": [
         "magisk.permission.SERVICE",
         "mmrl.permission.APKS"
@@ -4103,14 +4103,6 @@
         "build_metadata": "https://ssmg4.github.io/SSR/modules/pixelxpert/track.json"
       },
       "versions": [
-        {
-          "timestamp": 1748872646.0,
-          "version": "canary-450",
-          "versionCode": 450,
-          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/pixelxpert/canary-450_450.zip",
-          "changelog": "https://misak10.github.io/mmrl-repo/modules/pixelxpert/canary-450_450.md",
-          "size": 4235235
-        },
         {
           "timestamp": 1748944071.0,
           "version": "canary-451",
@@ -4142,6 +4134,14 @@
           "zipUrl": "https://ssmg4.github.io/SSR/modules/pixelxpert/canary-454_454.zip",
           "changelog": "https://ssmg4.github.io/SSR/modules/pixelxpert/canary-454_454.md",
           "size": 4179343
+        },
+        {
+          "timestamp": 1749537406.0,
+          "version": "canary-455",
+          "versionCode": 455,
+          "zipUrl": "https://ssmg4.github.io/SSR/modules/pixelxpert/canary-455_455.zip",
+          "changelog": "https://ssmg4.github.io/SSR/modules/pixelxpert/canary-455_455.md",
+          "size": 4182504
         }
       ]
     },

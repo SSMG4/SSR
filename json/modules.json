@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749752260.795535
+    "timestamp": 1749761800.576749
   },
   "modules": [
     {
@@ -1467,6 +1467,80 @@
           "version": "v0.0.2",
           "versionCode": 2,
           "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/NoProcStatRestriction/v0.0.2_2.zip",
+          "changelog": ""
+        }
+      ]
+    },
+    {
+      "id": "NoStorageRestrict",
+      "name": "NoStorageRestrict",
+      "version": "v5",
+      "versionCode": 6,
+      "author": "DanGLES3",
+      "description": "Disables the restriction of not being able to select certain folders (like downloads/sdcard) when prompted by apps",
+      "added": 1719068091.404116,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/NoStorageRestrict/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/NoStorageRestrict/main/README.md",
+      "verified": false,
+      "timestamp": 1703269294.0,
+      "size": 75944,
+      "permissions": [
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "apks": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719068091.404116,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/NoStorageRestrict.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/NoStorageRestrict/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1703269294.0,
+          "version": "v5",
+          "versionCode": 6,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/NoStorageRestrict/v5_6.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1703269294.0,
+          "version": "v1.5.2",
+          "versionCode": 152,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/NoStorageRestrict/v1.5.2_152.zip",
+          "changelog": "",
+          "size": 75944
+        }
+      ]
+    },
+    {
+      "id": "OneController",
+      "name": "1Controller - 1 Module to support all Controllers.",
+      "version": "v1.5.2",
+      "versionCode": 152,
+      "author": "Electric1447",
+      "description": "This module adds .kl file (keylayout) for Dualshock 4/3, Xbox Series X|S, Xbox One/S, Xbox 360.",
+      "added": 1719068103.525852,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/OneController/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/OneController/master/README.md",
+      "verified": false,
+      "timestamp": 1624492127.0,
+      "size": 21356,
+      "track": {
+        "type": "GIT",
+        "added": 1719068103.525852,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/OneController.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/OneController/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1624492127.0,
+          "version": "v1.5.2",
+          "versionCode": 152,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/OneController/v1.5.2_152.zip",
           "changelog": ""
         }
       ]
@@ -4566,6 +4640,76 @@
           "zipUrl": "https://mrepo.rem01gaming.dev/modules/net-switch/1.2_54-64b5764-release.zip",
           "changelog": "https://mrepo.rem01gaming.dev/modules/net-switch/1.2_54-64b5764-release.md",
           "size": 18560
+        }
+      ]
+    },
+    {
+      "id": "oneplus-8series-9r-camera-unlocker",
+      "name": "OnePlus 8 Series & 9R Camera Unlocker",
+      "version": "v1.2",
+      "versionCode": 1200,
+      "author": "AnierinB, Cartesian8445, haiderijaz, JeusChrit, Luk1377, shadowstep",
+      "description": "Unlocks features like 48MP RAW10 support, auxiliary lenses (in custom ROMs only), Zero Shutter Lag (ZSL), etc. on the OnePlus 8, 8 Pro, 8T, and 9R",
+      "added": 1719068109.355209,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/oneplus-8series-9r-camera-unlocker/issues",
+      "license": "GPL-2.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/oneplus-8series-9r-camera-unlocker/master/README.md",
+      "verified": false,
+      "timestamp": 1668837132.0,
+      "size": 4854953,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719068109.355209,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/oneplus-8series-9r-camera-unlocker.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/oneplus-8series-9r-camera-unlocker/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1668837132.0,
+          "version": "v1.2",
+          "versionCode": 1200,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/oneplus-8series-9r-camera-unlocker/v1.2_1200.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/oneplus-8series-9r-camera-unlocker/v1.2_1200.md"
+        }
+      ]
+    },
+    {
+      "id": "oneplusdotfix",
+      "name": "OnePlus 5/5T DotFix",
+      "version": "v7.0",
+      "versionCode": 7000,
+      "author": "shadowstep @ XDA",
+      "description": "This module replaces the necessary camera libraries with modified ones which fix various issues using the Google Camera Mod on the OnePlus 5/5T.",
+      "added": 1719068114.940889,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/oneplusdotfix/issues",
+      "license": "GPL-2.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/oneplusdotfix/master/README.md",
+      "verified": false,
+      "timestamp": 1728300864.0,
+      "size": 2586885,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719068114.940889,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/oneplusdotfix.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/oneplusdotfix/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1673864734.0,
+          "version": "v6.3",
+          "versionCode": 6300,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/oneplusdotfix/v6.3_6300.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/oneplusdotfix/v6.3_6300.md"
+        },
+        {
+          "timestamp": 1728300864.0,
+          "version": "v7.0",
+          "versionCode": 7000,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/oneplusdotfix/v7.0_7000.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/oneplusdotfix/v7.0_7000.md",
+          "size": 2586885
         }
       ]
     },

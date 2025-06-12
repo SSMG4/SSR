@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749761800.576749
+    "timestamp": 1749762471.30493
   },
   "modules": [
     {
@@ -1542,6 +1542,52 @@
           "versionCode": 152,
           "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/OneController/v1.5.2_152.zip",
           "changelog": ""
+        }
+      ]
+    },
+    {
+      "id": "PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX",
+      "name": "Plex \"Skip Intro\" DPad Controller Fix",
+      "version": "v1",
+      "versionCode": 1,
+      "author": "OhMyBahGosh",
+      "description": "Magisk module that maps key code 28 to \"DPAD_ENTER\" instead of \"ENTER\".  This allows for the DPad \"OK\" button to work properly, so that when you press the \"OK\" button, it actually presses the \"Skip Intro\" button.  This fixes a very annoying, and long ignored issue encountered when using a DPad controller inside PLEX on Android TV.  Without this module, when you press the \"OK\" button on a DPad Controller when the \"Skip Intro\" button appears in plex, it'll bring up player controls instead of actually skipping the intro.",
+      "added": 1719068155.306824,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX/issues",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX/main/README.md",
+      "verified": false,
+      "timestamp": 1645367235.0,
+      "size": 9299,
+      "track": {
+        "type": "GIT",
+        "added": 1719068155.306824,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1645367235.0,
+          "version": "v1",
+          "versionCode": 1,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX/v1_1.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1645367235.0,
+          "version": "v1.0.0",
+          "versionCode": 100,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX/v1.0.0_100.zip",
+          "changelog": "",
+          "size": 9299
+        },
+        {
+          "timestamp": 1645367235.0,
+          "version": "v1.5.2",
+          "versionCode": 152,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX/v1.5.2_152.zip",
+          "changelog": "",
+          "size": 9299
         }
       ]
     },
@@ -4714,6 +4760,38 @@
       ]
     },
     {
+      "id": "open_fonts",
+      "name": "Open Fonts",
+      "version": "3.1.1",
+      "versionCode": 119,
+      "author": "F3FFO",
+      "description": "Open Fonts change your system fonts",
+      "added": 1719068120.536177,
+      "donate": "https://www.paypal.me/f3ff0",
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/open_fonts/issues",
+      "license": "GPL-3.0",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/open_fonts/master/README.md",
+      "verified": false,
+      "timestamp": 1682263480.0,
+      "size": 8572286,
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1719068120.536177,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/open_fonts.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/open_fonts/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1682263480.0,
+          "version": "3.1.1",
+          "versionCode": 119,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/open_fonts/3.1.1_119.zip",
+          "changelog": "https://magisk-modules-alt-repo.github.io/json-v2/modules/open_fonts/3.1.1_119.md"
+        }
+      ]
+    },
+    {
       "id": "open_webview",
       "name": "Open Webview",
       "version": "v2.5.2",
@@ -4748,6 +4826,120 @@
           "zipUrl": "https://misak10.github.io/mmrl-repo/modules/open_webview/v2.5.2_252.zip",
           "changelog": "https://misak10.github.io/mmrl-repo/modules/open_webview/v2.5.2_252.md",
           "size": 22201610
+        }
+      ]
+    },
+    {
+      "id": "pdx213_assistant_camera_remap",
+      "name": "Xperia 10 III GA Button Remapper",
+      "version": "v1.2",
+      "versionCode": 1,
+      "author": "lufei",
+      "description": "Remap the Google Assistant Button as a camera button.",
+      "added": 1719068135.57275,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/pdx213_assistant_camera_remap/issues",
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/pdx213_assistant_camera_remap/main/README.md",
+      "verified": false,
+      "timestamp": 1661242317.0,
+      "size": 4022,
+      "track": {
+        "type": "GIT",
+        "added": 1719068135.57275,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/pdx213_assistant_camera_remap.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/pdx213_assistant_camera_remap/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1661242317.0,
+          "version": "v1.2",
+          "versionCode": 1,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/pdx213_assistant_camera_remap/v1.2_1.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1661242317.0,
+          "version": "v2.4",
+          "versionCode": 24,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/pdx213_assistant_camera_remap/v2.4_24.zip",
+          "changelog": "",
+          "size": 4022
+        }
+      ]
+    },
+    {
+      "id": "perf-limit-xiaomi-12",
+      "name": "Performance limit for Xiaomi 12",
+      "version": "v2.4",
+      "versionCode": 24,
+      "author": "mgrybyk",
+      "description": "Limit CPU and GPU performance to desired level on Xiaomi devices with Qualcomm Gen 1 CPU",
+      "added": 1719068142.55562,
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/perf-limit-xiaomi-12/issues",
+      "license": "MIT",
+      "readme": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/perf-limit-xiaomi-12/main/README.md",
+      "verified": false,
+      "timestamp": 1695975711.0,
+      "size": 59693,
+      "permissions": [
+        "magisk.permission.SERVICE"
+      ],
+      "features": {
+        "service": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1719068142.55562,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/perf-limit-xiaomi-12.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/perf-limit-xiaomi-12/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1695975711.0,
+          "version": "v2.4",
+          "versionCode": 24,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/perf-limit-xiaomi-12/v2.4_24.zip",
+          "changelog": ""
+        }
+      ]
+    },
+    {
+      "id": "pixel-tensor-audio-decompressor",
+      "name": "Pixel Tensor Audio Decompressor",
+      "version": "v2.1.0",
+      "versionCode": 210,
+      "author": "JoshuaDoes",
+      "description": "Patches mixer_paths.xml on Pixel Tensor devices to decompress the digital PCM volume.",
+      "added": 1719068149.393722,
+      "homepage": "https://github.com/JoshuaDoes/pixel-tensor-audio-decompressor",
+      "support": "https://github.com/Magisk-Modules-Alt-Repo/pixel-tensor-audio-decompressor/issues",
+      "verified": false,
+      "timestamp": 1691055436.0,
+      "size": 1312005,
+      "track": {
+        "type": "GIT",
+        "added": 1719068149.393722,
+        "source": "https://github.com/Magisk-Modules-Alt-Repo/pixel-tensor-audio-decompressor.git",
+        "antifeatures": null,
+        "build_metadata": "https://ssmg4.github.io/SSR/modules/pixel-tensor-audio-decompressor/track.json"
+      },
+      "versions": [
+        {
+          "timestamp": 1691055436.0,
+          "version": "v2.1.0",
+          "versionCode": 210,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/pixel-tensor-audio-decompressor/v2.1.0_210.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1691055436.0,
+          "version": "v3.1.2",
+          "versionCode": 30102,
+          "zipUrl": "https://magisk-modules-alt-repo.github.io/json-v2/modules/pixel-tensor-audio-decompressor/v3.1.2_30102.zip",
+          "changelog": "",
+          "size": 1312005
         }
       ]
     },

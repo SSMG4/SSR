@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749665881.814658
+    "timestamp": 1749690044.480447
   },
   "modules": [
     {
@@ -3193,8 +3193,8 @@
     {
       "id": "encore",
       "name": "Encore Tweaks",
-      "version": "4.4 (972-620057d-release)",
-      "versionCode": 972,
+      "version": "4.5 (1004-f8bf8f8-release)",
+      "versionCode": 1004,
       "author": "Rem01Gaming",
       "description": "Special performance module for your Device.",
       "categories": [
@@ -3217,8 +3217,8 @@
       "readme": "https://raw.githubusercontent.com/Rem01Gaming/encore/main/README.md",
       "verified": true,
       "added": 0,
-      "timestamp": 1748751263.0,
-      "size": 197828,
+      "timestamp": 1749637021.0,
+      "size": 175853,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.ACTION",
@@ -3237,14 +3237,6 @@
         "build_metadata": "https://ssmg4.github.io/SSR/modules/encore/track.yaml"
       },
       "versions": [
-        {
-          "timestamp": 1746527219.0,
-          "version": "4.1 (862-cc92fbc-release)",
-          "versionCode": 862,
-          "zipUrl": "https://mrepo.rem01gaming.dev/modules/encore/4.1_862-cc92fbc-release.zip",
-          "changelog": "https://mrepo.rem01gaming.dev/modules/encore/4.1_862-cc92fbc-release.md",
-          "size": 854305
-        },
         {
           "timestamp": 1747038441.0,
           "version": "4.2 (899-84bbcb5-release)",
@@ -3268,6 +3260,14 @@
           "zipUrl": "https://mrepo.rem01gaming.dev/modules/encore/4.4_972-620057d-release.zip",
           "changelog": "https://mrepo.rem01gaming.dev/modules/encore/4.4_972-620057d-release.md",
           "size": 197828
+        },
+        {
+          "timestamp": 1749637021.0,
+          "version": "4.5 (1004-f8bf8f8-release)",
+          "versionCode": 1004,
+          "zipUrl": "https://ssmg4.github.io/SSR/modules/encore/4.5_1004-f8bf8f8-release.zip",
+          "changelog": "https://ssmg4.github.io/SSR/modules/encore/4.5_1004-f8bf8f8-release.md",
+          "size": 175853
         }
       ]
     },

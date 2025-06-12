@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749731072.265557
+    "timestamp": 1749752260.795535
   },
   "modules": [
     {
@@ -1007,8 +1007,8 @@
     {
       "id": "Infamick_script",
       "name": "Infamick Script",
-      "version": "v3.2",
-      "versionCode": 202504281,
+      "version": "v3.3",
+      "versionCode": 202506121,
       "author": "@Infamousmick",
       "description": "A powerful system utility script for rooted Android devices",
       "support": "https://github.com/Infamousmick/",
@@ -1017,7 +1017,8 @@
       "homepage": "https://github.com/Infamousmick/Infamick-script",
       "verified": false,
       "added": 0,
-      "size": 23330,
+      "timestamp": 1749748742.0,
+      "size": 23487,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA"
@@ -1041,6 +1042,14 @@
           "zipUrl": "https://misak10.github.io/mmrl-repo/modules/infamick-script/v3.2_202504281.zip",
           "changelog": "https://misak10.github.io/mmrl-repo/modules/infamick-script/v3.2_202504281.md",
           "size": 23330
+        },
+        {
+          "timestamp": 1749748742.0,
+          "version": "v3.3",
+          "versionCode": 202506121,
+          "zipUrl": "https://ssmg4.github.io/SSR/modules/infamick-script/v3.3_202506121.zip",
+          "changelog": "https://ssmg4.github.io/SSR/modules/infamick-script/v3.3_202506121.md",
+          "size": 23487
         }
       ]
     },

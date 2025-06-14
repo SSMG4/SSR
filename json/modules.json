@@ -9,7 +9,7 @@
   "description": "An amazing Magisk Modules Repository that aims to bring you any Magisk Modules in a single Repo! How cool is that uh? :P Any Submissions are greatly appreciated!",
   "metadata": {
     "version": 1,
-    "timestamp": 1749881814.752594
+    "timestamp": 1749903713.044792
   },
   "modules": [
     {
@@ -5018,8 +5018,8 @@
     {
       "id": "playcurllnext",
       "name": "playcurlNEXT",
-      "version": "v1.16",
-      "versionCode": 116,
+      "version": "v1.17",
+      "versionCode": 117,
       "author": "daboynb",
       "description": "Automatic fingerprint downloader for play integrity fix.",
       "support": "https://github.com/daboynb/playcurlNEXT/issues",
@@ -5027,8 +5027,8 @@
       "readme": "https://raw.githubusercontent.com/daboynb/playcurlNEXT/main/README.md",
       "verified": false,
       "added": 0,
-      "timestamp": 1749066569.0,
-      "size": 17803,
+      "timestamp": 1749899645.0,
+      "size": 17846,
       "permissions": [
         "magisk.permission.SERVICE",
         "kernelsu.permission.WEBUI"
@@ -5046,20 +5046,20 @@
       },
       "versions": [
         {
-          "timestamp": 1744211989.0,
-          "version": "v1.5",
-          "versionCode": 115,
-          "zipUrl": "https://misak10.github.io/mmrl-repo/modules/playcurllnext/v1.5_115.zip",
-          "changelog": "https://misak10.github.io/mmrl-repo/modules/playcurllnext/v1.5_115.md",
-          "size": 17306
-        },
-        {
           "timestamp": 1749066569.0,
           "version": "v1.5",
           "versionCode": 116,
           "zipUrl": "https://ssmg4.github.io/SSR/modules/playcurllnext/v1.5_116.zip",
           "changelog": "https://ssmg4.github.io/SSR/modules/playcurllnext/v1.5_116.md",
           "size": 17803
+        },
+        {
+          "timestamp": 1749899645.0,
+          "version": "v1.17",
+          "versionCode": 117,
+          "zipUrl": "https://ssmg4.github.io/SSR/modules/playcurllnext/v1.17_117.zip",
+          "changelog": "https://ssmg4.github.io/SSR/modules/playcurllnext/v1.17_117.md",
+          "size": 17846
         }
       ]
     },

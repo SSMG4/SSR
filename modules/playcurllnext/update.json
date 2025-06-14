@@ -3,20 +3,20 @@
   "timestamp": 1744211989.0,
   "versions": [
     {
-      "timestamp": 1744211989.0,
-      "version": "v1.5",
-      "versionCode": 115,
-      "zipUrl": "https://misak10.github.io/mmrl-repo/modules/playcurllnext/v1.5_115.zip",
-      "changelog": "https://misak10.github.io/mmrl-repo/modules/playcurllnext/v1.5_115.md",
-      "size": 17306
-    },
-    {
       "timestamp": 1749066569.0,
       "version": "v1.5",
       "versionCode": 116,
       "zipUrl": "https://ssmg4.github.io/SSR/modules/playcurllnext/v1.5_116.zip",
       "changelog": "https://ssmg4.github.io/SSR/modules/playcurllnext/v1.5_116.md",
       "size": 17803
+    },
+    {
+      "timestamp": 1749899645.0,
+      "version": "v1.17",
+      "versionCode": 117,
+      "zipUrl": "https://ssmg4.github.io/SSR/modules/playcurllnext/v1.17_117.zip",
+      "changelog": "https://ssmg4.github.io/SSR/modules/playcurllnext/v1.17_117.md",
+      "size": 17846
     }
   ]
 }
